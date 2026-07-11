@@ -1,0 +1,40 @@
+[
+  {
+    "countryCode": "HR",
+    "categoryCode": "I",
+    "routeId": "pl_hr_sk_hu",
+    "tollId": "hr_sample_category_i",
+    "name": "Croatia sample toll — category I (v2)",
+    "amount": 0.0,
+    "currency": "EUR",
+    "notes": "Draft v2 schema sample — not used in trip calculations."
+  },
+  {
+    "countryCode": "HR",
+    "categoryCode": "II",
+    "routeId": "pl_hr_sk_hu",
+    "tollId": "hr_sample_category_ii",
+    "name": "Croatia sample toll — category II (v2)",
+    "amount": 0.0,
+    "currency": "EUR",
+    "notes": "Draft v2 schema sample for trailer/camper/van categories."
+  },
+  {
+    "countryCode": "AT",
+    "categoryCode": "vehicle_up_to_3_5t",
+    "routeId": "pl_hr_at",
+    "name": "Austria route toll sample (v2)",
+    "amount": 0.0,
+    "currency": "EUR",
+    "notes": "Draft v2 schema sample — route-level toll placeholder."
+  },
+  {
+    "countryCode": "SI",
+    "categoryCode": "class_2B",
+    "tollId": "si_sample_class_2b",
+    "name": "Slovenia sample toll — class 2B (v2)",
+    "amount": 0.0,
+    "currency": "EUR",
+    "notes": "Draft v2 schema sample — tollId without routeId allowed."
+  }
+]

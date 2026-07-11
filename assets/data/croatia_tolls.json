@@ -1,0 +1,66 @@
+[
+  {
+    "id": "hr_toll_rijeka",
+    "countryCode": "HR",
+    "destination": "Rijeka",
+    "amount": 9.7,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_toll_pula",
+    "countryCode": "HR",
+    "destination": "Pula",
+    "amount": 18.0,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_toll_zadar",
+    "countryCode": "HR",
+    "destination": "Zadar",
+    "amount": 17.6,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_toll_sibenik",
+    "countryCode": "HR",
+    "destination": "Sibenik",
+    "amount": 22.0,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_toll_split",
+    "countryCode": "HR",
+    "destination": "Split",
+    "amount": 26.4,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_toll_makarska",
+    "countryCode": "HR",
+    "destination": "Makarska Riviera",
+    "amount": 29.0,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_toll_ploce",
+    "countryCode": "HR",
+    "destination": "Ploce",
+    "amount": 31.0,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_toll_dubrovnik",
+    "countryCode": "HR",
+    "destination": "Dubrovnik",
+    "amount": 34.0,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10"
+  }
+]

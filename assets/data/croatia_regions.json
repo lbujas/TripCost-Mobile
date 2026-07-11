@@ -1,0 +1,50 @@
+[
+  {
+    "id": "istria",
+    "nameKey": "region_istria",
+    "countryCode": "HR",
+    "defaultTollId": "hr_toll_pula"
+  },
+  {
+    "id": "kvarner",
+    "nameKey": "region_kvarner",
+    "countryCode": "HR",
+    "defaultTollId": "hr_toll_rijeka"
+  },
+  {
+    "id": "zadar",
+    "nameKey": "region_zadar",
+    "countryCode": "HR",
+    "defaultTollId": "hr_toll_zadar"
+  },
+  {
+    "id": "sibenik",
+    "nameKey": "region_sibenik",
+    "countryCode": "HR",
+    "defaultTollId": "hr_toll_sibenik"
+  },
+  {
+    "id": "split",
+    "nameKey": "region_split",
+    "countryCode": "HR",
+    "defaultTollId": "hr_toll_split"
+  },
+  {
+    "id": "makarska",
+    "nameKey": "region_makarska",
+    "countryCode": "HR",
+    "defaultTollId": "hr_toll_makarska"
+  },
+  {
+    "id": "ploce",
+    "nameKey": "region_ploce",
+    "countryCode": "HR",
+    "defaultTollId": "hr_toll_ploce"
+  },
+  {
+    "id": "dubrovnik",
+    "nameKey": "region_dubrovnik",
+    "countryCode": "HR",
+    "defaultTollId": "hr_toll_dubrovnik"
+  }
+]

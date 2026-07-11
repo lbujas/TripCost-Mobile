@@ -1,0 +1,302 @@
+[
+  {
+    "id": "hr_gorican_rijeka_cat_i",
+    "entryGateId": "gorican",
+    "exitGateId": "rijeka",
+    "vehicleCategory": "I",
+    "amount": 9.7,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "verified"
+  },
+  {
+    "id": "hr_gorican_pula_cat_i",
+    "entryGateId": "gorican",
+    "exitGateId": "pula",
+    "vehicleCategory": "I",
+    "amount": 18.0,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "verified"
+  },
+  {
+    "id": "hr_gorican_zadar_cat_i",
+    "entryGateId": "gorican",
+    "exitGateId": "zadar",
+    "vehicleCategory": "I",
+    "amount": 17.6,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "verified"
+  },
+  {
+    "id": "hr_gorican_sibenik_cat_i",
+    "entryGateId": "gorican",
+    "exitGateId": "sibenik",
+    "vehicleCategory": "I",
+    "amount": 22.0,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "verified"
+  },
+  {
+    "id": "hr_gorican_dugopolje_cat_i",
+    "entryGateId": "gorican",
+    "exitGateId": "dugopolje",
+    "vehicleCategory": "I",
+    "amount": 26.4,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "verified"
+  },
+  {
+    "id": "hr_gorican_vucevica_cat_i",
+    "entryGateId": "gorican",
+    "exitGateId": "vucevica",
+    "vehicleCategory": "I",
+    "amount": 27.0,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_gorican_sestanovac_cat_i",
+    "entryGateId": "gorican",
+    "exitGateId": "sestanovac",
+    "vehicleCategory": "I",
+    "amount": 29.0,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "verified"
+  },
+  {
+    "id": "hr_gorican_zagvozd_cat_i",
+    "entryGateId": "gorican",
+    "exitGateId": "zagvozd",
+    "vehicleCategory": "I",
+    "amount": 28.0,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_gorican_ploce_cat_i",
+    "entryGateId": "gorican",
+    "exitGateId": "ploce",
+    "vehicleCategory": "I",
+    "amount": 31.0,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "verified"
+  },
+  {
+    "id": "hr_gorican_dubrovnik_cat_i",
+    "entryGateId": "gorican",
+    "exitGateId": "dubrovnik",
+    "vehicleCategory": "I",
+    "amount": 34.0,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "verified"
+  },
+  {
+    "id": "hr_macelj_rijeka_cat_i",
+    "entryGateId": "macelj",
+    "exitGateId": "rijeka",
+    "vehicleCategory": "I",
+    "amount": 8.7,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_macelj_pula_cat_i",
+    "entryGateId": "macelj",
+    "exitGateId": "pula",
+    "vehicleCategory": "I",
+    "amount": 16.2,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_macelj_zadar_cat_i",
+    "entryGateId": "macelj",
+    "exitGateId": "zadar",
+    "vehicleCategory": "I",
+    "amount": 15.8,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_macelj_sibenik_cat_i",
+    "entryGateId": "macelj",
+    "exitGateId": "sibenik",
+    "vehicleCategory": "I",
+    "amount": 19.8,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_macelj_dugopolje_cat_i",
+    "entryGateId": "macelj",
+    "exitGateId": "dugopolje",
+    "vehicleCategory": "I",
+    "amount": 23.8,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_macelj_vucevica_cat_i",
+    "entryGateId": "macelj",
+    "exitGateId": "vucevica",
+    "vehicleCategory": "I",
+    "amount": 24.3,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_macelj_sestanovac_cat_i",
+    "entryGateId": "macelj",
+    "exitGateId": "sestanovac",
+    "vehicleCategory": "I",
+    "amount": 26.1,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_macelj_zagvozd_cat_i",
+    "entryGateId": "macelj",
+    "exitGateId": "zagvozd",
+    "vehicleCategory": "I",
+    "amount": 25.2,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_macelj_ploce_cat_i",
+    "entryGateId": "macelj",
+    "exitGateId": "ploce",
+    "vehicleCategory": "I",
+    "amount": 27.9,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_macelj_dubrovnik_cat_i",
+    "entryGateId": "macelj",
+    "exitGateId": "dubrovnik",
+    "vehicleCategory": "I",
+    "amount": 30.6,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_rupa_rijeka_cat_i",
+    "entryGateId": "rupa",
+    "exitGateId": "rijeka",
+    "vehicleCategory": "I",
+    "amount": 8.9,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_rupa_pula_cat_i",
+    "entryGateId": "rupa",
+    "exitGateId": "pula",
+    "vehicleCategory": "I",
+    "amount": 16.6,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_rupa_zadar_cat_i",
+    "entryGateId": "rupa",
+    "exitGateId": "zadar",
+    "vehicleCategory": "I",
+    "amount": 16.2,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_rupa_sibenik_cat_i",
+    "entryGateId": "rupa",
+    "exitGateId": "sibenik",
+    "vehicleCategory": "I",
+    "amount": 20.2,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_rupa_dugopolje_cat_i",
+    "entryGateId": "rupa",
+    "exitGateId": "dugopolje",
+    "vehicleCategory": "I",
+    "amount": 24.3,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_rupa_vucevica_cat_i",
+    "entryGateId": "rupa",
+    "exitGateId": "vucevica",
+    "vehicleCategory": "I",
+    "amount": 24.8,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_rupa_sestanovac_cat_i",
+    "entryGateId": "rupa",
+    "exitGateId": "sestanovac",
+    "vehicleCategory": "I",
+    "amount": 26.7,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_rupa_zagvozd_cat_i",
+    "entryGateId": "rupa",
+    "exitGateId": "zagvozd",
+    "vehicleCategory": "I",
+    "amount": 25.8,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_rupa_ploce_cat_i",
+    "entryGateId": "rupa",
+    "exitGateId": "ploce",
+    "vehicleCategory": "I",
+    "amount": 28.5,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  },
+  {
+    "id": "hr_rupa_dubrovnik_cat_i",
+    "entryGateId": "rupa",
+    "exitGateId": "dubrovnik",
+    "vehicleCategory": "I",
+    "amount": 31.3,
+    "currency": "EUR",
+    "lastVerified": "2026-06-10",
+    "accuracy": "estimated"
+  }
+]

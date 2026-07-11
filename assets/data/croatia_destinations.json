@@ -1,0 +1,538 @@
+[
+  {
+    "id": "pula",
+    "name": "Pula",
+    "regionId": "istria",
+    "extraDistanceKm": 0,
+    "popular": true,
+    "croatiaExitGateId": "pula"
+  },
+  {
+    "id": "rovinj",
+    "name": "Rovinj",
+    "regionId": "istria",
+    "extraDistanceKm": 25,
+    "popular": true,
+    "croatiaExitGateId": "pula"
+  },
+  {
+    "id": "porec",
+    "name": "Porec",
+    "regionId": "istria",
+    "extraDistanceKm": 30,
+    "popular": true,
+    "croatiaExitGateId": "pula"
+  },
+  {
+    "id": "umag",
+    "name": "Umag",
+    "regionId": "istria",
+    "extraDistanceKm": 35,
+    "popular": true,
+    "croatiaExitGateId": "pula"
+  },
+  {
+    "id": "medulin",
+    "name": "Medulin",
+    "regionId": "istria",
+    "extraDistanceKm": 8,
+    "popular": true,
+    "croatiaExitGateId": "pula"
+  },
+  {
+    "id": "fazana",
+    "name": "Fazana",
+    "regionId": "istria",
+    "extraDistanceKm": 10,
+    "popular": true,
+    "croatiaExitGateId": "pula"
+  },
+  {
+    "id": "novigrad",
+    "name": "Novigrad",
+    "regionId": "istria",
+    "extraDistanceKm": 32,
+    "popular": true,
+    "croatiaExitGateId": "pula"
+  },
+  {
+    "id": "vrsar",
+    "name": "Vrsar",
+    "regionId": "istria",
+    "extraDistanceKm": 28,
+    "popular": true,
+    "croatiaExitGateId": "pula"
+  },
+  {
+    "id": "motovun",
+    "name": "Motovun",
+    "regionId": "istria",
+    "extraDistanceKm": 45,
+    "popular": true,
+    "croatiaExitGateId": "pula"
+  },
+  {
+    "id": "rabac",
+    "name": "Rabac",
+    "regionId": "istria",
+    "extraDistanceKm": 40,
+    "popular": true,
+    "croatiaExitGateId": "pula"
+  },
+  {
+    "id": "labin",
+    "name": "Labin",
+    "regionId": "istria",
+    "extraDistanceKm": 35,
+    "popular": true,
+    "croatiaExitGateId": "pula"
+  },
+  {
+    "id": "lovran",
+    "name": "Lovran",
+    "regionId": "istria",
+    "extraDistanceKm": 15,
+    "popular": true,
+    "croatiaExitGateId": "pula"
+  },
+  {
+    "id": "rijeka",
+    "name": "Rijeka",
+    "regionId": "kvarner",
+    "extraDistanceKm": 0,
+    "popular": true,
+    "croatiaExitGateId": "rijeka"
+  },
+  {
+    "id": "opatija",
+    "name": "Opatija",
+    "regionId": "kvarner",
+    "extraDistanceKm": 12,
+    "popular": true,
+    "croatiaExitGateId": "rijeka"
+  },
+  {
+    "id": "crikvenica",
+    "name": "Crikvenica",
+    "regionId": "kvarner",
+    "extraDistanceKm": 28,
+    "popular": true,
+    "croatiaExitGateId": "rijeka"
+  },
+  {
+    "id": "selce",
+    "name": "Selce",
+    "regionId": "kvarner",
+    "extraDistanceKm": 30,
+    "popular": true,
+    "croatiaExitGateId": "rijeka"
+  },
+  {
+    "id": "novi_vinodolski",
+    "name": "Novi Vinodolski",
+    "regionId": "kvarner",
+    "extraDistanceKm": 35,
+    "popular": true,
+    "croatiaExitGateId": "rijeka"
+  },
+  {
+    "id": "krk",
+    "name": "Krk",
+    "regionId": "kvarner",
+    "extraDistanceKm": 25,
+    "popular": true,
+    "croatiaExitGateId": "rijeka"
+  },
+  {
+    "id": "baska",
+    "name": "Baska",
+    "regionId": "kvarner",
+    "extraDistanceKm": 45,
+    "popular": true,
+    "croatiaExitGateId": "rijeka"
+  },
+  {
+    "id": "malinska",
+    "name": "Malinska",
+    "regionId": "kvarner",
+    "extraDistanceKm": 22,
+    "popular": true,
+    "croatiaExitGateId": "rijeka"
+  },
+  {
+    "id": "punat",
+    "name": "Punat",
+    "regionId": "kvarner",
+    "extraDistanceKm": 28,
+    "popular": true,
+    "croatiaExitGateId": "rijeka"
+  },
+  {
+    "id": "rab",
+    "name": "Rab",
+    "regionId": "kvarner",
+    "extraDistanceKm": 50,
+    "popular": true,
+    "croatiaExitGateId": "rijeka"
+  },
+  {
+    "id": "senj",
+    "name": "Senj",
+    "regionId": "kvarner",
+    "extraDistanceKm": 40,
+    "popular": true,
+    "croatiaExitGateId": "rijeka"
+  },
+  {
+    "id": "delnice",
+    "name": "Delnice",
+    "regionId": "kvarner",
+    "extraDistanceKm": 20,
+    "popular": true,
+    "croatiaExitGateId": "rijeka"
+  },
+  {
+    "id": "zadar",
+    "name": "Zadar",
+    "regionId": "zadar",
+    "extraDistanceKm": 0,
+    "popular": true,
+    "croatiaExitGateId": "zadar"
+  },
+  {
+    "id": "biograd_na_moru",
+    "name": "Biograd na Moru",
+    "regionId": "zadar",
+    "extraDistanceKm": 28,
+    "popular": true,
+    "croatiaExitGateId": "zadar_istok"
+  },
+  {
+    "id": "sukosan",
+    "name": "Sukosan",
+    "regionId": "zadar",
+    "extraDistanceKm": 12,
+    "popular": true,
+    "croatiaExitGateId": "zadar_istok"
+  },
+  {
+    "id": "pakostane",
+    "name": "Pakostane",
+    "regionId": "zadar",
+    "extraDistanceKm": 18,
+    "popular": true,
+    "croatiaExitGateId": "zadar_istok"
+  },
+  {
+    "id": "nin",
+    "name": "Nin",
+    "regionId": "zadar",
+    "extraDistanceKm": 15,
+    "popular": true,
+    "croatiaExitGateId": "zadar"
+  },
+  {
+    "id": "petrcane",
+    "name": "Petrcane",
+    "regionId": "zadar",
+    "extraDistanceKm": 8,
+    "popular": true,
+    "croatiaExitGateId": "zadar"
+  },
+  {
+    "id": "pag",
+    "name": "Pag",
+    "regionId": "zadar",
+    "extraDistanceKm": 35,
+    "popular": true,
+    "croatiaExitGateId": "zadar"
+  },
+  {
+    "id": "starigrad",
+    "name": "Starigrad",
+    "regionId": "zadar",
+    "extraDistanceKm": 40,
+    "popular": true,
+    "croatiaExitGateId": "zadar"
+  },
+  {
+    "id": "vir",
+    "name": "Vir",
+    "regionId": "zadar",
+    "extraDistanceKm": 20,
+    "popular": true,
+    "croatiaExitGateId": "zadar"
+  },
+  {
+    "id": "sibenik",
+    "name": "Sibenik",
+    "regionId": "sibenik",
+    "extraDistanceKm": 0,
+    "popular": true,
+    "croatiaExitGateId": "sibenik"
+  },
+  {
+    "id": "vodice",
+    "name": "Vodice",
+    "regionId": "sibenik",
+    "extraDistanceKm": 12,
+    "popular": true,
+    "croatiaExitGateId": "sibenik"
+  },
+  {
+    "id": "tribunj",
+    "name": "Tribunj",
+    "regionId": "sibenik",
+    "extraDistanceKm": 15,
+    "popular": true,
+    "croatiaExitGateId": "sibenik"
+  },
+  {
+    "id": "primosten",
+    "name": "Primosten",
+    "regionId": "sibenik",
+    "extraDistanceKm": 25,
+    "popular": true,
+    "croatiaExitGateId": "sibenik"
+  },
+  {
+    "id": "murter",
+    "name": "Murter",
+    "regionId": "sibenik",
+    "extraDistanceKm": 20,
+    "popular": true,
+    "croatiaExitGateId": "sibenik"
+  },
+  {
+    "id": "rogoznica",
+    "name": "Rogoznica",
+    "regionId": "sibenik",
+    "extraDistanceKm": 30,
+    "popular": true,
+    "croatiaExitGateId": "sibenik"
+  },
+  {
+    "id": "skradin",
+    "name": "Skradin",
+    "regionId": "sibenik",
+    "extraDistanceKm": 18,
+    "popular": true,
+    "croatiaExitGateId": "sibenik"
+  },
+  {
+    "id": "tisno",
+    "name": "Tisno",
+    "regionId": "sibenik",
+    "extraDistanceKm": 22,
+    "popular": true,
+    "croatiaExitGateId": "sibenik"
+  },
+  {
+    "id": "split",
+    "name": "Split",
+    "regionId": "split",
+    "extraDistanceKm": 0,
+    "popular": true,
+    "croatiaExitGateId": "dugopolje"
+  },
+  {
+    "id": "trogir",
+    "name": "Trogir",
+    "regionId": "split",
+    "extraDistanceKm": 28,
+    "popular": true,
+    "croatiaExitGateId": "vucevica"
+  },
+  {
+    "id": "kastela",
+    "name": "Kastela",
+    "regionId": "split",
+    "extraDistanceKm": 15,
+    "popular": true,
+    "croatiaExitGateId": "vucevica"
+  },
+  {
+    "id": "podstrana",
+    "name": "Podstrana",
+    "regionId": "split",
+    "extraDistanceKm": 8,
+    "popular": true,
+    "croatiaExitGateId": "dugopolje"
+  },
+  {
+    "id": "omis",
+    "name": "Omis",
+    "regionId": "split",
+    "extraDistanceKm": 35,
+    "popular": true,
+    "croatiaExitGateId": "sestanovac"
+  },
+  {
+    "id": "solin",
+    "name": "Solin",
+    "regionId": "split",
+    "extraDistanceKm": 5,
+    "popular": true,
+    "croatiaExitGateId": "dugopolje"
+  },
+  {
+    "id": "stobrec",
+    "name": "Stobrec",
+    "regionId": "split",
+    "extraDistanceKm": 10,
+    "popular": true,
+    "croatiaExitGateId": "dugopolje"
+  },
+  {
+    "id": "dugi_rat",
+    "name": "Dugi Rat",
+    "regionId": "split",
+    "extraDistanceKm": 40,
+    "popular": true,
+    "croatiaExitGateId": "dugopolje"
+  },
+  {
+    "id": "brela",
+    "name": "Brela",
+    "regionId": "makarska",
+    "extraDistanceKm": 8,
+    "popular": true,
+    "croatiaExitGateId": "sestanovac"
+  },
+  {
+    "id": "baska_voda",
+    "name": "Baska Voda",
+    "regionId": "makarska",
+    "extraDistanceKm": 12,
+    "popular": true,
+    "croatiaExitGateId": "sestanovac"
+  },
+  {
+    "id": "makarska",
+    "name": "Makarska",
+    "regionId": "makarska",
+    "extraDistanceKm": 0,
+    "popular": true,
+    "croatiaExitGateId": "sestanovac"
+  },
+  {
+    "id": "tucepi",
+    "name": "Tucepi",
+    "regionId": "makarska",
+    "extraDistanceKm": 6,
+    "popular": true,
+    "croatiaExitGateId": "sestanovac"
+  },
+  {
+    "id": "podgora",
+    "name": "Podgora",
+    "regionId": "makarska",
+    "extraDistanceKm": 10,
+    "popular": true,
+    "croatiaExitGateId": "sestanovac"
+  },
+  {
+    "id": "igrane",
+    "name": "Igrane",
+    "regionId": "makarska",
+    "extraDistanceKm": 15,
+    "popular": true,
+    "croatiaExitGateId": "ravca"
+  },
+  {
+    "id": "zivogosce",
+    "name": "Zivogosce",
+    "regionId": "makarska",
+    "extraDistanceKm": 20,
+    "popular": true,
+    "croatiaExitGateId": "ravca"
+  },
+  {
+    "id": "drvenik",
+    "name": "Drvenik",
+    "regionId": "makarska",
+    "extraDistanceKm": 25,
+    "popular": true,
+    "croatiaExitGateId": "ravca"
+  },
+  {
+    "id": "gradac",
+    "name": "Gradac",
+    "regionId": "makarska",
+    "extraDistanceKm": 35,
+    "popular": true,
+    "croatiaExitGateId": "ravca"
+  },
+  {
+    "id": "ploce",
+    "name": "Ploce",
+    "regionId": "ploce",
+    "extraDistanceKm": 0,
+    "popular": true,
+    "croatiaExitGateId": "ploce"
+  },
+  {
+    "id": "zaostrog",
+    "name": "Zaostrog",
+    "regionId": "ploce",
+    "extraDistanceKm": 15,
+    "popular": true,
+    "croatiaExitGateId": "ploce"
+  },
+  {
+    "id": "dubrovnik",
+    "name": "Dubrovnik",
+    "regionId": "dubrovnik",
+    "extraDistanceKm": 0,
+    "popular": true,
+    "croatiaExitGateId": "ploce"
+  },
+  {
+    "id": "cavtat",
+    "name": "Cavtat",
+    "regionId": "dubrovnik",
+    "extraDistanceKm": 18,
+    "popular": true,
+    "croatiaExitGateId": "ploce"
+  },
+  {
+    "id": "mlini",
+    "name": "Mlini",
+    "regionId": "dubrovnik",
+    "extraDistanceKm": 12,
+    "popular": true,
+    "croatiaExitGateId": "ploce"
+  },
+  {
+    "id": "plat",
+    "name": "Plat",
+    "regionId": "dubrovnik",
+    "extraDistanceKm": 10,
+    "popular": true,
+    "croatiaExitGateId": "ploce"
+  },
+  {
+    "id": "slano",
+    "name": "Slano",
+    "regionId": "dubrovnik",
+    "extraDistanceKm": 25,
+    "popular": true,
+    "croatiaExitGateId": "ploce"
+  },
+  {
+    "id": "ston",
+    "name": "Ston",
+    "regionId": "dubrovnik",
+    "extraDistanceKm": 30,
+    "popular": true,
+    "croatiaExitGateId": "ploce"
+  },
+  {
+    "id": "orebic",
+    "name": "Orebic",
+    "regionId": "dubrovnik",
+    "extraDistanceKm": 45,
+    "popular": true,
+    "croatiaExitGateId": "ploce"
+  }
+]

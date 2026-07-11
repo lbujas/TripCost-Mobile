@@ -1,0 +1,2242 @@
+[
+  {
+    "id": "krakow",
+    "name": "Kraków",
+    "countryCode": "PL",
+    "popular": true,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "katowice",
+    "name": "Katowice",
+    "countryCode": "PL",
+    "popular": true,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "wroclaw",
+    "name": "Wrocław",
+    "countryCode": "PL",
+    "popular": true,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "warsaw",
+    "name": "Warszawa",
+    "countryCode": "PL",
+    "popular": true,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "poznan",
+    "name": "Poznań",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "gdansk",
+    "name": "Gdańsk",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "szczecin",
+    "name": "Szczecin",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "lodz",
+    "name": "Łódź",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "rzeszow",
+    "name": "Rzeszów",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "lublin",
+    "name": "Lublin",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "bialystok",
+    "name": "Białystok",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "tarnow",
+    "name": "Tarnów",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "nowy_sacz",
+    "name": "Nowy Sącz",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "oswiecim",
+    "name": "Oświęcim",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "chrzanow",
+    "name": "Chrzanów",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "gliwice",
+    "name": "Gliwice",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "zabrze",
+    "name": "Zabrze",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "sosnowiec",
+    "name": "Sosnowiec",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "bielsko_biala",
+    "name": "Bielsko-Biała",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "przemysl",
+    "name": "Przemyśl",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "krosno",
+    "name": "Krosno",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "tarnobrzeg",
+    "name": "Tarnobrzeg",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "mielec",
+    "name": "Mielec",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "legnica",
+    "name": "Legnica",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "walbrzych",
+    "name": "Wałbrzych",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "jelenia_gora",
+    "name": "Jelenia Góra",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "swidnica",
+    "name": "Świdnica",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "bydgoszcz",
+    "name": "Bydgoszcz",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "torun",
+    "name": "Toruń",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "wloclawek",
+    "name": "Włocławek",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "grudziadz",
+    "name": "Grudziądz",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "inowroclaw",
+    "name": "Inowrocław",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "zamosc",
+    "name": "Zamość",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "chelm",
+    "name": "Chełm",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "pulawy",
+    "name": "Puławy",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "bilgoraj",
+    "name": "Biłgoraj",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "zielona_gora",
+    "name": "Zielona Góra",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "gorzow_wielkopolski",
+    "name": "Gorzów Wielkopolski",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "nowa_sol",
+    "name": "Nowa Sól",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "zagan",
+    "name": "Żagań",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "miedzyrzecz",
+    "name": "Międzyrzecz",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "skierniewice",
+    "name": "Skierniewice",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "radomsko",
+    "name": "Radomsko",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "belchatow",
+    "name": "Bełchatów",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "kutno",
+    "name": "Kutno",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "radom",
+    "name": "Radom",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "siedlce",
+    "name": "Siedlce",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "ostroleka",
+    "name": "Ostrołęka",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "plock",
+    "name": "Płock",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "opole",
+    "name": "Opole",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "kedzierzyn_kozle",
+    "name": "Kędzierzyn-Koźle",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "nysa",
+    "name": "Nysa",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "kluczbork",
+    "name": "Kluczbork",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "brzeg",
+    "name": "Brzeg",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "suwalki",
+    "name": "Suwałki",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "lomza",
+    "name": "Łomża",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "augustow",
+    "name": "Augustów",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "siemiatycze",
+    "name": "Siemiatycze",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "gdynia",
+    "name": "Gdynia",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "sopot",
+    "name": "Sopot",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "slupsk",
+    "name": "Słupsk",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "tczew",
+    "name": "Tczew",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "kielce",
+    "name": "Kielce",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "ostrowiec_swietokrzyski",
+    "name": "Ostrowiec Świętokrzyski",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "starachowice",
+    "name": "Starachowice",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "skarzysko_kamienna",
+    "name": "Skarżysko-Kamienna",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "sandomierz",
+    "name": "Sandomierz",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "olsztyn",
+    "name": "Olsztyn",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "elblag",
+    "name": "Elbląg",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "elk",
+    "name": "Ełk",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "mragowo",
+    "name": "Mrągowo",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "ilawa",
+    "name": "Iława",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "kalisz",
+    "name": "Kalisz",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "konin",
+    "name": "Konin",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "leszno",
+    "name": "Leszno",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "pila",
+    "name": "Piła",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "koszalin",
+    "name": "Koszalin",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "stargard",
+    "name": "Stargard",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "swinoujscie",
+    "name": "Świnoujście",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  },
+  {
+    "id": "kolobrzeg",
+    "name": "Kołobrzeg",
+    "countryCode": "PL",
+    "popular": false,
+    "defaultRouteCountryChains": [
+      [
+        "PL",
+        "SK",
+        "HU",
+        "HR"
+      ],
+      [
+        "PL",
+        "CZ",
+        "AT",
+        "SI",
+        "HR"
+      ],
+      [
+        "PL",
+        "SK",
+        "AT",
+        "SI",
+        "HR"
+      ]
+    ]
+  }
+]

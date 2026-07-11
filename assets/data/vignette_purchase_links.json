@@ -1,0 +1,32 @@
+[
+  {
+    "countryCode": "AT",
+    "providerName": "ASFINAG",
+    "officialPurchaseUrl": "https://shop.asfinag.at/en/",
+    "notesKey": "vignettePurchaseNotes_at"
+  },
+  {
+    "countryCode": "SK",
+    "providerName": "eznamka.sk",
+    "officialPurchaseUrl": "https://eznamka.sk/en",
+    "notesKey": "vignettePurchaseNotes_sk"
+  },
+  {
+    "countryCode": "HU",
+    "providerName": "eMatrica",
+    "officialPurchaseUrl": "https://ematrica.nemzetiutdij.hu/en/vignette-purchase",
+    "notesKey": "vignettePurchaseNotes_hu"
+  },
+  {
+    "countryCode": "SI",
+    "providerName": "DARS",
+    "officialPurchaseUrl": "https://evinjeta.dars.si/en",
+    "notesKey": "vignettePurchaseNotes_si"
+  },
+  {
+    "countryCode": "CZ",
+    "providerName": "edalnice.cz",
+    "officialPurchaseUrl": "https://edalnice.cz/en/index.html",
+    "notesKey": "vignettePurchaseNotes_cz"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "countryCode": "PL",
+    "fuelType": "PB95",
+    "pricePerLiter": 6.0,
+    "currency": "PLN",
+    "updatedAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "countryCode": "PL",
+    "fuelType": "Diesel",
+    "pricePerLiter": 6.1,
+    "currency": "PLN",
+    "updatedAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "countryCode": "PL",
+    "fuelType": "LPG",
+    "pricePerLiter": 3.1,
+    "currency": "PLN",
+    "updatedAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "countryCode": "HR",
+    "fuelType": "PB95",
+    "pricePerLiter": 1.55,
+    "currency": "EUR",
+    "updatedAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "countryCode": "HR",
+    "fuelType": "Diesel",
+    "pricePerLiter": 1.45,
+    "currency": "EUR",
+    "updatedAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "countryCode": "SK",
+    "fuelType": "PB95",
+    "pricePerLiter": 1.6,
+    "currency": "EUR",
+    "updatedAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "countryCode": "HU",
+    "fuelType": "PB95",
+    "pricePerLiter": 1.55,
+    "currency": "EUR",
+    "updatedAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "countryCode": "AT",
+    "fuelType": "PB95",
+    "pricePerLiter": 1.65,
+    "currency": "EUR",
+    "updatedAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "countryCode": "SI",
+    "fuelType": "PB95",
+    "pricePerLiter": 1.55,
+    "currency": "EUR",
+    "updatedAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "countryCode": "CZ",
+    "fuelType": "PB95",
+    "pricePerLiter": 1.58,
+    "currency": "EUR",
+    "updatedAt": "2026-06-09T00:00:00.000Z"
+  }
+]

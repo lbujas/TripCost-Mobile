@@ -1,0 +1,92 @@
+[
+  {
+    "id": "hr_zagreb_zadar",
+    "routeId": "catalog",
+    "countryCode": "HR",
+    "name": "Zagreb → Zadar",
+    "destination": "Zadar",
+    "amount": 17.6,
+    "currency": "EUR"
+  },
+  {
+    "id": "hr_zagreb_sibenik",
+    "routeId": "catalog",
+    "countryCode": "HR",
+    "name": "Zagreb → Šibenik",
+    "destination": "Šibenik",
+    "amount": 22.0,
+    "currency": "EUR"
+  },
+  {
+    "id": "hr_zagreb_split",
+    "routeId": "catalog",
+    "countryCode": "HR",
+    "name": "Zagreb → Split",
+    "destination": "Split",
+    "amount": 26.4,
+    "currency": "EUR"
+  },
+  {
+    "id": "hr_zagreb_makarska",
+    "routeId": "pl_hr_sk_hu",
+    "countryCode": "HR",
+    "name": "Zagreb → Makarska",
+    "destination": "Makarska",
+    "amount": 29.0,
+    "currency": "EUR"
+  },
+  {
+    "id": "hr_zagreb_makarska_cz",
+    "routeId": "pl_hr_cz_at_si",
+    "countryCode": "HR",
+    "name": "Zagreb → Makarska",
+    "destination": "Makarska",
+    "amount": 29.0,
+    "currency": "EUR"
+  },
+  {
+    "id": "hr_zagreb_makarska_at",
+    "routeId": "pl_hr_sk_at_si",
+    "countryCode": "HR",
+    "name": "Zagreb → Makarska",
+    "destination": "Makarska",
+    "amount": 29.0,
+    "currency": "EUR"
+  },
+  {
+    "id": "hr_zagreb_ploce",
+    "routeId": "catalog",
+    "countryCode": "HR",
+    "name": "Zagreb → Ploče",
+    "destination": "Ploče",
+    "amount": 31.0,
+    "currency": "EUR"
+  },
+  {
+    "id": "hr_zagreb_dubrovnik",
+    "routeId": "catalog",
+    "countryCode": "HR",
+    "name": "Zagreb → Dubrovnik",
+    "destination": "Dubrovnik",
+    "amount": 34.0,
+    "currency": "EUR"
+  },
+  {
+    "id": "hr_zagreb_rijeka",
+    "routeId": "catalog",
+    "countryCode": "HR",
+    "name": "Zagreb → Rijeka",
+    "destination": "Rijeka",
+    "amount": 9.7,
+    "currency": "EUR"
+  },
+  {
+    "id": "hr_zagreb_pula",
+    "routeId": "catalog",
+    "countryCode": "HR",
+    "name": "Zagreb → Pula",
+    "destination": "Pula",
+    "amount": 18.0,
+    "currency": "EUR"
+  }
+]

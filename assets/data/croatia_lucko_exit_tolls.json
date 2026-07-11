@@ -1,0 +1,123 @@
+[
+  {
+    "id": "hr_lucko_rijeka",
+    "exitGateId": "rijeka",
+    "exitGateName": "Rijeka/Grobnik",
+    "destinationLabel": "Rijeka / Kvarner",
+    "amount": 10.10,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "HAC/HAK toll rates",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_lucko_pula",
+    "exitGateId": "pula",
+    "exitGateName": "Pula / Istria",
+    "destinationLabel": "Istria / Pula",
+    "amount": 18.00,
+    "currency": "EUR",
+    "accuracy": "estimated",
+    "source": "MVP estimate - verify Bina Istra segment later",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_lucko_zadar",
+    "exitGateId": "zadar",
+    "exitGateName": "Zadar zapad",
+    "destinationLabel": "Zadar",
+    "amount": 17.60,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "HAC/HAK toll rates",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_lucko_zadar_istok",
+    "exitGateId": "zadar_istok",
+    "exitGateName": "Zadar istok",
+    "destinationLabel": "Zadar east / Sukošan",
+    "amount": 18.20,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "HAC/HAK toll rates",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_lucko_sibenik",
+    "exitGateId": "sibenik",
+    "exitGateName": "Šibenik",
+    "destinationLabel": "Šibenik",
+    "amount": 22.10,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "HAC/HAK toll rates",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_lucko_vucevica",
+    "exitGateId": "vucevica",
+    "exitGateName": "Vučevica",
+    "destinationLabel": "Trogir / Kaštela",
+    "amount": 25.30,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "HAC/HAK toll rates",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_lucko_dugopolje",
+    "exitGateId": "dugopolje",
+    "exitGateName": "Dugopolje",
+    "destinationLabel": "Split",
+    "amount": 24.00,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "Autopay calculator screenshot",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_lucko_sestanovac",
+    "exitGateId": "sestanovac",
+    "exitGateName": "Šestanovac",
+    "destinationLabel": "Makarska Riviera / Omiš",
+    "amount": 29.00,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "HAC/HAK toll rates",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_lucko_zagvozd",
+    "exitGateId": "zagvozd",
+    "exitGateName": "Zagvozd",
+    "destinationLabel": "Makarska Riviera alternative",
+    "amount": 29.70,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "HAC/HAK toll rates",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_lucko_ravca",
+    "exitGateId": "ravca",
+    "exitGateName": "Ravča",
+    "destinationLabel": "Gradac / Drvenik",
+    "amount": 31.80,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "HAC/HAK toll rates",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_lucko_ploce",
+    "exitGateId": "ploce",
+    "exitGateName": "Karamatići / Ploče",
+    "destinationLabel": "Ploče / Dubrovnik direction",
+    "amount": 33.70,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "HAC/HAK toll rates",
+    "lastVerified": "2026-06-10"
+  }
+]

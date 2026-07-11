@@ -1,0 +1,618 @@
+{
+  "@@locale": "en",
+  "appTitle": "TripCost",
+  "homeSubtitle": "Plan your road trip costs across Europe",
+  "roadTripPlanner": "Road trip planner",
+  "roadTripPlannerSubtitle": "Fuel, vignettes and tolls in one place",
+  "planTrip": "Plan trip",
+  "myCars": "My cars",
+  "tripHistory": "Trip history",
+  "settings": "Settings",
+  "popularDirections": "Popular directions",
+  "comingSoon": "Coming soon",
+  "directionComingSoon": "This direction is coming soon.",
+  "routePolandToCroatia": "Poland → Croatia",
+  "browseRoutesIndividually": "Browse routes individually",
+  "settingsTitle": "Settings",
+  "appearance": "Appearance",
+  "appearanceSubtitle": "Choose how the app looks",
+  "themeMode": "Theme mode",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "language": "Language",
+  "languageSubtitle": "Choose app language",
+  "languageSystem": "System",
+  "languagePolish": "Polski",
+  "languageEnglish": "English",
+  "languageGerman": "Deutsch",
+  "languageCroatian": "Hrvatski",
+  "languageCzech": "Čeština",
+  "languageSlovak": "Slovenčina",
+  "languageHungarian": "Magyar",
+  "currency": "Currency",
+  "autoCurrency": "Auto",
+  "preferredCurrency": "Preferred currency",
+  "displayCurrency": "Display currency",
+  "currencyRatesUpdated": "Rates updated: {date}",
+  "@currencyRatesUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeRates": "Exchange rates",
+  "exchangeRatesUpdatedDaily": "Updated daily",
+  "exchangeRatesLastUpdate": "Last update: {date}",
+  "@exchangeRatesLastUpdate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeRatesLoading": "Loading exchange rates...",
+  "exchangeRatesUnavailable": "Exchange rates unavailable",
+  "exchangeRateEurToCurrency": "1 EUR = {rate} {currency}",
+  "@exchangeRateEurToCurrency": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      },
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "approximateValue": "Approx. {amount}",
+  "@approximateValue": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "tripDefaults": "Trip defaults",
+  "tripDefaultsSubtitle": "Pre-filled values for new trip calculations",
+  "defaultFuelPrice": "Default fuel price (PLN/l)",
+  "defaultEurToPln": "Default EUR to PLN rate",
+  "defaultPeopleCount": "Default people count",
+  "defaultTripDays": "Default trip days",
+  "save": "Save",
+  "settingsSaved": "Settings saved",
+  "couldNotLoadSettings": "Could not load settings.",
+  "errorInvalidNumbers": "Please enter valid numbers for all fields.",
+  "errorFuelEurPositive": "Fuel price and EUR rate must be greater than zero.",
+  "errorPeopleMin": "People count must be at least 1.",
+  "errorTripDaysMin": "Trip days must be at least 1.",
+  "errorAllPositive": "All values must be greater than zero.",
+  "errorPeopleAtLeastOne": "Number of people must be at least 1.",
+  "selectCar": "Select car",
+  "addCar": "Add car",
+  "addCarTooltip": "Add car",
+  "deleteCar": "Delete car",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "failedLoadCars": "Failed to load cars: {error}",
+  "@failedLoadCars": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noCarsYet": "No cars yet",
+  "noCarsSubtitle": "Add your first car to start planning trip costs.",
+  "addFirstCar": "Add your first car",
+  "chooseCarForTrip": "Choose a car for your trip",
+  "chooseCarForRoute": "Choose a car for {origin} → {destination}",
+  "@chooseCarForRoute": {
+    "placeholders": {
+      "origin": {
+        "type": "String"
+      },
+      "destination": {
+        "type": "String"
+      }
+    }
+  },
+  "edit": "Edit",
+  "fuelConsumption": "Fuel: {fuelType} • {consumption} l/100 km",
+  "@fuelConsumption": {
+    "placeholders": {
+      "fuelType": {
+        "type": "String"
+      },
+      "consumption": {
+        "type": "String"
+      }
+    }
+  },
+  "editCar": "Edit car",
+  "addCarTitle": "Add car",
+  "vehicleName": "Vehicle name",
+  "vehicleType": "Vehicle type",
+  "vehicleTypeMotorcycle": "Motorcycle",
+  "vehicleTypePassengerCar": "Passenger car",
+  "vehicleTypePassengerCarWithTrailer": "Passenger car + trailer",
+  "vehicleTypeCamper": "Camper",
+  "vehicleTypeVanUpTo35t": "Van up to 3.5t",
+  "fuelType": "Fuel type",
+  "petrol": "Petrol",
+  "diesel": "Diesel",
+  "lpg": "LPG",
+  "consumptionLabel": "Consumption (l/100 km)",
+  "saveChanges": "Save changes",
+  "errorEmptyName": "Vehicle name cannot be empty.",
+  "errorConsumptionPositive": "Consumption must be greater than zero.",
+  "tripDetails": "Trip details",
+  "tripSettings": "Trip settings",
+  "tripSettingsSubtitle": "Compare all Poland → Croatia routes next",
+  "startCity": "Start city",
+  "chooseStartCity": "Choose start city",
+  "voivodeship": "Voivodeship",
+  "selectVoivodeship": "Select voivodeship",
+  "selectStartCity": "Select start city",
+  "originCityNotAvailableYet": "Trip planning is not available for this city yet.",
+  "estimatedOneWayDistance": "Estimated one-way distance: {distance} km",
+  "@estimatedOneWayDistance": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "estimatedOneWayDistanceLabel": "Estimated one-way distance",
+  "useCustomDistance": "Use custom distance",
+  "customOneWayDistance": "Custom one-way distance",
+  "distanceFromGoogleMaps": "One-way distance from Google Maps",
+  "usedCustomDistance": "Used custom distance",
+  "originCity": "Start city",
+  "distanceEstimateNotice": "Distance is an estimate. You can enter your own distance from Google Maps.",
+  "openInGoogleMaps": "Open in Google Maps",
+  "openInGoogleMapsHint": "Check the driving distance in Google Maps, then enter it below.",
+  "errorOriginCityRequired": "Please choose a start city.",
+  "errorCustomDistancePositive": "Custom distance must be greater than zero.",
+  "yes": "Yes",
+  "origin_city_krakow": "Krakow",
+  "origin_city_katowice": "Katowice",
+  "origin_city_wroclaw": "Wroclaw",
+  "origin_city_warsaw": "Warsaw",
+  "origin_city_poznan": "Poznan",
+  "origin_city_gdansk": "Gdansk",
+  "origin_city_szczecin": "Szczecin",
+  "origin_city_lodz": "Lodz",
+  "origin_city_rzeszow": "Rzeszow",
+  "origin_city_lublin": "Lublin",
+  "origin_city_bialystok": "Bialystok",
+  "tripDays": "Trip days",
+  "numberOfPeople": "Number of people",
+  "fuelPricePln": "Fuel price (PLN/l)",
+  "eurToPlnRate": "EUR to PLN rate",
+  "compareRoutes": "Compare routes",
+  "compareRoutesTitle": "Compare routes",
+  "failedCompareRoutes": "Failed to compare routes: {error}",
+  "@failedCompareRoutes": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noRoutesFound": "No routes found for Poland → Croatia.",
+  "daysPeopleRoute": "{days} days • {people} people • Poland → Croatia",
+  "@daysPeopleRoute": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "people": {
+        "type": "int"
+      }
+    }
+  },
+  "bestPrice": "Best price",
+  "costPerPerson": "Cost per person",
+  "fuelCost": "Fuel cost",
+  "vignetteCost": "Vignette cost",
+  "tollCost": "Toll cost",
+  "tripResult": "Trip result",
+  "totalTripCost": "Total trip cost",
+  "saveTrip": "Save trip",
+  "saveToHistory": "Save to history",
+  "saved": "Saved",
+  "tripSaved": "Trip saved",
+  "costBreakdown": "Cost breakdown",
+  "speedLimits": "Speed limits",
+  "city": "City",
+  "outsideCity": "Outside city",
+  "expressway": "Expressway",
+  "motorway": "Motorway",
+  "speedLimitNotice": "Speed limits are informational. Always follow current road signs.",
+  "fuelPricesOnRoute": "Fuel prices on this route",
+  "localFuelPrice": "Local price",
+  "convertedFuelPrice": "Converted price",
+  "averageFuelPriceUsed": "Average fuel price used for calculation: {price}",
+  "@averageFuelPriceUsed": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "fuelTypeUsedForCalculation": "Fuel type used for calculation: {fuelType}",
+  "@fuelTypeUsedForCalculation": {
+    "placeholders": {
+      "fuelType": {
+        "type": "String"
+      }
+    }
+  },
+  "fuelPricesApproximateNotice": "Fuel prices are approximate and may vary by station.",
+  "backendRatesTitle": "Rates & fuel prices",
+  "exchangeRateValue": "1 EUR = {rate} PLN",
+  "@exchangeRateValue": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "averageFuelPriceLabel": "Average fuel price",
+  "averageFuelPriceEurValue": "Average: {price} EUR/l",
+  "@averageFuelPriceEurValue": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "dataSourceUpdated": "Source: {source} • Updated: {date}",
+  "@dataSourceUpdated": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ecbDataSource": "ECB",
+  "backendDataSource": "Backend API",
+  "localDefaultSource": "Local default",
+  "fuelLiters": "Fuel liters",
+  "selectedVignettes": "Selected vignettes",
+  "noVignettesRequired": "No vignettes required.",
+  "buyRequiredVignettesOnline": "Buy required vignettes online",
+  "openOfficialWebsite": "Open official website",
+  "officialProvider": "Official provider",
+  "vignetteType": "Vignette type",
+  "noOnlinePurchaseRequired": "No online vignette purchase required for this route.",
+  "couldNotOpenLink": "Could not open the link.",
+  "vignettePurchaseNotes_at": "Digital vignette required before using Austrian motorways.",
+  "vignettePurchaseNotes_sk": "Purchase before entering tolled motorways in Slovakia.",
+  "vignettePurchaseNotes_hu": "Purchase before entering tolled motorways in Hungary.",
+  "vignettePurchaseNotes_si": "Purchase before entering tolled motorways in Slovenia.",
+  "vignettePurchaseNotes_cz": "Purchase before entering tolled motorways in the Czech Republic.",
+  "selectedTolls": "Selected tolls",
+  "noTollsForRoute": "No tolls for this route.",
+  "officialVignettePurchaseLinks": "Official vignette purchase links",
+  "speedLimitsOnRoute": "Speed limits on this route",
+  "fuelPb95Label": "Pb95",
+  "notAvailable": "—",
+  "vignetteItem": "{countryCode} • {name} • {quantity} x {days} days • {price}",
+  "@vignetteItem": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      },
+      "quantity": {
+        "type": "int"
+      },
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "routeFromTo": "{origin} → {destination}",
+  "@routeFromTo": {
+    "placeholders": {
+      "origin": {
+        "type": "String"
+      },
+      "destination": {
+        "type": "String"
+      }
+    }
+  },
+  "tripHistoryTitle": "Trip history",
+  "couldNotLoadTrips": "Could not load saved trips.",
+  "noSavedTrips": "No saved trips yet",
+  "perPerson": "{amount} per person",
+  "@perPerson": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteTrip": "Delete trip",
+  "selectRoute": "Select route",
+  "failedLoadRoutes": "Failed to load routes: {error}",
+  "@failedLoadRoutes": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "chooseYourRoute": "Choose your route",
+  "routeCorridor": "Route corridor",
+  "distanceCalculatedLater": "Distance is calculated later",
+  "exactDistanceDependsOnStartAndDestination": "Exact distance depends on your start city and destination in Croatia.",
+  "removeCarQuestion": "Remove {carName}?",
+  "@removeCarQuestion": {
+    "placeholders": {
+      "carName": {
+        "type": "String"
+      }
+    }
+  },
+  "country_pl": "Poland",
+  "country_hr": "Croatia",
+  "country_sk": "Slovakia",
+  "country_hu": "Hungary",
+  "country_at": "Austria",
+  "country_si": "Slovenia",
+  "country_cz": "Czech Republic",
+  "country_de": "Germany",
+  "tripType": "Trip type",
+  "tripTypeOneWay": "One way",
+  "tripTypeRoundTrip": "Round trip",
+  "extraLocalKilometers": "Extra local kilometers",
+  "errorExtraDistanceNegative": "Extra distance must be zero or greater.",
+  "oneWayDistance": "One-way distance",
+  "totalCalculatedDistance": "Total calculated distance",
+  "croatiaDestination": "Croatia destination",
+  "selectCroatiaDestination": "Choose destination in Croatia",
+  "allRegions": "All regions",
+  "backToRegions": "All regions",
+  "destinationsCount": "{count} destinations",
+  "@destinationsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchDestinations": "Search destinations",
+  "popularDestinations": "Popular destinations",
+  "chooseTownOrClosestDestination": "Choose your town or the closest popular destination.",
+  "istria": "Istria",
+  "kvarner": "Kvarner",
+  "zadarRegion": "Zadar Region",
+  "sibenikRegion": "Sibenik Region",
+  "splitRegion": "Split Region",
+  "makarskaRiviera": "Makarska Riviera",
+  "ploceRegion": "Ploce Region",
+  "dubrovnikRegion": "Dubrovnik Region",
+  "selectedDestination": "Selected destination",
+  "extraDistance": "Extra distance",
+  "tollDestination": "Toll destination",
+  "recentDestinations": "Recent destinations",
+  "destinationLabel": "Destination",
+  "regionLabel": "Region",
+  "tollDestinationLabel": "Toll destination",
+  "noDestinationSelected": "Select a destination",
+  "errorDestinationRequired": "Please select a Croatia destination.",
+  "region_istria": "Istria",
+  "region_kvarner": "Kvarner",
+  "region_zadar": "Zadar Region",
+  "region_sibenik": "Sibenik Region",
+  "region_split": "Split Region",
+  "region_makarska": "Makarska Riviera",
+  "region_ploce": "Ploce Region",
+  "region_dubrovnik": "Dubrovnik Region",
+  "destination_pula": "Pula",
+  "destination_rovinj": "Rovinj",
+  "destination_porec": "Porec",
+  "destination_umag": "Umag",
+  "destination_medulin": "Medulin",
+  "destination_fazana": "Fazana",
+  "destination_novigrad": "Novigrad",
+  "destination_vrsar": "Vrsar",
+  "destination_motovun": "Motovun",
+  "destination_rabac": "Rabac",
+  "destination_labin": "Labin",
+  "destination_lovran": "Lovran",
+  "destination_rijeka": "Rijeka",
+  "destination_opatija": "Opatija",
+  "destination_crikvenica": "Crikvenica",
+  "destination_selce": "Selce",
+  "destination_novi_vinodolski": "Novi Vinodolski",
+  "destination_krk": "Krk",
+  "destination_baska": "Baska",
+  "destination_malinska": "Malinska",
+  "destination_punat": "Punat",
+  "destination_rab": "Rab",
+  "destination_senj": "Senj",
+  "destination_delnice": "Delnice",
+  "destination_zadar": "Zadar",
+  "destination_biograd_na_moru": "Biograd na Moru",
+  "destination_sukosan": "Sukosan",
+  "destination_pakostane": "Pakostane",
+  "destination_nin": "Nin",
+  "destination_petrcane": "Petrcane",
+  "destination_pag": "Pag",
+  "destination_starigrad": "Starigrad",
+  "destination_vir": "Vir",
+  "destination_sibenik": "Sibenik",
+  "destination_vodice": "Vodice",
+  "destination_tribunj": "Tribunj",
+  "destination_primosten": "Primosten",
+  "destination_murter": "Murter",
+  "destination_rogoznica": "Rogoznica",
+  "destination_skradin": "Skradin",
+  "destination_tisno": "Tisno",
+  "destination_split": "Split",
+  "destination_trogir": "Trogir",
+  "destination_kastela": "Kastela",
+  "destination_podstrana": "Podstrana",
+  "destination_omis": "Omis",
+  "destination_solin": "Solin",
+  "destination_stobrec": "Stobrec",
+  "destination_dugi_rat": "Dugi Rat",
+  "destination_brela": "Brela",
+  "destination_baska_voda": "Baska Voda",
+  "destination_makarska": "Makarska",
+  "destination_tucepi": "Tucepi",
+  "destination_podgora": "Podgora",
+  "destination_igrane": "Igrane",
+  "destination_zivogosce": "Zivogosce",
+  "destination_drvenik": "Drvenik",
+  "destination_gradac": "Gradac",
+  "destination_ploce": "Ploce",
+  "destination_zaostrog": "Zaostrog",
+  "destination_dubrovnik": "Dubrovnik",
+  "destination_cavtat": "Cavtat",
+  "destination_mlini": "Mlini",
+  "destination_plat": "Plat",
+  "destination_slano": "Slano",
+  "destination_ston": "Ston",
+  "destination_orebic": "Orebic",
+  "aboutAndLegal": "About & legal",
+  "aboutAndLegalSubtitle": "App information and privacy",
+  "aboutApp": "About app",
+  "privacyPolicy": "Privacy policy",
+  "openSourceLicenses": "Open source licenses",
+  "rateApp": "Rate app",
+  "contact": "Contact",
+  "contactEmailSubject": "TripCost - Contact",
+  "appVersion": "Version {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutAppDescription": "Estimate the total cost of driving to Croatia from Poland, with up-to-date route information and practical travel details.",
+  "aboutAppDisclaimer": "Costs are estimates. Always verify official vignette, toll and fuel prices before travel.",
+  "aboutAppFeatureFuelCost": "Fuel cost calculation",
+  "aboutAppFeatureVignetteCost": "Vignette cost calculation",
+  "aboutAppFeatureTollCost": "Toll cost calculation",
+  "aboutAppFeatureBackendFuelPrices": "Fuel prices downloaded from backend API",
+  "aboutAppFeatureBackendExchangeRates": "Exchange rates downloaded from backend API",
+  "aboutAppFeatureSpeedLimits": "Speed limits on route",
+  "aboutAppFeatureVignetteLinks": "Official vignette purchase links",
+  "aboutAppFeatureTripHistory": "Trip history",
+  "aboutAppFeatureMultipleVehicles": "Multiple saved vehicles",
+  "aboutAppFeatureResultSharing": "Trip result sharing",
+  "privacyPolicyLocalData": "Trip data, saved vehicles and app settings are stored locally on your device.",
+  "privacyPolicyNoAccount": "The app does not require an account.",
+  "privacyPolicyExchangeRates": "Exchange rates are downloaded from a backend API to convert costs into your display currency.",
+  "privacyPolicyFuelPrices": "Average fuel prices are downloaded from a backend API for countries on your route.",
+  "privacyPolicyAdMob": "Google AdMob is used to display banner and interstitial advertisements.",
+  "privacyPolicyVignetteLinks": "Vignette purchase links open official government or operator websites in your browser.",
+  "openFullPrivacyPolicy": "Open full privacy policy",
+  "shareTrip": "Share trip",
+  "shareResult": "Share result",
+  "tripSummary": "Trip summary",
+  "generatedWith": "Generated with {appName}",
+  "@generatedWith": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "routeLabel": "Route",
+  "appStatistics": "App statistics",
+  "appStatisticsSubtitle": "Your usage in this app",
+  "calculationsPerformed": "Calculations performed",
+  "tripsSaved": "Trips saved",
+  "couldNotLoadStatistics": "Could not load statistics.",
+  "retry": "Retry",
+  "couldNotLoadData": "Could not load data. Please try again.",
+  "couldNotSaveTrip": "Could not save trip. Please try again.",
+  "couldNotSaveSettings": "Could not save settings. Please try again.",
+  "couldNotSaveCar": "Could not save car. Please try again.",
+  "removeTripQuestion": "Delete this saved trip?",
+  "distanceEstimateUnavailable": "Distance estimate unavailable.",
+  "noDestinationsFound": "No destinations found.",
+  "noRoutesAvailable": "No routes available.",
+  "errorEmptyFuelType": "Fuel type cannot be empty.",
+  "couldNotLoadPurchaseLinks": "Purchase links unavailable.",
+  "tollItem": "{name} • {amount}",
+  "@tollItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "croatiaEntryGate": "Croatia entry gate",
+  "croatiaExitGate": "Croatia exit gate",
+  "tollAccuracy": "Toll accuracy",
+  "estimatedToll": "Estimated",
+  "verifiedToll": "Verified",
+  "motorwaySectionToDubrovnikNote": "Toll covers the motorway section toward Dubrovnik; additional local roads may apply.",
+  "croatiaTollDetails": "Croatia toll",
+  "entryToBaseGate": "{entry} → {base}",
+  "@entryToBaseGate": {
+    "placeholders": {
+      "entry": {
+        "type": "String"
+      },
+      "base": {
+        "type": "String"
+      }
+    }
+  },
+  "baseGateToExit": "{base} → {exit}",
+  "@baseGateToExit": {
+    "placeholders": {
+      "base": {
+        "type": "String"
+      },
+      "exit": {
+        "type": "String"
+      }
+    }
+  },
+  "baseGate": "Base gate",
+  "verified": "Verified",
+  "estimated": "Estimated",
+  "tollSource": "Source",
+  "motorwayToDubrovnikNote": "Motorway toll covers the motorway section toward Dubrovnik. Final local roads may apply after Ploče.",
+  "legacyTollFallbackUsed": "Legacy toll data used (Lučko model unavailable for this route).",
+  "croatiaTollOneWay": "Croatia toll (one way)",
+  "roundTripTollTotal": "Round trip toll total",
+  "verifiedTollData": "Verified toll data",
+  "estimatedTollData": "Estimated toll data",
+  "tollPriceDisclaimer": "Toll prices may change before your trip. Always verify current official rates before purchase or travel.",
+  "gate_gorican": "Goričan",
+  "gate_macelj": "Macelj",
+  "gate_rupa": "Rupa",
+  "gate_rijeka": "Rijeka",
+  "gate_pula": "Pula",
+  "gate_zadar": "Zadar",
+  "gate_sibenik": "Šibenik",
+  "gate_dugopolje": "Dugopolje",
+  "gate_vucevica": "Vučevica",
+  "gate_sestanovac": "Šestanovac",
+  "gate_zagvozd": "Zagvozd",
+  "gate_ploce": "Ploče",
+  "gate_dubrovnik": "Dubrovnik"
+}

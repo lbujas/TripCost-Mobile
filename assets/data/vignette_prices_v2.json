@@ -1,0 +1,390 @@
+[
+  {
+    "countryCode": "CZ",
+    "categoryCode": "vehicle_up_to_3_5t",
+    "name": "Czechia 1-day vignette",
+    "validityDays": 1,
+    "price": 230,
+    "currency": "CZK",
+    "notes": "Motorcycles and trailers are exempt / no separate vignette."
+  },
+  {
+    "countryCode": "CZ",
+    "categoryCode": "vehicle_up_to_3_5t",
+    "name": "Czechia 10-day vignette",
+    "validityDays": 10,
+    "price": 300,
+    "currency": "CZK",
+    "notes": "Motorcycles and trailers are exempt / no separate vignette."
+  },
+  {
+    "countryCode": "CZ",
+    "categoryCode": "vehicle_up_to_3_5t",
+    "name": "Czechia 30-day vignette",
+    "validityDays": 30,
+    "price": 480,
+    "currency": "CZK",
+    "notes": "Motorcycles and trailers are exempt / no separate vignette."
+  },
+  {
+    "countryCode": "CZ",
+    "categoryCode": "vehicle_up_to_3_5t",
+    "name": "Czechia 365-day vignette",
+    "validityDays": 365,
+    "price": 2570,
+    "currency": "CZK",
+    "notes": "Motorcycles and trailers are exempt / no separate vignette."
+  },
+  {
+    "countryCode": "SK",
+    "categoryCode": "vehicle",
+    "name": "Slovakia 1-day vignette",
+    "validityDays": 1,
+    "price": 8.1,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "SK",
+    "categoryCode": "vehicle",
+    "name": "Slovakia 10-day vignette",
+    "validityDays": 10,
+    "price": 10.8,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "SK",
+    "categoryCode": "vehicle",
+    "name": "Slovakia 30-day vignette",
+    "validityDays": 30,
+    "price": 17.1,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "SK",
+    "categoryCode": "vehicle",
+    "name": "Slovakia 365-day vignette",
+    "validityDays": 365,
+    "price": 90.0,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "SK",
+    "categoryCode": "vehicle_combination",
+    "name": "Slovakia 1-day vignette (vehicle combination)",
+    "validityDays": 1,
+    "price": 8.1,
+    "currency": "EUR",
+    "notes": "Vehicle-part price for combinations. For combinations over 3.5 t, a trailer vignette may also be required in future."
+  },
+  {
+    "countryCode": "SK",
+    "categoryCode": "vehicle_combination",
+    "name": "Slovakia 10-day vignette (vehicle combination)",
+    "validityDays": 10,
+    "price": 10.8,
+    "currency": "EUR",
+    "notes": "Vehicle-part price for combinations. For combinations over 3.5 t, a trailer vignette may also be required in future."
+  },
+  {
+    "countryCode": "SK",
+    "categoryCode": "vehicle_combination",
+    "name": "Slovakia 30-day vignette (vehicle combination)",
+    "validityDays": 30,
+    "price": 17.1,
+    "currency": "EUR",
+    "notes": "Vehicle-part price for combinations. For combinations over 3.5 t, a trailer vignette may also be required in future."
+  },
+  {
+    "countryCode": "SK",
+    "categoryCode": "vehicle_combination",
+    "name": "Slovakia 365-day vignette (vehicle combination)",
+    "validityDays": 365,
+    "price": 90.0,
+    "currency": "EUR",
+    "notes": "Vehicle-part price for combinations. For combinations over 3.5 t, a trailer vignette may also be required in future."
+  },
+  {
+    "countryCode": "SK",
+    "categoryCode": "trailer",
+    "name": "Slovakia 1-day trailer vignette",
+    "validityDays": 1,
+    "price": 8.1,
+    "currency": "EUR",
+    "notes": "Required only when vehicle + trailer combination exceeds 3.5 t. Not used in calculations yet."
+  },
+  {
+    "countryCode": "SK",
+    "categoryCode": "trailer",
+    "name": "Slovakia 10-day trailer vignette",
+    "validityDays": 10,
+    "price": 10.8,
+    "currency": "EUR",
+    "notes": "Required only when vehicle + trailer combination exceeds 3.5 t. Not used in calculations yet."
+  },
+  {
+    "countryCode": "SK",
+    "categoryCode": "trailer",
+    "name": "Slovakia 30-day trailer vignette",
+    "validityDays": 30,
+    "price": 17.1,
+    "currency": "EUR",
+    "notes": "Required only when vehicle + trailer combination exceeds 3.5 t. Not used in calculations yet."
+  },
+  {
+    "countryCode": "SK",
+    "categoryCode": "trailer",
+    "name": "Slovakia 365-day trailer vignette",
+    "validityDays": 365,
+    "price": 90.0,
+    "currency": "EUR",
+    "notes": "Required only when vehicle + trailer combination exceeds 3.5 t. Not used in calculations yet."
+  },
+  {
+    "countryCode": "AT",
+    "categoryCode": "motorcycle",
+    "name": "Austria 1-day vignette (motorcycle)",
+    "validityDays": 1,
+    "price": 3.8,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "AT",
+    "categoryCode": "motorcycle",
+    "name": "Austria 10-day vignette (motorcycle)",
+    "validityDays": 10,
+    "price": 5.1,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "AT",
+    "categoryCode": "motorcycle",
+    "name": "Austria 60-day vignette (motorcycle)",
+    "validityDays": 60,
+    "price": 12.8,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "AT",
+    "categoryCode": "motorcycle",
+    "name": "Austria 365-day vignette (motorcycle)",
+    "validityDays": 365,
+    "price": 42.7,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "AT",
+    "categoryCode": "vehicle_up_to_3_5t",
+    "name": "Austria 1-day vignette",
+    "validityDays": 1,
+    "price": 9.6,
+    "currency": "EUR",
+    "notes": "Trailer does not require a separate vignette."
+  },
+  {
+    "countryCode": "AT",
+    "categoryCode": "vehicle_up_to_3_5t",
+    "name": "Austria 10-day vignette",
+    "validityDays": 10,
+    "price": 12.8,
+    "currency": "EUR",
+    "notes": "Trailer does not require a separate vignette."
+  },
+  {
+    "countryCode": "AT",
+    "categoryCode": "vehicle_up_to_3_5t",
+    "name": "Austria 60-day vignette",
+    "validityDays": 60,
+    "price": 32.0,
+    "currency": "EUR",
+    "notes": "Trailer does not require a separate vignette."
+  },
+  {
+    "countryCode": "AT",
+    "categoryCode": "vehicle_up_to_3_5t",
+    "name": "Austria 365-day vignette",
+    "validityDays": 365,
+    "price": 106.8,
+    "currency": "EUR",
+    "notes": "Trailer does not require a separate vignette."
+  },
+  {
+    "countryCode": "SI",
+    "categoryCode": "class_1",
+    "name": "Slovenia 7-day vignette (class 1)",
+    "validityDays": 7,
+    "price": 8.0,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "SI",
+    "categoryCode": "class_1",
+    "name": "Slovenia 180-day vignette (class 1)",
+    "validityDays": 180,
+    "price": 32.0,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "SI",
+    "categoryCode": "class_1",
+    "name": "Slovenia 365-day vignette (class 1)",
+    "validityDays": 365,
+    "price": 58.7,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "SI",
+    "categoryCode": "class_2A",
+    "name": "Slovenia 7-day vignette (class 2A)",
+    "validityDays": 7,
+    "price": 16.0,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "SI",
+    "categoryCode": "class_2A",
+    "name": "Slovenia 30-day vignette (class 2A)",
+    "validityDays": 30,
+    "price": 32.0,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "SI",
+    "categoryCode": "class_2A",
+    "name": "Slovenia 365-day vignette (class 2A)",
+    "validityDays": 365,
+    "price": 117.5,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "SI",
+    "categoryCode": "class_2B",
+    "name": "Slovenia 7-day vignette (class 2B)",
+    "validityDays": 7,
+    "price": 32.0,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "SI",
+    "categoryCode": "class_2B",
+    "name": "Slovenia 30-day vignette (class 2B)",
+    "validityDays": 30,
+    "price": 64.1,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "SI",
+    "categoryCode": "class_2B",
+    "name": "Slovenia 365-day vignette (class 2B)",
+    "validityDays": 365,
+    "price": 235.0,
+    "currency": "EUR"
+  },
+  {
+    "countryCode": "HU",
+    "categoryCode": "D1M",
+    "name": "Hungary 1-day e-vignette (D1M motorcycle)",
+    "validityDays": 1,
+    "price": 2770,
+    "currency": "HUF",
+    "notes": "2026 official HU e-vignette rates; verify before public release."
+  },
+  {
+    "countryCode": "HU",
+    "categoryCode": "D1M",
+    "name": "Hungary 10-day e-vignette (D1M motorcycle)",
+    "validityDays": 10,
+    "price": 3450,
+    "currency": "HUF",
+    "notes": "2026 official HU e-vignette rates; verify before public release."
+  },
+  {
+    "countryCode": "HU",
+    "categoryCode": "D1M",
+    "name": "Hungary 30-day e-vignette (D1M motorcycle)",
+    "validityDays": 30,
+    "price": 5590,
+    "currency": "HUF",
+    "notes": "2026 official HU e-vignette rates; verify before public release."
+  },
+  {
+    "countryCode": "HU",
+    "categoryCode": "D1",
+    "name": "Hungary 1-day e-vignette (D1 passenger car)",
+    "validityDays": 1,
+    "price": 5550,
+    "currency": "HUF",
+    "notes": "2026 official HU e-vignette rates; verify before public release."
+  },
+  {
+    "countryCode": "HU",
+    "categoryCode": "D1",
+    "name": "Hungary 10-day e-vignette (D1 passenger car)",
+    "validityDays": 10,
+    "price": 6900,
+    "currency": "HUF",
+    "notes": "2026 official HU e-vignette rates; verify before public release."
+  },
+  {
+    "countryCode": "HU",
+    "categoryCode": "D1",
+    "name": "Hungary 30-day e-vignette (D1 passenger car)",
+    "validityDays": 30,
+    "price": 11170,
+    "currency": "HUF",
+    "notes": "2026 official HU e-vignette rates; verify before public release."
+  },
+  {
+    "countryCode": "HU",
+    "categoryCode": "D2",
+    "name": "Hungary 1-day e-vignette (D2 larger vehicle)",
+    "validityDays": 1,
+    "price": 7890,
+    "currency": "HUF",
+    "notes": "2026 official HU e-vignette rates; verify before public release."
+  },
+  {
+    "countryCode": "HU",
+    "categoryCode": "D2",
+    "name": "Hungary 10-day e-vignette (D2 larger vehicle)",
+    "validityDays": 10,
+    "price": 10040,
+    "currency": "HUF",
+    "notes": "2026 official HU e-vignette rates; verify before public release."
+  },
+  {
+    "countryCode": "HU",
+    "categoryCode": "D2",
+    "name": "Hungary 30-day e-vignette (D2 larger vehicle)",
+    "validityDays": 30,
+    "price": 15820,
+    "currency": "HUF",
+    "notes": "2026 official HU e-vignette rates; verify before public release."
+  },
+  {
+    "countryCode": "HU",
+    "categoryCode": "U",
+    "name": "Hungary 1-day e-vignette (U trailer)",
+    "validityDays": 1,
+    "price": 5550,
+    "currency": "HUF",
+    "notes": "2026 official HU e-vignette rates; verify before public release."
+  },
+  {
+    "countryCode": "HU",
+    "categoryCode": "U",
+    "name": "Hungary 10-day e-vignette (U trailer)",
+    "validityDays": 10,
+    "price": 6900,
+    "currency": "HUF",
+    "notes": "2026 official HU e-vignette rates; verify before public release."
+  },
+  {
+    "countryCode": "HU",
+    "categoryCode": "U",
+    "name": "Hungary 30-day e-vignette (U trailer)",
+    "validityDays": 30,
+    "price": 11170,
+    "currency": "HUF",
+    "notes": "2026 official HU e-vignette rates; verify before public release."
+  }
+]

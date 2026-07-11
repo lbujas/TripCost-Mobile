@@ -1,0 +1,46 @@
+[
+  {
+    "id": "pl_hr_sk_hu",
+    "origin": "Poland",
+    "destination": "Croatia",
+    "distanceKm": 1125.0,
+    "durationMinutes": 720,
+    "countryCodes": [
+      "PL",
+      "SK",
+      "HU",
+      "HR"
+    ],
+    "croatiaEntryGateId": "gorican"
+  },
+  {
+    "id": "pl_hr_cz_at_si",
+    "origin": "Poland",
+    "destination": "Croatia",
+    "distanceKm": 1175.0,
+    "durationMinutes": 750,
+    "countryCodes": [
+      "PL",
+      "CZ",
+      "AT",
+      "SI",
+      "HR"
+    ],
+    "croatiaEntryGateId": "trakoscan"
+  },
+  {
+    "id": "pl_hr_sk_at_si",
+    "origin": "Poland",
+    "destination": "Croatia",
+    "distanceKm": 1150.0,
+    "durationMinutes": 735,
+    "countryCodes": [
+      "PL",
+      "SK",
+      "AT",
+      "SI",
+      "HR"
+    ],
+    "croatiaEntryGateId": "trakoscan"
+  }
+]

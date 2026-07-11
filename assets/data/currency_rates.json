@@ -1,0 +1,10 @@
+{
+  "baseCurrency": "EUR",
+  "updatedAt": "2026-06-10",
+  "rates": {
+    "EUR": 1.0,
+    "PLN": 4.23,
+    "CZK": 24.24,
+    "HUF": 354.80
+  }
+}

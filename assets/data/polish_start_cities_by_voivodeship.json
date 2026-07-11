@@ -1,0 +1,1188 @@
+{
+  "voivodeships": [
+    {
+      "code": "dolnoslaskie",
+      "name": {
+        "pl": "Dolnośląskie",
+        "en": "Lower Silesian",
+        "de": "Niederschlesien",
+        "hr": "Dolnośląskie",
+        "cs": "Dolnoslezsko",
+        "sk": "Dolnosliezsko",
+        "hu": "Dolnośląskie"
+      },
+      "cities": [
+        {
+          "id": "wroclaw",
+          "name": {
+            "pl": "Wrocław",
+            "en": "Wrocław",
+            "de": "Wrocław",
+            "hr": "Wrocław",
+            "cs": "Wrocław",
+            "sk": "Wrocław",
+            "hu": "Wrocław"
+          }
+        },
+        {
+          "id": "legnica",
+          "name": {
+            "pl": "Legnica",
+            "en": "Legnica",
+            "de": "Legnica",
+            "hr": "Legnica",
+            "cs": "Legnica",
+            "sk": "Legnica",
+            "hu": "Legnica"
+          }
+        },
+        {
+          "id": "walbrzych",
+          "name": {
+            "pl": "Wałbrzych",
+            "en": "Wałbrzych",
+            "de": "Wałbrzych",
+            "hr": "Wałbrzych",
+            "cs": "Wałbrzych",
+            "sk": "Wałbrzych",
+            "hu": "Wałbrzych"
+          }
+        },
+        {
+          "id": "jelenia_gora",
+          "name": {
+            "pl": "Jelenia Góra",
+            "en": "Jelenia Góra",
+            "de": "Jelenia Góra",
+            "hr": "Jelenia Góra",
+            "cs": "Jelenia Góra",
+            "sk": "Jelenia Góra",
+            "hu": "Jelenia Góra"
+          }
+        },
+        {
+          "id": "swidnica",
+          "name": {
+            "pl": "Świdnica",
+            "en": "Świdnica",
+            "de": "Świdnica",
+            "hr": "Świdnica",
+            "cs": "Świdnica",
+            "sk": "Świdnica",
+            "hu": "Świdnica"
+          }
+        }
+      ]
+    },
+    {
+      "code": "kujawsko_pomorskie",
+      "name": {
+        "pl": "Kujawsko-pomorskie",
+        "en": "Kuyavian-Pomeranian",
+        "de": "Kujawien-Pommern",
+        "hr": "Kujawsko-pomorskie",
+        "cs": "Kujavsko-pomořské",
+        "sk": "Kujavsko-pomorské",
+        "hu": "Kujawsko-pomorskie"
+      },
+      "cities": [
+        {
+          "id": "bydgoszcz",
+          "name": {
+            "pl": "Bydgoszcz",
+            "en": "Bydgoszcz",
+            "de": "Bydgoszcz",
+            "hr": "Bydgoszcz",
+            "cs": "Bydgoszcz",
+            "sk": "Bydgoszcz",
+            "hu": "Bydgoszcz"
+          }
+        },
+        {
+          "id": "torun",
+          "name": {
+            "pl": "Toruń",
+            "en": "Toruń",
+            "de": "Toruń",
+            "hr": "Toruń",
+            "cs": "Toruń",
+            "sk": "Toruń",
+            "hu": "Toruń"
+          }
+        },
+        {
+          "id": "wloclawek",
+          "name": {
+            "pl": "Włocławek",
+            "en": "Włocławek",
+            "de": "Włocławek",
+            "hr": "Włocławek",
+            "cs": "Włocławek",
+            "sk": "Włocławek",
+            "hu": "Włocławek"
+          }
+        },
+        {
+          "id": "grudziadz",
+          "name": {
+            "pl": "Grudziądz",
+            "en": "Grudziądz",
+            "de": "Grudziądz",
+            "hr": "Grudziądz",
+            "cs": "Grudziądz",
+            "sk": "Grudziądz",
+            "hu": "Grudziądz"
+          }
+        },
+        {
+          "id": "inowroclaw",
+          "name": {
+            "pl": "Inowrocław",
+            "en": "Inowrocław",
+            "de": "Inowrocław",
+            "hr": "Inowrocław",
+            "cs": "Inowrocław",
+            "sk": "Inowrocław",
+            "hu": "Inowrocław"
+          }
+        }
+      ]
+    },
+    {
+      "code": "lubelskie",
+      "name": {
+        "pl": "Lubelskie",
+        "en": "Lublin",
+        "de": "Lublin",
+        "hr": "Lubelskie",
+        "cs": "Lubelské",
+        "sk": "Lubelské",
+        "hu": "Lubelskie"
+      },
+      "cities": [
+        {
+          "id": "lublin",
+          "name": {
+            "pl": "Lublin",
+            "en": "Lublin",
+            "de": "Lublin",
+            "hr": "Lublin",
+            "cs": "Lublin",
+            "sk": "Lublin",
+            "hu": "Lublin"
+          }
+        },
+        {
+          "id": "zamosc",
+          "name": {
+            "pl": "Zamość",
+            "en": "Zamość",
+            "de": "Zamość",
+            "hr": "Zamość",
+            "cs": "Zamość",
+            "sk": "Zamość",
+            "hu": "Zamość"
+          }
+        },
+        {
+          "id": "chelm",
+          "name": {
+            "pl": "Chełm",
+            "en": "Chełm",
+            "de": "Chełm",
+            "hr": "Chełm",
+            "cs": "Chełm",
+            "sk": "Chełm",
+            "hu": "Chełm"
+          }
+        },
+        {
+          "id": "pulawy",
+          "name": {
+            "pl": "Puławy",
+            "en": "Puławy",
+            "de": "Puławy",
+            "hr": "Puławy",
+            "cs": "Puławy",
+            "sk": "Puławy",
+            "hu": "Puławy"
+          }
+        },
+        {
+          "id": "bilgoraj",
+          "name": {
+            "pl": "Biłgoraj",
+            "en": "Biłgoraj",
+            "de": "Biłgoraj",
+            "hr": "Biłgoraj",
+            "cs": "Biłgoraj",
+            "sk": "Biłgoraj",
+            "hu": "Biłgoraj"
+          }
+        }
+      ]
+    },
+    {
+      "code": "lubuskie",
+      "name": {
+        "pl": "Lubuskie",
+        "en": "Lubusz",
+        "de": "Lubusz",
+        "hr": "Lubuskie",
+        "cs": "Lubuské",
+        "sk": "Lubuské",
+        "hu": "Lubuskie"
+      },
+      "cities": [
+        {
+          "id": "zielona_gora",
+          "name": {
+            "pl": "Zielona Góra",
+            "en": "Zielona Góra",
+            "de": "Zielona Góra",
+            "hr": "Zielona Góra",
+            "cs": "Zielona Góra",
+            "sk": "Zielona Góra",
+            "hu": "Zielona Góra"
+          }
+        },
+        {
+          "id": "gorzow_wielkopolski",
+          "name": {
+            "pl": "Gorzów Wielkopolski",
+            "en": "Gorzów Wielkopolski",
+            "de": "Gorzów Wielkopolski",
+            "hr": "Gorzów Wielkopolski",
+            "cs": "Gorzów Wielkopolski",
+            "sk": "Gorzów Wielkopolski",
+            "hu": "Gorzów Wielkopolski"
+          }
+        },
+        {
+          "id": "nowa_sol",
+          "name": {
+            "pl": "Nowa Sól",
+            "en": "Nowa Sól",
+            "de": "Nowa Sól",
+            "hr": "Nowa Sól",
+            "cs": "Nowa Sól",
+            "sk": "Nowa Sól",
+            "hu": "Nowa Sól"
+          }
+        },
+        {
+          "id": "zagan",
+          "name": {
+            "pl": "Żagań",
+            "en": "Żagań",
+            "de": "Żagań",
+            "hr": "Żagań",
+            "cs": "Żagań",
+            "sk": "Żagań",
+            "hu": "Żagań"
+          }
+        },
+        {
+          "id": "miedzyrzecz",
+          "name": {
+            "pl": "Międzyrzecz",
+            "en": "Międzyrzecz",
+            "de": "Międzyrzecz",
+            "hr": "Międzyrzecz",
+            "cs": "Międzyrzecz",
+            "sk": "Międzyrzecz",
+            "hu": "Międzyrzecz"
+          }
+        }
+      ]
+    },
+    {
+      "code": "lodzkie",
+      "name": {
+        "pl": "Łódzkie",
+        "en": "Łódź",
+        "de": "Łódź",
+        "hr": "Łódzkie",
+        "cs": "Lodžské",
+        "sk": "Lodžské",
+        "hu": "Łódzkie"
+      },
+      "cities": [
+        {
+          "id": "lodz",
+          "name": {
+            "pl": "Łódź",
+            "en": "Łódź",
+            "de": "Łódź",
+            "hr": "Łódź",
+            "cs": "Łódź",
+            "sk": "Łódź",
+            "hu": "Łódź"
+          }
+        },
+        {
+          "id": "skierniewice",
+          "name": {
+            "pl": "Skierniewice",
+            "en": "Skierniewice",
+            "de": "Skierniewice",
+            "hr": "Skierniewice",
+            "cs": "Skierniewice",
+            "sk": "Skierniewice",
+            "hu": "Skierniewice"
+          }
+        },
+        {
+          "id": "radomsko",
+          "name": {
+            "pl": "Radomsko",
+            "en": "Radomsko",
+            "de": "Radomsko",
+            "hr": "Radomsko",
+            "cs": "Radomsko",
+            "sk": "Radomsko",
+            "hu": "Radomsko"
+          }
+        },
+        {
+          "id": "belchatow",
+          "name": {
+            "pl": "Bełchatów",
+            "en": "Bełchatów",
+            "de": "Bełchatów",
+            "hr": "Bełchatów",
+            "cs": "Bełchatów",
+            "sk": "Bełchatów",
+            "hu": "Bełchatów"
+          }
+        },
+        {
+          "id": "kutno",
+          "name": {
+            "pl": "Kutno",
+            "en": "Kutno",
+            "de": "Kutno",
+            "hr": "Kutno",
+            "cs": "Kutno",
+            "sk": "Kutno",
+            "hu": "Kutno"
+          }
+        }
+      ]
+    },
+    {
+      "code": "malopolskie",
+      "name": {
+        "pl": "Małopolskie",
+        "en": "Lesser Poland",
+        "de": "Kleinpolen",
+        "hr": "Małopolskie",
+        "cs": "Malopolské",
+        "sk": "Malopoľské",
+        "hu": "Małopolskie"
+      },
+      "cities": [
+        {
+          "id": "krakow",
+          "name": {
+            "pl": "Kraków",
+            "en": "Kraków",
+            "de": "Kraków",
+            "hr": "Kraków",
+            "cs": "Kraków",
+            "sk": "Kraków",
+            "hu": "Kraków"
+          }
+        },
+        {
+          "id": "tarnow",
+          "name": {
+            "pl": "Tarnów",
+            "en": "Tarnów",
+            "de": "Tarnów",
+            "hr": "Tarnów",
+            "cs": "Tarnów",
+            "sk": "Tarnów",
+            "hu": "Tarnów"
+          }
+        },
+        {
+          "id": "nowy_sacz",
+          "name": {
+            "pl": "Nowy Sącz",
+            "en": "Nowy Sącz",
+            "de": "Nowy Sącz",
+            "hr": "Nowy Sącz",
+            "cs": "Nowy Sącz",
+            "sk": "Nowy Sącz",
+            "hu": "Nowy Sącz"
+          }
+        },
+        {
+          "id": "oswiecim",
+          "name": {
+            "pl": "Oświęcim",
+            "en": "Oświęcim",
+            "de": "Oświęcim",
+            "hr": "Oświęcim",
+            "cs": "Oświęcim",
+            "sk": "Oświęcim",
+            "hu": "Oświęcim"
+          }
+        },
+        {
+          "id": "chrzanow",
+          "name": {
+            "pl": "Chrzanów",
+            "en": "Chrzanów",
+            "de": "Chrzanów",
+            "hr": "Chrzanów",
+            "cs": "Chrzanów",
+            "sk": "Chrzanów",
+            "hu": "Chrzanów"
+          }
+        }
+      ]
+    },
+    {
+      "code": "mazowieckie",
+      "name": {
+        "pl": "Mazowieckie",
+        "en": "Masovian",
+        "de": "Masowien",
+        "hr": "Mazowieckie",
+        "cs": "Mazovské",
+        "sk": "Mazovské",
+        "hu": "Mazowieckie"
+      },
+      "cities": [
+        {
+          "id": "warsaw",
+          "name": {
+            "pl": "Warszawa",
+            "en": "Warszawa",
+            "de": "Warszawa",
+            "hr": "Warszawa",
+            "cs": "Warszawa",
+            "sk": "Warszawa",
+            "hu": "Warszawa"
+          }
+        },
+        {
+          "id": "radom",
+          "name": {
+            "pl": "Radom",
+            "en": "Radom",
+            "de": "Radom",
+            "hr": "Radom",
+            "cs": "Radom",
+            "sk": "Radom",
+            "hu": "Radom"
+          }
+        },
+        {
+          "id": "siedlce",
+          "name": {
+            "pl": "Siedlce",
+            "en": "Siedlce",
+            "de": "Siedlce",
+            "hr": "Siedlce",
+            "cs": "Siedlce",
+            "sk": "Siedlce",
+            "hu": "Siedlce"
+          }
+        },
+        {
+          "id": "ostroleka",
+          "name": {
+            "pl": "Ostrołęka",
+            "en": "Ostrołęka",
+            "de": "Ostrołęka",
+            "hr": "Ostrołęka",
+            "cs": "Ostrołęka",
+            "sk": "Ostrołęka",
+            "hu": "Ostrołęka"
+          }
+        },
+        {
+          "id": "plock",
+          "name": {
+            "pl": "Płock",
+            "en": "Płock",
+            "de": "Płock",
+            "hr": "Płock",
+            "cs": "Płock",
+            "sk": "Płock",
+            "hu": "Płock"
+          }
+        }
+      ]
+    },
+    {
+      "code": "opolskie",
+      "name": {
+        "pl": "Opolskie",
+        "en": "Opole",
+        "de": "Opole",
+        "hr": "Opolskie",
+        "cs": "Opolské",
+        "sk": "Opolské",
+        "hu": "Opolskie"
+      },
+      "cities": [
+        {
+          "id": "opole",
+          "name": {
+            "pl": "Opole",
+            "en": "Opole",
+            "de": "Opole",
+            "hr": "Opole",
+            "cs": "Opole",
+            "sk": "Opole",
+            "hu": "Opole"
+          }
+        },
+        {
+          "id": "kedzierzyn_kozle",
+          "name": {
+            "pl": "Kędzierzyn-Koźle",
+            "en": "Kędzierzyn-Koźle",
+            "de": "Kędzierzyn-Koźle",
+            "hr": "Kędzierzyn-Koźle",
+            "cs": "Kędzierzyn-Koźle",
+            "sk": "Kędzierzyn-Koźle",
+            "hu": "Kędzierzyn-Koźle"
+          }
+        },
+        {
+          "id": "nysa",
+          "name": {
+            "pl": "Nysa",
+            "en": "Nysa",
+            "de": "Nysa",
+            "hr": "Nysa",
+            "cs": "Nysa",
+            "sk": "Nysa",
+            "hu": "Nysa"
+          }
+        },
+        {
+          "id": "kluczbork",
+          "name": {
+            "pl": "Kluczbork",
+            "en": "Kluczbork",
+            "de": "Kluczbork",
+            "hr": "Kluczbork",
+            "cs": "Kluczbork",
+            "sk": "Kluczbork",
+            "hu": "Kluczbork"
+          }
+        },
+        {
+          "id": "brzeg",
+          "name": {
+            "pl": "Brzeg",
+            "en": "Brzeg",
+            "de": "Brzeg",
+            "hr": "Brzeg",
+            "cs": "Brzeg",
+            "sk": "Brzeg",
+            "hu": "Brzeg"
+          }
+        }
+      ]
+    },
+    {
+      "code": "podkarpackie",
+      "name": {
+        "pl": "Podkarpackie",
+        "en": "Subcarpathian",
+        "de": "Karpatenvorland",
+        "hr": "Podkarpackie",
+        "cs": "Podkarpatské",
+        "sk": "Podkarpatské",
+        "hu": "Podkarpackie"
+      },
+      "cities": [
+        {
+          "id": "rzeszow",
+          "name": {
+            "pl": "Rzeszów",
+            "en": "Rzeszów",
+            "de": "Rzeszów",
+            "hr": "Rzeszów",
+            "cs": "Rzeszów",
+            "sk": "Rzeszów",
+            "hu": "Rzeszów"
+          }
+        },
+        {
+          "id": "przemysl",
+          "name": {
+            "pl": "Przemyśl",
+            "en": "Przemyśl",
+            "de": "Przemyśl",
+            "hr": "Przemyśl",
+            "cs": "Przemyśl",
+            "sk": "Przemyśl",
+            "hu": "Przemyśl"
+          }
+        },
+        {
+          "id": "krosno",
+          "name": {
+            "pl": "Krosno",
+            "en": "Krosno",
+            "de": "Krosno",
+            "hr": "Krosno",
+            "cs": "Krosno",
+            "sk": "Krosno",
+            "hu": "Krosno"
+          }
+        },
+        {
+          "id": "tarnobrzeg",
+          "name": {
+            "pl": "Tarnobrzeg",
+            "en": "Tarnobrzeg",
+            "de": "Tarnobrzeg",
+            "hr": "Tarnobrzeg",
+            "cs": "Tarnobrzeg",
+            "sk": "Tarnobrzeg",
+            "hu": "Tarnobrzeg"
+          }
+        },
+        {
+          "id": "mielec",
+          "name": {
+            "pl": "Mielec",
+            "en": "Mielec",
+            "de": "Mielec",
+            "hr": "Mielec",
+            "cs": "Mielec",
+            "sk": "Mielec",
+            "hu": "Mielec"
+          }
+        }
+      ]
+    },
+    {
+      "code": "podlaskie",
+      "name": {
+        "pl": "Podlaskie",
+        "en": "Podlaskie",
+        "de": "Podlachien",
+        "hr": "Podlaskie",
+        "cs": "Podleské",
+        "sk": "Podleské",
+        "hu": "Podlaskie"
+      },
+      "cities": [
+        {
+          "id": "bialystok",
+          "name": {
+            "pl": "Białystok",
+            "en": "Białystok",
+            "de": "Białystok",
+            "hr": "Białystok",
+            "cs": "Białystok",
+            "sk": "Białystok",
+            "hu": "Białystok"
+          }
+        },
+        {
+          "id": "suwalki",
+          "name": {
+            "pl": "Suwałki",
+            "en": "Suwałki",
+            "de": "Suwałki",
+            "hr": "Suwałki",
+            "cs": "Suwałki",
+            "sk": "Suwałki",
+            "hu": "Suwałki"
+          }
+        },
+        {
+          "id": "lomza",
+          "name": {
+            "pl": "Łomża",
+            "en": "Łomża",
+            "de": "Łomża",
+            "hr": "Łomża",
+            "cs": "Łomża",
+            "sk": "Łomża",
+            "hu": "Łomża"
+          }
+        },
+        {
+          "id": "augustow",
+          "name": {
+            "pl": "Augustów",
+            "en": "Augustów",
+            "de": "Augustów",
+            "hr": "Augustów",
+            "cs": "Augustów",
+            "sk": "Augustów",
+            "hu": "Augustów"
+          }
+        },
+        {
+          "id": "siemiatycze",
+          "name": {
+            "pl": "Siemiatycze",
+            "en": "Siemiatycze",
+            "de": "Siemiatycze",
+            "hr": "Siemiatycze",
+            "cs": "Siemiatycze",
+            "sk": "Siemiatycze",
+            "hu": "Siemiatycze"
+          }
+        }
+      ]
+    },
+    {
+      "code": "pomorskie",
+      "name": {
+        "pl": "Pomorskie",
+        "en": "Pomeranian",
+        "de": "Pommern",
+        "hr": "Pomorskie",
+        "cs": "Pomořské",
+        "sk": "Pomorské",
+        "hu": "Pomorskie"
+      },
+      "cities": [
+        {
+          "id": "gdansk",
+          "name": {
+            "pl": "Gdańsk",
+            "en": "Gdańsk",
+            "de": "Gdańsk",
+            "hr": "Gdańsk",
+            "cs": "Gdańsk",
+            "sk": "Gdańsk",
+            "hu": "Gdańsk"
+          }
+        },
+        {
+          "id": "gdynia",
+          "name": {
+            "pl": "Gdynia",
+            "en": "Gdynia",
+            "de": "Gdynia",
+            "hr": "Gdynia",
+            "cs": "Gdynia",
+            "sk": "Gdynia",
+            "hu": "Gdynia"
+          }
+        },
+        {
+          "id": "sopot",
+          "name": {
+            "pl": "Sopot",
+            "en": "Sopot",
+            "de": "Sopot",
+            "hr": "Sopot",
+            "cs": "Sopot",
+            "sk": "Sopot",
+            "hu": "Sopot"
+          }
+        },
+        {
+          "id": "slupsk",
+          "name": {
+            "pl": "Słupsk",
+            "en": "Słupsk",
+            "de": "Słupsk",
+            "hr": "Słupsk",
+            "cs": "Słupsk",
+            "sk": "Słupsk",
+            "hu": "Słupsk"
+          }
+        },
+        {
+          "id": "tczew",
+          "name": {
+            "pl": "Tczew",
+            "en": "Tczew",
+            "de": "Tczew",
+            "hr": "Tczew",
+            "cs": "Tczew",
+            "sk": "Tczew",
+            "hu": "Tczew"
+          }
+        }
+      ]
+    },
+    {
+      "code": "slaskie",
+      "name": {
+        "pl": "Śląskie",
+        "en": "Silesian",
+        "de": "Schlesien",
+        "hr": "Śląskie",
+        "cs": "Slezsko",
+        "sk": "Sliezsko",
+        "hu": "Śląskie"
+      },
+      "cities": [
+        {
+          "id": "katowice",
+          "name": {
+            "pl": "Katowice",
+            "en": "Katowice",
+            "de": "Katowice",
+            "hr": "Katowice",
+            "cs": "Katowice",
+            "sk": "Katowice",
+            "hu": "Katowice"
+          }
+        },
+        {
+          "id": "gliwice",
+          "name": {
+            "pl": "Gliwice",
+            "en": "Gliwice",
+            "de": "Gliwice",
+            "hr": "Gliwice",
+            "cs": "Gliwice",
+            "sk": "Gliwice",
+            "hu": "Gliwice"
+          }
+        },
+        {
+          "id": "zabrze",
+          "name": {
+            "pl": "Zabrze",
+            "en": "Zabrze",
+            "de": "Zabrze",
+            "hr": "Zabrze",
+            "cs": "Zabrze",
+            "sk": "Zabrze",
+            "hu": "Zabrze"
+          }
+        },
+        {
+          "id": "sosnowiec",
+          "name": {
+            "pl": "Sosnowiec",
+            "en": "Sosnowiec",
+            "de": "Sosnowiec",
+            "hr": "Sosnowiec",
+            "cs": "Sosnowiec",
+            "sk": "Sosnowiec",
+            "hu": "Sosnowiec"
+          }
+        },
+        {
+          "id": "bielsko_biala",
+          "name": {
+            "pl": "Bielsko-Biała",
+            "en": "Bielsko-Biała",
+            "de": "Bielsko-Biała",
+            "hr": "Bielsko-Biała",
+            "cs": "Bielsko-Biała",
+            "sk": "Bielsko-Biała",
+            "hu": "Bielsko-Biała"
+          }
+        }
+      ]
+    },
+    {
+      "code": "swietokrzyskie",
+      "name": {
+        "pl": "Świętokrzyskie",
+        "en": "Holy Cross",
+        "de": "Heiligkreuz",
+        "hr": "Świętokrzyskie",
+        "cs": "Svatokřížské",
+        "sk": "Svätokrížske",
+        "hu": "Świętokrzyskie"
+      },
+      "cities": [
+        {
+          "id": "kielce",
+          "name": {
+            "pl": "Kielce",
+            "en": "Kielce",
+            "de": "Kielce",
+            "hr": "Kielce",
+            "cs": "Kielce",
+            "sk": "Kielce",
+            "hu": "Kielce"
+          }
+        },
+        {
+          "id": "ostrowiec_swietokrzyski",
+          "name": {
+            "pl": "Ostrowiec Świętokrzyski",
+            "en": "Ostrowiec Świętokrzyski",
+            "de": "Ostrowiec Świętokrzyski",
+            "hr": "Ostrowiec Świętokrzyski",
+            "cs": "Ostrowiec Świętokrzyski",
+            "sk": "Ostrowiec Świętokrzyski",
+            "hu": "Ostrowiec Świętokrzyski"
+          }
+        },
+        {
+          "id": "starachowice",
+          "name": {
+            "pl": "Starachowice",
+            "en": "Starachowice",
+            "de": "Starachowice",
+            "hr": "Starachowice",
+            "cs": "Starachowice",
+            "sk": "Starachowice",
+            "hu": "Starachowice"
+          }
+        },
+        {
+          "id": "skarzysko_kamienna",
+          "name": {
+            "pl": "Skarżysko-Kamienna",
+            "en": "Skarżysko-Kamienna",
+            "de": "Skarżysko-Kamienna",
+            "hr": "Skarżysko-Kamienna",
+            "cs": "Skarżysko-Kamienna",
+            "sk": "Skarżysko-Kamienna",
+            "hu": "Skarżysko-Kamienna"
+          }
+        },
+        {
+          "id": "sandomierz",
+          "name": {
+            "pl": "Sandomierz",
+            "en": "Sandomierz",
+            "de": "Sandomierz",
+            "hr": "Sandomierz",
+            "cs": "Sandomierz",
+            "sk": "Sandomierz",
+            "hu": "Sandomierz"
+          }
+        }
+      ]
+    },
+    {
+      "code": "warminsko_mazurskie",
+      "name": {
+        "pl": "Warmińsko-mazurskie",
+        "en": "Warmian-Masurian",
+        "de": "Ermland-Masuren",
+        "hr": "Warmińsko-mazurskie",
+        "cs": "Varmijsko-mazurské",
+        "sk": "Varmijsko-mazurské",
+        "hu": "Warmińsko-mazurskie"
+      },
+      "cities": [
+        {
+          "id": "olsztyn",
+          "name": {
+            "pl": "Olsztyn",
+            "en": "Olsztyn",
+            "de": "Olsztyn",
+            "hr": "Olsztyn",
+            "cs": "Olsztyn",
+            "sk": "Olsztyn",
+            "hu": "Olsztyn"
+          }
+        },
+        {
+          "id": "elblag",
+          "name": {
+            "pl": "Elbląg",
+            "en": "Elbląg",
+            "de": "Elbląg",
+            "hr": "Elbląg",
+            "cs": "Elbląg",
+            "sk": "Elbląg",
+            "hu": "Elbląg"
+          }
+        },
+        {
+          "id": "elk",
+          "name": {
+            "pl": "Ełk",
+            "en": "Ełk",
+            "de": "Ełk",
+            "hr": "Ełk",
+            "cs": "Ełk",
+            "sk": "Ełk",
+            "hu": "Ełk"
+          }
+        },
+        {
+          "id": "mragowo",
+          "name": {
+            "pl": "Mrągowo",
+            "en": "Mrągowo",
+            "de": "Mrągowo",
+            "hr": "Mrągowo",
+            "cs": "Mrągowo",
+            "sk": "Mrągowo",
+            "hu": "Mrągowo"
+          }
+        },
+        {
+          "id": "ilawa",
+          "name": {
+            "pl": "Iława",
+            "en": "Iława",
+            "de": "Iława",
+            "hr": "Iława",
+            "cs": "Iława",
+            "sk": "Iława",
+            "hu": "Iława"
+          }
+        }
+      ]
+    },
+    {
+      "code": "wielkopolskie",
+      "name": {
+        "pl": "Wielkopolskie",
+        "en": "Greater Poland",
+        "de": "Großpolen",
+        "hr": "Wielkopolskie",
+        "cs": "Velkopolské",
+        "sk": "Veľkopoľské",
+        "hu": "Wielkopolskie"
+      },
+      "cities": [
+        {
+          "id": "poznan",
+          "name": {
+            "pl": "Poznań",
+            "en": "Poznań",
+            "de": "Poznań",
+            "hr": "Poznań",
+            "cs": "Poznań",
+            "sk": "Poznań",
+            "hu": "Poznań"
+          }
+        },
+        {
+          "id": "kalisz",
+          "name": {
+            "pl": "Kalisz",
+            "en": "Kalisz",
+            "de": "Kalisz",
+            "hr": "Kalisz",
+            "cs": "Kalisz",
+            "sk": "Kalisz",
+            "hu": "Kalisz"
+          }
+        },
+        {
+          "id": "konin",
+          "name": {
+            "pl": "Konin",
+            "en": "Konin",
+            "de": "Konin",
+            "hr": "Konin",
+            "cs": "Konin",
+            "sk": "Konin",
+            "hu": "Konin"
+          }
+        },
+        {
+          "id": "leszno",
+          "name": {
+            "pl": "Leszno",
+            "en": "Leszno",
+            "de": "Leszno",
+            "hr": "Leszno",
+            "cs": "Leszno",
+            "sk": "Leszno",
+            "hu": "Leszno"
+          }
+        },
+        {
+          "id": "pila",
+          "name": {
+            "pl": "Piła",
+            "en": "Piła",
+            "de": "Piła",
+            "hr": "Piła",
+            "cs": "Piła",
+            "sk": "Piła",
+            "hu": "Piła"
+          }
+        }
+      ]
+    },
+    {
+      "code": "zachodniopomorskie",
+      "name": {
+        "pl": "Zachodniopomorskie",
+        "en": "West Pomeranian",
+        "de": "Westpommern",
+        "hr": "Zachodniopomorskie",
+        "cs": "Západopomořské",
+        "sk": "Západopomorské",
+        "hu": "Zachodniopomorskie"
+      },
+      "cities": [
+        {
+          "id": "szczecin",
+          "name": {
+            "pl": "Szczecin",
+            "en": "Szczecin",
+            "de": "Szczecin",
+            "hr": "Szczecin",
+            "cs": "Szczecin",
+            "sk": "Szczecin",
+            "hu": "Szczecin"
+          }
+        },
+        {
+          "id": "koszalin",
+          "name": {
+            "pl": "Koszalin",
+            "en": "Koszalin",
+            "de": "Koszalin",
+            "hr": "Koszalin",
+            "cs": "Koszalin",
+            "sk": "Koszalin",
+            "hu": "Koszalin"
+          }
+        },
+        {
+          "id": "stargard",
+          "name": {
+            "pl": "Stargard",
+            "en": "Stargard",
+            "de": "Stargard",
+            "hr": "Stargard",
+            "cs": "Stargard",
+            "sk": "Stargard",
+            "hu": "Stargard"
+          }
+        },
+        {
+          "id": "swinoujscie",
+          "name": {
+            "pl": "Świnoujście",
+            "en": "Świnoujście",
+            "de": "Świnoujście",
+            "hr": "Świnoujście",
+            "cs": "Świnoujście",
+            "sk": "Świnoujście",
+            "hu": "Świnoujście"
+          }
+        },
+        {
+          "id": "kolobrzeg",
+          "name": {
+            "pl": "Kołobrzeg",
+            "en": "Kołobrzeg",
+            "de": "Kołobrzeg",
+            "hr": "Kołobrzeg",
+            "cs": "Kołobrzeg",
+            "sk": "Kołobrzeg",
+            "hu": "Kołobrzeg"
+          }
+        }
+      ]
+    }
+  ]
+}

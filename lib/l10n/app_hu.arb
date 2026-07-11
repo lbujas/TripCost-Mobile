@@ -1,0 +1,618 @@
+{
+  "@@locale": "hu",
+  "appTitle": "TripCost",
+  "homeSubtitle": "Tervezze meg autós útjának költségeit Európában",
+  "roadTripPlanner": "Roadtrip-Planer",
+  "roadTripPlannerSubtitle": "Üzemanyag, matricák és útdíjak egy helyen",
+  "planTrip": "Utazás tervezése",
+  "myCars": "Saját autók",
+  "tripHistory": "Utazáselőzmények",
+  "settings": "Beállítások",
+  "popularDirections": "Népszerű irányok",
+  "comingSoon": "Hamarosan",
+  "directionComingSoon": "Ez az irány hamarosan elérhető lesz.",
+  "routePolandToCroatia": "Lengyelország → Horvátország",
+  "browseRoutesIndividually": "Útvonalak egyenkénti böngészése",
+  "settingsTitle": "Beállítások",
+  "appearance": "Megjelenés",
+  "appearanceSubtitle": "Válassza ki az alkalmazás megjelenését",
+  "themeMode": "Téma mód",
+  "themeSystem": "Rendszer",
+  "themeLight": "Világos",
+  "themeDark": "Sötét",
+  "language": "Nyelv",
+  "languageSubtitle": "Válassza ki az alkalmazás nyelvét",
+  "languageSystem": "Rendszer",
+  "languagePolish": "Polski",
+  "languageEnglish": "English",
+  "languageGerman": "Deutsch",
+  "languageCroatian": "Hrvatski",
+  "languageCzech": "Čeština",
+  "languageSlovak": "Slovenčina",
+  "languageHungarian": "Magyar",
+  "currency": "Pénznem",
+  "autoCurrency": "Automatikus",
+  "preferredCurrency": "Előnyben részesített pénznem",
+  "displayCurrency": "Megjelenítési pénznem",
+  "currencyRatesUpdated": "Árfolyamok frissítve: {date}",
+  "@currencyRatesUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeRates": "Árfolyamok",
+  "exchangeRatesUpdatedDaily": "Naponta frissítve",
+  "exchangeRatesLastUpdate": "Utolsó frissítés: {date}",
+  "@exchangeRatesLastUpdate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeRatesLoading": "Árfolyamok betöltése...",
+  "exchangeRatesUnavailable": "Az árfolyamok nem érhetők el",
+  "exchangeRateEurToCurrency": "1 EUR = {rate} {currency}",
+  "@exchangeRateEurToCurrency": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      },
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "approximateValue": "Ca. {amount}",
+  "@approximateValue": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "tripDefaults": "Utazás alapértelmezései",
+  "tripDefaultsSubtitle": "Új számításoknál előre kitöltött értékek",
+  "defaultFuelPrice": "Alapértelmezett üzemanyagár (PLN/l)",
+  "defaultEurToPln": "Standard EUR–PLN árfolyam",
+  "defaultPeopleCount": "Alapértelmezett személyszám",
+  "defaultTripDays": "Alapértelmezett utazási napok",
+  "save": "Mentés",
+  "settingsSaved": "Beállítások mentve",
+  "couldNotLoadSettings": "A beállításokat nem sikerült betölteni.",
+  "errorInvalidNumbers": "Adjon meg érvényes számokat minden mezőben.",
+  "errorFuelEurPositive": "Az üzemanyagár és az EUR árfolyam nullánál nagyobb legyen.",
+  "errorPeopleMin": "A személyszámnak legalább 1-nek kell lennie.",
+  "errorTripDaysMin": "Az utazási napok számának legalább 1-nek kell lennie.",
+  "errorAllPositive": "Minden értéknek nullánál nagyobbnak kell lennie.",
+  "errorPeopleAtLeastOne": "A személyszámnak legalább 1-nek kell lennie.",
+  "selectCar": "Válasszon autót",
+  "addCar": "Autó hozzáadása",
+  "addCarTooltip": "Autó hozzáadása",
+  "deleteCar": "Autó törlése",
+  "cancel": "Mégse",
+  "delete": "Törlés",
+  "failedLoadCars": "Az autókat nem sikerült betölteni: {error}",
+  "@failedLoadCars": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noCarsYet": "Még nincsenek autók",
+  "noCarsSubtitle": "Adja hozzá az első autóját az utazási költségek tervezéséhez.",
+  "addFirstCar": "Erstes Autó hozzáadása",
+  "chooseCarForTrip": "Válasszon autót az utazáshoz",
+  "chooseCarForRoute": "Válasszon autót az útvonalhoz: {origin} → {destination}",
+  "@chooseCarForRoute": {
+    "placeholders": {
+      "origin": {
+        "type": "String"
+      },
+      "destination": {
+        "type": "String"
+      }
+    }
+  },
+  "edit": "Szerkesztés",
+  "fuelConsumption": "Kraftstoff: {fuelType} • {consumption} l/100 km",
+  "@fuelConsumption": {
+    "placeholders": {
+      "fuelType": {
+        "type": "String"
+      },
+      "consumption": {
+        "type": "String"
+      }
+    }
+  },
+  "editCar": "Autó szerkesztése",
+  "addCarTitle": "Autó hozzáadása",
+  "vehicleName": "Jármű neve",
+  "vehicleType": "Járműtípus",
+  "vehicleTypeMotorcycle": "Motorkerékpár",
+  "vehicleTypePassengerCar": "Személygépkocsi",
+  "vehicleTypePassengerCarWithTrailer": "Személygépkocsi + utánfutó",
+  "vehicleTypeCamper": "Lakóautó",
+  "vehicleTypeVanUpTo35t": "Kisteherautó 3,5 t-ig",
+  "fuelType": "Üzemanyagtípus",
+  "petrol": "Benzin",
+  "diesel": "Diesel",
+  "lpg": "LPG",
+  "consumptionLabel": "Fogyasztás (l/100 km)",
+  "saveChanges": "Módosítások mentése",
+  "errorEmptyName": "A jármű neve nem lehet üres.",
+  "errorConsumptionPositive": "A fogyasztásnak nullánál nagyobbnak kell lennie.",
+  "tripDetails": "Utazás részletei",
+  "tripSettings": "Utazási beállítások",
+  "tripSettingsSubtitle": "Ezután hasonlítsa össze az összes Lengyelország → Horvátország útvonalat",
+  "startCity": "Indulási város",
+  "chooseStartCity": "Indulási város wahlen",
+  "voivodeship": "Vojdaság",
+  "selectVoivodeship": "Válasszon vojdaságot",
+  "selectStartCity": "Válasszon indulási várost",
+  "originCityNotAvailableYet": "Az utazástervezés ehhez a városhoz még nem érhető el.",
+  "estimatedOneWayDistance": "Becsült egyirányú távolság: {distance} km",
+  "@estimatedOneWayDistance": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "estimatedOneWayDistanceLabel": "Becsült egyirányú távolság",
+  "useCustomDistance": "Egyéni távolság használata",
+  "customOneWayDistance": "Egyéni egyirányú távolság",
+  "distanceFromGoogleMaps": "Egyirányú távolság a Google Mapsből",
+  "usedCustomDistance": "Egyéni távolság használva",
+  "originCity": "Indulási város",
+  "distanceEstimateNotice": "A távolság becslés. Megadhatja a Google Maps saját távolságát.",
+  "openInGoogleMaps": "Megnyitás a Google Mapsben",
+  "openInGoogleMapsHint": "Ellenőrizze a vezetési távolságot a Google Mapsben, majd adja meg alább.",
+  "errorOriginCityRequired": "Válasszon indulási várost.",
+  "errorCustomDistancePositive": "Az egyéni távolságnak nullánál nagyobbnak kell lennie.",
+  "yes": "Igen",
+  "origin_city_krakow": "Krakau",
+  "origin_city_katowice": "Kattowitz",
+  "origin_city_wroclaw": "Breslau",
+  "origin_city_warsaw": "Warschau",
+  "origin_city_poznan": "Posen",
+  "origin_city_gdansk": "Danzig",
+  "origin_city_szczecin": "Stettin",
+  "origin_city_lodz": "Lodz",
+  "origin_city_rzeszow": "Rzeszow",
+  "origin_city_lublin": "Lublin",
+  "origin_city_bialystok": "Bialystok",
+  "tripDays": "Utazási napok",
+  "numberOfPeople": "Anzahl der fő",
+  "fuelPricePln": "Üzemanyagár (PLN/l)",
+  "eurToPlnRate": "EUR–PLN árfolyam",
+  "compareRoutes": "Útvonalak összehasonlítása",
+  "compareRoutesTitle": "Útvonalak összehasonlítása",
+  "failedCompareRoutes": "Az útvonalakat nem sikerült összehasonlítani: {error}",
+  "@failedCompareRoutes": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noRoutesFound": "Nem található útvonal Lengyelország → Horvátország.",
+  "daysPeopleRoute": "{days} nap • {people} fő • Lengyelország → Horvátország",
+  "@daysPeopleRoute": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "people": {
+        "type": "int"
+      }
+    }
+  },
+  "bestPrice": "Legjobb ár",
+  "costPerPerson": "Költség személyenként",
+  "fuelCost": "Üzemanyagköltség",
+  "vignetteCost": "Matricaköltség",
+  "tollCost": "Útdíjköltség",
+  "tripResult": "Utazási eredmény",
+  "totalTripCost": "Teljes utazási költség",
+  "saveTrip": "Utazás mentése",
+  "saveToHistory": "Mentés az előzményekbe",
+  "saved": "Mentve",
+  "tripSaved": "Utazás mentve",
+  "costBreakdown": "Kostenaufstellung",
+  "speedLimits": "Sebességkorlátozások",
+  "city": "Város",
+  "outsideCity": "Városon kívül",
+  "expressway": "Gyorsforgalmi út",
+  "motorway": "Autópálya",
+  "speedLimitNotice": "A sebességkorlátozások tájékoztató jellegűek. Mindig tartsa be az aktuális közúti jelzéseket.",
+  "fuelPricesOnRoute": "Üzemanyagárak ezen az útvonalon",
+  "localFuelPrice": "Lokalpreis",
+  "convertedFuelPrice": "Átváltott ár",
+  "averageFuelPriceUsed": "Átlagos üzemanyagár a számításhoz: {price}",
+  "@averageFuelPriceUsed": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "fuelTypeUsedForCalculation": "Für die Berechnung verwendeter Kraftstofftyp: {fuelType}",
+  "@fuelTypeUsedForCalculation": {
+    "placeholders": {
+      "fuelType": {
+        "type": "String"
+      }
+    }
+  },
+  "fuelPricesApproximateNotice": "Az üzemanyagárak tájékoztató jellegűek és töltőállomásonként eltérhetnek.",
+  "backendRatesTitle": "Árfolyamok és üzemanyagárak",
+  "exchangeRateValue": "1 EUR = {rate} PLN",
+  "@exchangeRateValue": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "averageFuelPriceLabel": "Átlagos üzemanyagár",
+  "averageFuelPriceEurValue": "Durchschnitt: {price} EUR/l",
+  "@averageFuelPriceEurValue": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "dataSourceUpdated": "Forrás: {source} • Aktualisiert: {date}",
+  "@dataSourceUpdated": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ecbDataSource": "EZB",
+  "backendDataSource": "Backend-API",
+  "localDefaultSource": "Helyi alapértelmezés",
+  "fuelLiters": "Üzemanyag liter",
+  "selectedVignettes": "Kiválasztott matricák",
+  "noVignettesRequired": "Nem szükséges matrica.",
+  "buyRequiredVignettesOnline": "Szükséges matricák online vásárlása",
+  "openOfficialWebsite": "Hivatalos weboldal megnyitása",
+  "officialProvider": "Offizieller Anbieter",
+  "vignetteType": "Matricatípus",
+  "noOnlinePurchaseRequired": "Ehhez az útvonalhoz nem szükséges online matricavásárlás.",
+  "couldNotOpenLink": "A linket nem sikerült megnyitni.",
+  "vignettePurchaseNotes_at": "Digitális matrica szükséges az osztrák autópályák használata előtt.",
+  "vignettePurchaseNotes_sk": "Vásároljon matricát a szlovákiai fizetős autópályákra való belépés előtt.",
+  "vignettePurchaseNotes_hu": "Vásároljon matricát a magyar fizetős autópályákra való belépés előtt.",
+  "vignettePurchaseNotes_si": "Vásároljon matricát a szlovén fizetős autópályákra való belépés előtt.",
+  "vignettePurchaseNotes_cz": "Vásároljon matricát a cseh fizetős autópályákra való belépés előtt.",
+  "selectedTolls": "Ausgewählte Mautstrecken",
+  "noTollsForRoute": "Nincs útdíj ezen az útvonalon.",
+  "officialVignettePurchaseLinks": "Hivatalos matricavásárlási linkek",
+  "speedLimitsOnRoute": "Sebességkorlátozások ezen az útvonalon",
+  "fuelPb95Label": "Pb95",
+  "notAvailable": "—",
+  "vignetteItem": "{countryCode} • {name} • {quantity} x {days} nap • {price}",
+  "@vignetteItem": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      },
+      "quantity": {
+        "type": "int"
+      },
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "routeFromTo": "{origin} → {destination}",
+  "@routeFromTo": {
+    "placeholders": {
+      "origin": {
+        "type": "String"
+      },
+      "destination": {
+        "type": "String"
+      }
+    }
+  },
+  "tripHistoryTitle": "Utazáselőzmények",
+  "couldNotLoadTrips": "A mentett utazásokat nem sikerült betölteni.",
+  "noSavedTrips": "Nincsenek mentett utazások",
+  "perPerson": "{amount} személyenként",
+  "@perPerson": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteTrip": "Utazás törlése",
+  "selectRoute": "Válasszon útvonalat",
+  "failedLoadRoutes": "Az útvonalakat nem sikerült betölteni: {error}",
+  "@failedLoadRoutes": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "chooseYourRoute": "Válassza ki az útvonalát",
+  "routeCorridor": "Útvonal korridor",
+  "distanceCalculatedLater": "A távolság később kerül kiszámításra",
+  "exactDistanceDependsOnStartAndDestination": "A pontos távolság az indulási várostól és a horvátországi céltól függ.",
+  "removeCarQuestion": "{carName} entfernen?",
+  "@removeCarQuestion": {
+    "placeholders": {
+      "carName": {
+        "type": "String"
+      }
+    }
+  },
+  "country_pl": "Lengyelország",
+  "country_hr": "Horvátország",
+  "country_sk": "Szlovákia",
+  "country_hu": "Magyarország",
+  "country_at": "Ausztria",
+  "country_si": "Szlovénia",
+  "country_cz": "Csehország",
+  "country_de": "Németország",
+  "tripType": "Reisetyp",
+  "tripTypeOneWay": "Egy irány",
+  "tripTypeRoundTrip": "Oda-vissza",
+  "extraLocalKilometers": "További helyi kilométerek",
+  "errorExtraDistanceNegative": "A többlettávolságnak nullának vagy nagyobbnak kell lennie.",
+  "oneWayDistance": "Egyirányú távolság",
+  "totalCalculatedDistance": "Összes számított távolság",
+  "croatiaDestination": "Kroatisches Úti cél",
+  "selectCroatiaDestination": "Úti cél Horvátországban wahlen",
+  "allRegions": "Minden régió",
+  "backToRegions": "Minden régió",
+  "destinationsCount": "{count} cél",
+  "@destinationsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchDestinations": "Célok keresése",
+  "popularDestinations": "Népszerű célok",
+  "chooseTownOrClosestDestination": "Válassza ki a városát vagy a legközelebbi népszerű célt.",
+  "istria": "Istrien",
+  "kvarner": "Kvarner",
+  "zadarRegion": "Régió Zadar",
+  "sibenikRegion": "Régió Sibenik",
+  "splitRegion": "Régió Split",
+  "makarskaRiviera": "Makarska Riviera",
+  "ploceRegion": "Régió Ploce",
+  "dubrovnikRegion": "Régió Dubrovnik",
+  "selectedDestination": "Ausgewahltes Ziel",
+  "extraDistance": "További távolság",
+  "tollDestination": "Mautziel",
+  "recentDestinations": "Legutóbbi célok",
+  "destinationLabel": "Úti cél",
+  "regionLabel": "Régió",
+  "tollDestinationLabel": "Mautziel",
+  "noDestinationSelected": "Ziel auswahlen",
+  "errorDestinationRequired": "Válasszon úti célt Horvátországban.",
+  "region_istria": "Istrien",
+  "region_kvarner": "Kvarner",
+  "region_zadar": "Régió Zadar",
+  "region_sibenik": "Régió Sibenik",
+  "region_split": "Régió Split",
+  "region_makarska": "Makarska Riviera",
+  "region_ploce": "Régió Ploce",
+  "region_dubrovnik": "Régió Dubrovnik",
+  "destination_pula": "Pula",
+  "destination_rovinj": "Rovinj",
+  "destination_porec": "Porec",
+  "destination_umag": "Umag",
+  "destination_medulin": "Medulin",
+  "destination_fazana": "Fazana",
+  "destination_novigrad": "Novigrad",
+  "destination_vrsar": "Vrsar",
+  "destination_motovun": "Motovun",
+  "destination_rabac": "Rabac",
+  "destination_labin": "Labin",
+  "destination_lovran": "Lovran",
+  "destination_rijeka": "Rijeka",
+  "destination_opatija": "Opatija",
+  "destination_crikvenica": "Crikvenica",
+  "destination_selce": "Selce",
+  "destination_novi_vinodolski": "Novi Vinodolski",
+  "destination_krk": "Krk",
+  "destination_baska": "Baska",
+  "destination_malinska": "Malinska",
+  "destination_punat": "Punat",
+  "destination_rab": "Rab",
+  "destination_senj": "Senj",
+  "destination_delnice": "Delnice",
+  "destination_zadar": "Zadar",
+  "destination_biograd_na_moru": "Biograd na Moru",
+  "destination_sukosan": "Sukosan",
+  "destination_pakostane": "Pakostane",
+  "destination_nin": "Nin",
+  "destination_petrcane": "Petrcane",
+  "destination_pag": "Pag",
+  "destination_starigrad": "Starigrad",
+  "destination_vir": "Vir",
+  "destination_sibenik": "Sibenik",
+  "destination_vodice": "Vodice",
+  "destination_tribunj": "Tribunj",
+  "destination_primosten": "Primosten",
+  "destination_murter": "Murter",
+  "destination_rogoznica": "Rogoznica",
+  "destination_skradin": "Skradin",
+  "destination_tisno": "Tisno",
+  "destination_split": "Split",
+  "destination_trogir": "Trogir",
+  "destination_kastela": "Kastela",
+  "destination_podstrana": "Podstrana",
+  "destination_omis": "Omis",
+  "destination_solin": "Solin",
+  "destination_stobrec": "Stobrec",
+  "destination_dugi_rat": "Dugi Rat",
+  "destination_brela": "Brela",
+  "destination_baska_voda": "Baska Voda",
+  "destination_makarska": "Makarska",
+  "destination_tucepi": "Tucepi",
+  "destination_podgora": "Podgora",
+  "destination_igrane": "Igrane",
+  "destination_zivogosce": "Zivogosce",
+  "destination_drvenik": "Drvenik",
+  "destination_gradac": "Gradac",
+  "destination_ploce": "Ploce",
+  "destination_zaostrog": "Zaostrog",
+  "destination_dubrovnik": "Dubrovnik",
+  "destination_cavtat": "Cavtat",
+  "destination_mlini": "Mlini",
+  "destination_plat": "Plat",
+  "destination_slano": "Slano",
+  "destination_ston": "Ston",
+  "destination_orebic": "Orebic",
+  "aboutAndLegal": "Névjegy és jogi információk",
+  "aboutAndLegalSubtitle": "Alkalmazás-információk és adatvédelem",
+  "aboutApp": "Az alkalmazásról",
+  "privacyPolicy": "Adatvédelmi irányelvek",
+  "openSourceLicenses": "Nyílt forráskódú licencek",
+  "rateApp": "Alkalmazás értékelése",
+  "contact": "Kapcsolat",
+  "contactEmailSubject": "TripCost - Contact",
+  "appVersion": "Verzió {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutAppDescription": "Becsülje meg a Lengyelországból Horvátországba vezető út teljes költségét naprakész útvonal-információkkal és gyakorlati utazási adatokkal.",
+  "aboutAppDisclaimer": "A költségek becslések. Utazás előtt mindig ellenőrizze a hivatalos matrica-, útdíj- és üzemanyagárakat.",
+  "aboutAppFeatureFuelCost": "Üzemanyagköltség-számítás",
+  "aboutAppFeatureVignetteCost": "Matricaköltség-számítás",
+  "aboutAppFeatureTollCost": "Útdíj-számítás",
+  "aboutAppFeatureBackendFuelPrices": "Üzemanyagárak letöltése backend API-ból",
+  "aboutAppFeatureBackendExchangeRates": "Árfolyamok letöltése backend API-ból",
+  "aboutAppFeatureSpeedLimits": "Sebességkorlátozások az útvonalon",
+  "aboutAppFeatureVignetteLinks": "Hivatalos matricavásárlási linkek",
+  "aboutAppFeatureTripHistory": "Utazáselőzmények",
+  "aboutAppFeatureMultipleVehicles": "Több mentett jármű",
+  "aboutAppFeatureResultSharing": "Utazási eredmény megosztása",
+  "privacyPolicyLocalData": "Az utazási adatok, a mentett járművek és az alkalmazás beállításai helyileg, az eszközön tárolódnak.",
+  "privacyPolicyNoAccount": "Az alkalmazás nem igényel fiókot.",
+  "privacyPolicyExchangeRates": "Az árfolyamokat backend API-ból tölti le az alkalmazás a költségek megjelenítési pénznemre váltásához.",
+  "privacyPolicyFuelPrices": "Az átlagos üzemanyagárakat backend API-ból tölti le az alkalmazás az útvonal országaihoz.",
+  "privacyPolicyAdMob": "A Google AdMob banner- és teljes képernyős hirdetéseket jelenít meg.",
+  "privacyPolicyVignetteLinks": "A matricavásárlási linkek hivatalos kormányzati vagy üzemeltetői weboldalakat nyitnak meg a böngészőben.",
+  "openFullPrivacyPolicy": "Teljes adatvédelmi irányelvek megnyitása",
+  "shareTrip": "Utazás megosztása",
+  "shareResult": "Eredmény megosztása",
+  "tripSummary": "Utazás összefoglalója",
+  "generatedWith": "Létrehozva a következővel {appName}",
+  "@generatedWith": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "routeLabel": "Útvonal",
+  "appStatistics": "Alkalmazásstatisztikák",
+  "appStatisticsSubtitle": "Az alkalmazás használata",
+  "calculationsPerformed": "Elvégzett számítások",
+  "tripsSaved": "Mentett utazások",
+  "couldNotLoadStatistics": "A statisztikákat nem sikerült betölteni.",
+  "retry": "Újra",
+  "couldNotLoadData": "Az adatokat nem sikerült betölteni. Próbálja újra.",
+  "couldNotSaveTrip": "Az utazást nem sikerült menteni. Próbálja újra.",
+  "couldNotSaveSettings": "A beállításokat nem sikerült menteni. Próbálja újra.",
+  "couldNotSaveCar": "A járművet nem sikerült menteni. Próbálja újra.",
+  "removeTripQuestion": "Törli ezt a mentett utazást?",
+  "distanceEstimateUnavailable": "A távolságbecslés nem érhető el.",
+  "noDestinationsFound": "Nem található település.",
+  "noRoutesAvailable": "Nincs elérhető útvonal.",
+  "errorEmptyFuelType": "Az üzemanyagtípus nem lehet üres.",
+  "couldNotLoadPurchaseLinks": "A vásárlási linkek nem érhetők el.",
+  "tollItem": "{name} • {amount}",
+  "@tollItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "croatiaEntryGate": "Horvátországi belépési kapu",
+  "croatiaExitGate": "Autópálya-kijárati kapu",
+  "tollAccuracy": "Útdíj pontossága",
+  "estimatedToll": "Becsült",
+  "verifiedToll": "Ellenőrzött",
+  "motorwaySectionToDubrovnikNote": "Az útdíj a Dubrovnik felé vezető autópálya-szakaszra vonatkozik; további helyi utak is szükségesek lehetnek.",
+  "croatiaTollDetails": "Horvátországi útdíj",
+  "entryToBaseGate": "{entry} → {base}",
+  "@entryToBaseGate": {
+    "placeholders": {
+      "entry": {
+        "type": "String"
+      },
+      "base": {
+        "type": "String"
+      }
+    }
+  },
+  "baseGateToExit": "{base} → {exit}",
+  "@baseGateToExit": {
+    "placeholders": {
+      "base": {
+        "type": "String"
+      },
+      "exit": {
+        "type": "String"
+      }
+    }
+  },
+  "baseGate": "Basis-Mautstation",
+  "verified": "Ellenőrzött",
+  "estimated": "Becsült",
+  "tollSource": "Forrás",
+  "motorwayToDubrovnikNote": "Az autópálya-díj a Dubrovnik felé vezető szakaszra vonatkozik. Ploče után helyi utak is szükségesek lehetnek.",
+  "legacyTollFallbackUsed": "Régebbi útdíjadatok használva (a Lučko-modell nem érhető el ehhez az útvonalhoz).",
+  "croatiaTollOneWay": "Horvátországi útdíj (egy irányban)",
+  "roundTripTollTotal": "Oda-vissza útdíjak összesen",
+  "verifiedTollData": "Ellenőrzött útdíjadatok",
+  "estimatedTollData": "Becsült útdíjadatok",
+  "tollPriceDisclaimer": "Az útdíjak az utazás előtt változhatnak. Vásárlás vagy indulás előtt mindig ellenőrizze az aktuális hivatalos díjakat.",
+  "gate_gorican": "Goričan",
+  "gate_macelj": "Macelj",
+  "gate_rupa": "Rupa",
+  "gate_rijeka": "Rijeka",
+  "gate_pula": "Pula",
+  "gate_zadar": "Zadar",
+  "gate_sibenik": "Šibenik",
+  "gate_dugopolje": "Dugopolje",
+  "gate_vucevica": "Vučevica",
+  "gate_sestanovac": "Šestanovac",
+  "gate_zagvozd": "Zagvozd",
+  "gate_ploce": "Ploče",
+  "gate_dubrovnik": "Dubrovnik"
+}

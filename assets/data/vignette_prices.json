@@ -1,0 +1,100 @@
+[
+  {
+    "countryCode": "SK",
+    "name": "Slovakia 1-day vignette",
+    "price": 8.1,
+    "currency": "EUR",
+    "validityDays": 1
+  },
+  {
+    "countryCode": "SK",
+    "name": "Slovakia 10-day vignette",
+    "price": 10.8,
+    "currency": "EUR",
+    "validityDays": 10
+  },
+  {
+    "countryCode": "SK",
+    "name": "Slovakia 30-day vignette",
+    "price": 17.1,
+    "currency": "EUR",
+    "validityDays": 30
+  },
+  {
+    "countryCode": "HU",
+    "name": "Hungary 1-day vignette",
+    "price": 14.0,
+    "currency": "EUR",
+    "validityDays": 1
+  },
+  {
+    "countryCode": "HU",
+    "name": "Hungary 10-day vignette",
+    "price": 17.0,
+    "currency": "EUR",
+    "validityDays": 10
+  },
+  {
+    "countryCode": "HU",
+    "name": "Hungary monthly vignette",
+    "price": 28.0,
+    "currency": "EUR",
+    "validityDays": 30
+  },
+  {
+    "countryCode": "AT",
+    "name": "Austria 1-day vignette",
+    "price": 9.3,
+    "currency": "EUR",
+    "validityDays": 1
+  },
+  {
+    "countryCode": "AT",
+    "name": "Austria 10-day vignette",
+    "price": 12.4,
+    "currency": "EUR",
+    "validityDays": 10
+  },
+  {
+    "countryCode": "AT",
+    "name": "Austria 2-month vignette",
+    "price": 31.1,
+    "currency": "EUR",
+    "validityDays": 60
+  },
+  {
+    "countryCode": "SI",
+    "name": "Slovenia 7-day vignette",
+    "price": 16.0,
+    "currency": "EUR",
+    "validityDays": 7
+  },
+  {
+    "countryCode": "SI",
+    "name": "Slovenia monthly vignette",
+    "price": 32.0,
+    "currency": "EUR",
+    "validityDays": 30
+  },
+  {
+    "countryCode": "CZ",
+    "name": "Czech Republic 1-day vignette",
+    "price": 8.0,
+    "currency": "EUR",
+    "validityDays": 1
+  },
+  {
+    "countryCode": "CZ",
+    "name": "Czech Republic 10-day vignette",
+    "price": 12.0,
+    "currency": "EUR",
+    "validityDays": 10
+  },
+  {
+    "countryCode": "CZ",
+    "name": "Czech Republic 30-day vignette",
+    "price": 19.0,
+    "currency": "EUR",
+    "validityDays": 30
+  }
+]

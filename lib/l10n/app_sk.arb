@@ -1,0 +1,618 @@
+{
+  "@@locale": "sk",
+  "appTitle": "TripCost",
+  "homeSubtitle": "Naplánujte náklady na cestu autom po Európe",
+  "roadTripPlanner": "Plánovač ciest",
+  "roadTripPlannerSubtitle": "Palivo, diaľničné známky a poplatky na jednom mieste",
+  "planTrip": "Naplánovať cestu",
+  "myCars": "Moje autá",
+  "tripHistory": "História ciest",
+  "settings": "Nastavenia",
+  "popularDirections": "Obľúbené smery",
+  "comingSoon": "Čoskoro",
+  "directionComingSoon": "Tento smer bude čoskoro dostupný.",
+  "routePolandToCroatia": "Poľsko → Chorvátsko",
+  "browseRoutesIndividually": "Prehliadať trasy jednotlivo",
+  "settingsTitle": "Nastavenia",
+  "appearance": "Vzhľad",
+  "appearanceSubtitle": "Vyberte vzhľad aplikácie",
+  "themeMode": "Režim motívu",
+  "themeSystem": "Systémový",
+  "themeLight": "Svetlý",
+  "themeDark": "Tmavý",
+  "language": "Jazyk",
+  "languageSubtitle": "Vyberte jazyk aplikácie",
+  "languageSystem": "Systémový",
+  "languagePolish": "Polski",
+  "languageEnglish": "English",
+  "languageGerman": "Deutsch",
+  "languageCroatian": "Hrvatski",
+  "languageCzech": "Čeština",
+  "languageSlovak": "Slovenčina",
+  "languageHungarian": "Magyar",
+  "currency": "Mena",
+  "autoCurrency": "Automaticky",
+  "preferredCurrency": "Preferovaná mena",
+  "displayCurrency": "Mena zobrazenia",
+  "currencyRatesUpdated": "Kurzy aktualizované: {date}",
+  "@currencyRatesUpdated": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeRates": "Výmenné kurzy",
+  "exchangeRatesUpdatedDaily": "Aktualizované denne",
+  "exchangeRatesLastUpdate": "Posledná aktualizácia: {date}",
+  "@exchangeRatesLastUpdate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "exchangeRatesLoading": "Načítavanie výmenných kurzov...",
+  "exchangeRatesUnavailable": "Výmenné kurzy nie sú k dispozícii",
+  "exchangeRateEurToCurrency": "1 EUR = {rate} {currency}",
+  "@exchangeRateEurToCurrency": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      },
+      "currency": {
+        "type": "String"
+      }
+    }
+  },
+  "approximateValue": "Ok. {amount}",
+  "@approximateValue": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "tripDefaults": "Predvolené nastavenia cesty",
+  "tripDefaultsSubtitle": "Hodnoty predvyplnené pri nových výpočtoch",
+  "defaultFuelPrice": "Predvolená cena paliva (PLN/l)",
+  "defaultEurToPln": "Predvolený kurz EUR na PLN",
+  "defaultPeopleCount": "Predvolený počet osôb",
+  "defaultTripDays": "Predvolený počet dní cesty",
+  "save": "Uložiť",
+  "settingsSaved": "Nastavenia uložené",
+  "couldNotLoadSettings": "Nepodarilo sa načítať nastavenia.",
+  "errorInvalidNumbers": "Zadajte platné čísla vo všetkých poliach.",
+  "errorFuelEurPositive": "Cena paliva a kurz EUR musia byť väčšie ako nula.",
+  "errorPeopleMin": "Počet osôb musí byť aspoň 1.",
+  "errorTripDaysMin": "Počet dní cesty musí byť aspoň 1.",
+  "errorAllPositive": "Všetky hodnoty musia byť väčšie ako nula.",
+  "errorPeopleAtLeastOne": "Počet osôb musí byť aspoň 1.",
+  "selectCar": "Vyberte auto",
+  "addCar": "Pridať auto",
+  "addCarTooltip": "Pridať auto",
+  "deleteCar": "Odstrániť auto",
+  "cancel": "Zrušiť",
+  "delete": "Odstrániť",
+  "failedLoadCars": "Nepodarilo sa načítať autá: {error}",
+  "@failedLoadCars": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noCarsYet": "Žiadne autá",
+  "noCarsSubtitle": "Pridajte prvé auto a začnite plánovať náklady na cestu.",
+  "addFirstCar": "Pridať prvé auto",
+  "chooseCarForTrip": "Vyberte auto do podróży",
+  "chooseCarForRoute": "Vyberte auto na trasę {origin} → {destination}",
+  "@chooseCarForRoute": {
+    "placeholders": {
+      "origin": {
+        "type": "String"
+      },
+      "destination": {
+        "type": "String"
+      }
+    }
+  },
+  "edit": "Upraviť",
+  "fuelConsumption": "Paliwo: {fuelType} • {consumption} l/100 km",
+  "@fuelConsumption": {
+    "placeholders": {
+      "fuelType": {
+        "type": "String"
+      },
+      "consumption": {
+        "type": "String"
+      }
+    }
+  },
+  "editCar": "Upraviť auto",
+  "addCarTitle": "Pridať auto",
+  "vehicleName": "Názov vozidla",
+  "vehicleType": "Typ vozidla",
+  "vehicleTypeMotorcycle": "Motocykl",
+  "vehicleTypePassengerCar": "Osobné auto",
+  "vehicleTypePassengerCarWithTrailer": "Osobné auto + príves",
+  "vehicleTypeCamper": "Obytný automobil",
+  "vehicleTypeVanUpTo35t": "Dodávka do 3,5 t",
+  "fuelType": "Typ paliva",
+  "petrol": "Benzyna",
+  "diesel": "Diesel",
+  "lpg": "Gaz",
+  "consumptionLabel": "Spotreba (l/100 km)",
+  "saveChanges": "Uložiť zmeny",
+  "errorEmptyName": "Názov vozidla nie może być pusta.",
+  "errorConsumptionPositive": "Spotreba musí byť väčšia ako nula.",
+  "tripDetails": "Podrobnosti cesty",
+  "tripSettings": "Nastavenia cesty",
+  "tripSettingsSubtitle": "Potom porovnajte všetky trasy Poľsko → Chorvátsko",
+  "startCity": "Štartové mesto",
+  "chooseStartCity": "Vyberte východiskové mesto",
+  "voivodeship": "Vojvodstvo",
+  "selectVoivodeship": "Vyberte vojvodstvo",
+  "selectStartCity": "Vyberte štartové mesto",
+  "originCityNotAvailableYet": "Plánovanie cesty pre toto mesto zatiaľ nie je k dispozícii.",
+  "estimatedOneWayDistance": "Odhadovaná vzdialenosť v jednom smere: {distance} km",
+  "@estimatedOneWayDistance": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "estimatedOneWayDistanceLabel": "Odhadovaná vzdialenosť v jednom smere",
+  "useCustomDistance": "Použiť vlastnú vzdialenosť",
+  "customOneWayDistance": "Vlastná vzdialenosť v jednom smere",
+  "distanceFromGoogleMaps": "Vzdialenosť v jednom smere z Google Maps",
+  "usedCustomDistance": "Použila sa vlastná vzdialenosť",
+  "originCity": "Východiskové mesto",
+  "distanceEstimateNotice": "Vzdialenosť je odhad. Môžete zadať vlastnú vzdialenosť z Google Maps.",
+  "openInGoogleMaps": "Otvoriť v Google Maps",
+  "openInGoogleMapsHint": "Skontrolujte vzdialenosť jazdy v Google Maps a potom ju zadajte nižšie.",
+  "errorOriginCityRequired": "Vyberte východiskové mesto.",
+  "errorCustomDistancePositive": "Vlastná vzdialenosť musí byť väčšia ako nula.",
+  "yes": "Áno",
+  "origin_city_krakow": "Kraków",
+  "origin_city_katowice": "Katowice",
+  "origin_city_wroclaw": "Wrocław",
+  "origin_city_warsaw": "Warszawa",
+  "origin_city_poznan": "Poznań",
+  "origin_city_gdansk": "Gdańsk",
+  "origin_city_szczecin": "Szczecin",
+  "origin_city_lodz": "Łódź",
+  "origin_city_rzeszow": "Rzeszów",
+  "origin_city_lublin": "Lublin",
+  "origin_city_bialystok": "Białystok",
+  "tripDays": "Počet dní cesty",
+  "numberOfPeople": "Počet osôb",
+  "fuelPricePln": "Cena paliva (PLN/l)",
+  "eurToPlnRate": "Kurz EUR na PLN",
+  "compareRoutes": "Porovnať trasy",
+  "compareRoutesTitle": "Porovnať trasy",
+  "failedCompareRoutes": "Nepodarilo sa porovnať trasy: {error}",
+  "@failedCompareRoutes": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "noRoutesFound": "Nenašli sa žiadne trasy Poľsko → Chorvátsko.",
+  "daysPeopleRoute": "{days} dní • {people} osôb • Poľsko → Chorvátsko",
+  "@daysPeopleRoute": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "people": {
+        "type": "int"
+      }
+    }
+  },
+  "bestPrice": "Najlepšia cena",
+  "costPerPerson": "Náklady na osobu",
+  "fuelCost": "Náklady na palivo",
+  "vignetteCost": "Náklady na diaľničné známky",
+  "tollCost": "Náklady na poplatky",
+  "tripResult": "Výsledok cesty",
+  "totalTripCost": "Celkové náklady na cestu",
+  "saveTrip": "Uložiť cestu",
+  "saveToHistory": "Uložiť do histórie",
+  "saved": "Uložené",
+  "tripSaved": "Cesta uložená",
+  "costBreakdown": "Rozpis nákladov",
+  "speedLimits": "Obmedzenia rýchlosti",
+  "city": "Mesto",
+  "outsideCity": "Mimo mesta",
+  "expressway": "Rýchlostná cesta",
+  "motorway": "Diaľnica",
+  "speedLimitNotice": "Obmedzenia rýchlosti sú informatívne. Vždy dodržiavajte aktuálnu dopravnú signalizáciu.",
+  "fuelPricesOnRoute": "Ceny paliva na tejto trase",
+  "localFuelPrice": "Miestna cena",
+  "convertedFuelPrice": "Prepočítaná cena",
+  "averageFuelPriceUsed": "Priemerná cena paliva použitá na výpočet: {price}",
+  "@averageFuelPriceUsed": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "fuelTypeUsedForCalculation": "Typ paliva użyty do obliczeń: {fuelType}",
+  "@fuelTypeUsedForCalculation": {
+    "placeholders": {
+      "fuelType": {
+        "type": "String"
+      }
+    }
+  },
+  "fuelPricesApproximateNotice": "Ceny paliva sú orientačné a môžu sa líšiť podľa čerpacej stanice.",
+  "backendRatesTitle": "Kurzy a ceny paliva",
+  "exchangeRateValue": "1 EUR = {rate} PLN",
+  "@exchangeRateValue": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "averageFuelPriceLabel": "Priemerná cena paliva",
+  "averageFuelPriceEurValue": "Średnía: {price} EUR/l",
+  "@averageFuelPriceEurValue": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "dataSourceUpdated": "Zdroj: {source} • Aktualizacja: {date}",
+  "@dataSourceUpdated": {
+    "placeholders": {
+      "source": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "ecbDataSource": "EBC",
+  "backendDataSource": "API backendu",
+  "localDefaultSource": "Lokálne predvolené",
+  "fuelLiters": "Litrov paliva",
+  "selectedVignettes": "Vybrané diaľničné známky",
+  "noVignettesRequired": "Nevyžadujú sa žiadne diaľničné známky.",
+  "buyRequiredVignettesOnline": "Kúpte požadované diaľničné známky online",
+  "openOfficialWebsite": "Otvoriť oficiálnu stránku",
+  "officialProvider": "Oficiálny prevádzkovateľ",
+  "vignetteType": "Typ diaľničnej známky",
+  "noOnlinePurchaseRequired": "Pre túto trasu nie je potrebný online nákup diaľničných známok.",
+  "couldNotOpenLink": "Odkaz sa nepodarilo otvoriť.",
+  "vignettePurchaseNotes_at": "Pred vjazdom na rakúske diaľnice je potrebná elektronická diaľničná známka.",
+  "vignettePurchaseNotes_sk": "Kúpte diaľničnú známku pred vjazdom na spoplatnené diaľnice na Slovensku.",
+  "vignettePurchaseNotes_hu": "Kúpte diaľničnú známku pred vjazdom na spoplatnené diaľnice v Maďarsku.",
+  "vignettePurchaseNotes_si": "Kúpte diaľničnú známku pred vjazdom na spoplatnené diaľnice v Slovinsku.",
+  "vignettePurchaseNotes_cz": "Kúpte diaľničnú známku pred vjazdom na spoplatnené diaľnice v Česku.",
+  "selectedTolls": "Vybrané poplatky",
+  "noTollsForRoute": "Na tejto trase nie sú žiadne poplatky.",
+  "officialVignettePurchaseLinks": "Oficiálne odkazy na nákup diaľničných známok",
+  "speedLimitsOnRoute": "Obmedzenia rýchlosti na tejto trase",
+  "fuelPb95Label": "Pb95",
+  "notAvailable": "—",
+  "vignetteItem": "{countryCode} • {name} • {quantity} x {days} dní • {price}",
+  "@vignetteItem": {
+    "placeholders": {
+      "countryCode": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      },
+      "quantity": {
+        "type": "int"
+      },
+      "days": {
+        "type": "int"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "routeFromTo": "{origin} → {destination}",
+  "@routeFromTo": {
+    "placeholders": {
+      "origin": {
+        "type": "String"
+      },
+      "destination": {
+        "type": "String"
+      }
+    }
+  },
+  "tripHistoryTitle": "História ciest",
+  "couldNotLoadTrips": "Nepodarilo sa načítať uložené cesty.",
+  "noSavedTrips": "Žiadne uložené cesty",
+  "perPerson": "{amount} na osobu",
+  "@perPerson": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "deleteTrip": "Odstrániť cestu",
+  "selectRoute": "Vyberte trasu",
+  "failedLoadRoutes": "Nepodarilo sa načítať trasy: {error}",
+  "@failedLoadRoutes": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "chooseYourRoute": "Vyberte trasu",
+  "routeCorridor": "Koridor trasy",
+  "distanceCalculatedLater": "Vzdialenosť sa vypočíta neskôr",
+  "exactDistanceDependsOnStartAndDestination": "Presná vzdialenosť závisí od východiskového mesta a cieľa v Chorvátsku.",
+  "removeCarQuestion": "Odstrániť {carName}?",
+  "@removeCarQuestion": {
+    "placeholders": {
+      "carName": {
+        "type": "String"
+      }
+    }
+  },
+  "country_pl": "Poľsko",
+  "country_hr": "Chorvátsko",
+  "country_sk": "Slovensko",
+  "country_hu": "Maďarsko",
+  "country_at": "Austria",
+  "country_si": "Slovinsko",
+  "country_cz": "Česko",
+  "country_de": "Nemecko",
+  "tripType": "Typ cesty",
+  "tripTypeOneWay": "V jednom smere",
+  "tripTypeRoundTrip": "V oboch smeroch",
+  "extraLocalKilometers": "Dodatočné miestne kilometre",
+  "errorExtraDistanceNegative": "Dodatočná vzdialenosť musí byť nula alebo viac.",
+  "oneWayDistance": "Dystans w jedną stronę",
+  "totalCalculatedDistance": "Celková vypočítaná vzdialenosť",
+  "croatiaDestination": "Cieľ cesty v Chorvátsku",
+  "selectCroatiaDestination": "Vyberte cieľ cesty v Chorvátsku",
+  "allRegions": "Všetky regióny",
+  "backToRegions": "Všetky regióny",
+  "destinationsCount": "{count} miest",
+  "@destinationsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchDestinations": "Szukaj miest",
+  "popularDestinations": "Popularne miesta",
+  "chooseTownOrClosestDestination": "Wybierz swoje miasto lub najblizsze popularne mieste.",
+  "istria": "Istria",
+  "kvarner": "Kvarner",
+  "zadarRegion": "Region Zadar",
+  "sibenikRegion": "Region Szybenik",
+  "splitRegion": "Region Split",
+  "makarskaRiviera": "Riwiera Makarska",
+  "ploceRegion": "Region Ploce",
+  "dubrovnikRegion": "Region Dubrownik",
+  "selectedDestination": "Wybrane mieste",
+  "extraDistance": "Dodatočná vzdialenosť",
+  "tollDestination": "Úsek diaľnice",
+  "recentDestinations": "Ostatnie miesta",
+  "destinationLabel": "Cieľ cesty",
+  "regionLabel": "Region",
+  "tollDestinationLabel": "Úsek diaľnice",
+  "noDestinationSelected": "Vyberte cieľ cesty",
+  "errorDestinationRequired": "Vyberte cieľ cesty w Chorvátska.",
+  "region_istria": "Istria",
+  "region_kvarner": "Kvarner",
+  "region_zadar": "Region Zadar",
+  "region_sibenik": "Region Szybenik",
+  "region_split": "Region Split",
+  "region_makarska": "Riwiera Makarska",
+  "region_ploce": "Region Ploce",
+  "region_dubrovnik": "Region Dubrownik",
+  "destination_pula": "Pula",
+  "destination_rovinj": "Rovinj",
+  "destination_porec": "Porec",
+  "destination_umag": "Umag",
+  "destination_medulin": "Medulin",
+  "destination_fazana": "Fazana",
+  "destination_novigrad": "Novigrad",
+  "destination_vrsar": "Vrsar",
+  "destination_motovun": "Motovun",
+  "destination_rabac": "Rabac",
+  "destination_labin": "Labin",
+  "destination_lovran": "Lovran",
+  "destination_rijeka": "Rijeka",
+  "destination_opatija": "Opatija",
+  "destination_crikvenica": "Crikvenica",
+  "destination_selce": "Selce",
+  "destination_novi_vinodolski": "Novi Vinodolski",
+  "destination_krk": "Krk",
+  "destination_baska": "Baska",
+  "destination_malinska": "Malinska",
+  "destination_punat": "Punat",
+  "destination_rab": "Rab",
+  "destination_senj": "Senj",
+  "destination_delnice": "Delnice",
+  "destination_zadar": "Zadar",
+  "destination_biograd_na_moru": "Biograd na Moru",
+  "destination_sukosan": "Sukosan",
+  "destination_pakostane": "Pakostane",
+  "destination_nin": "Nin",
+  "destination_petrcane": "Petrcane",
+  "destination_pag": "Pag",
+  "destination_starigrad": "Starigrad",
+  "destination_vir": "Vir",
+  "destination_sibenik": "Szybenik",
+  "destination_vodice": "Vodice",
+  "destination_tribunj": "Tribunj",
+  "destination_primosten": "Primosten",
+  "destination_murter": "Murter",
+  "destination_rogoznica": "Rogoznica",
+  "destination_skradin": "Skradin",
+  "destination_tisno": "Tisno",
+  "destination_split": "Split",
+  "destination_trogir": "Trogir",
+  "destination_kastela": "Kastela",
+  "destination_podstrana": "Podstrana",
+  "destination_omis": "Omis",
+  "destination_solin": "Solin",
+  "destination_stobrec": "Stobrec",
+  "destination_dugi_rat": "Dugi Rat",
+  "destination_brela": "Brela",
+  "destination_baska_voda": "Baska Voda",
+  "destination_makarska": "Makarska",
+  "destination_tucepi": "Tucepi",
+  "destination_podgora": "Podgora",
+  "destination_igrane": "Igrane",
+  "destination_zivogosce": "Zivogosce",
+  "destination_drvenik": "Drvenik",
+  "destination_gradac": "Gradac",
+  "destination_ploce": "Ploce",
+  "destination_zaostrog": "Zaostrog",
+  "destination_dubrovnik": "Dubrownik",
+  "destination_cavtat": "Cavtat",
+  "destination_mlini": "Mlini",
+  "destination_plat": "Plat",
+  "destination_slano": "Slano",
+  "destination_ston": "Ston",
+  "destination_orebic": "Orebic",
+  "aboutAndLegal": "O aplikácii a právne",
+  "aboutAndLegalSubtitle": "Informácie o aplikácii a ochrane súkromia",
+  "aboutApp": "O aplikácii",
+  "privacyPolicy": "Zásady ochrany súkromia",
+  "openSourceLicenses": "Licencie otvoreného zdrojového kódu",
+  "rateApp": "Ohodnotiť aplikáciu",
+  "contact": "Kontakt",
+  "contactEmailSubject": "TripCost - Contact",
+  "appVersion": "Verzia {version}",
+  "@appVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "aboutAppDescription": "Odhadnite celkové náklady na cestu z Poľska do Chorvátska s aktuálnymi informáciami o trase a praktickými cestovnými údajmi.",
+  "aboutAppDisclaimer": "Náklady sú odhady. Pred cestou vždy overte oficiálne ceny diaľničných známok, mýtneho a paliva.",
+  "aboutAppFeatureFuelCost": "Výpočet nákladov na palivo",
+  "aboutAppFeatureVignetteCost": "Výpočet nákladov na diaľničné známky",
+  "aboutAppFeatureTollCost": "Výpočet mýtneho",
+  "aboutAppFeatureBackendFuelPrices": "Ceny paliva stiahnuté z backend API",
+  "aboutAppFeatureBackendExchangeRates": "Výmenné kurzy stiahnuté z backend API",
+  "aboutAppFeatureSpeedLimits": "Obmedzenia rýchlosti na trase",
+  "aboutAppFeatureVignetteLinks": "Oficiálne odkazy na nákup diaľničných známok",
+  "aboutAppFeatureTripHistory": "História ciest",
+  "aboutAppFeatureMultipleVehicles": "Viac uložených vozidiel",
+  "aboutAppFeatureResultSharing": "Zdieľanie výsledku cesty",
+  "privacyPolicyLocalData": "Údaje o cestách, uložené vozidlá a nastavenia aplikácie sú uložené lokálne vo vašom zariadení.",
+  "privacyPolicyNoAccount": "Aplikácia nevyžaduje účet.",
+  "privacyPolicyExchangeRates": "Výmenné kurzy sa sťahujú z backend API na prevod nákladov do zvolenej meny.",
+  "privacyPolicyFuelPrices": "Priemerné ceny paliva sa sťahujú z backend API pre krajiny na vašej trase.",
+  "privacyPolicyAdMob": "Google AdMob sa používa na zobrazovanie bannerových a celoobrazovkových reklám.",
+  "privacyPolicyVignetteLinks": "Odkazy na nákup diaľničných známok otvárajú oficiálne webové stránky štátu alebo prevádzkovateľa vo vašom prehliadači.",
+  "openFullPrivacyPolicy": "Otvoriť úplné zásady ochrany súkromia",
+  "shareTrip": "Zdieľať cestu",
+  "shareResult": "Zdieľať výsledok",
+  "tripSummary": "Zhrnutie cesty",
+  "generatedWith": "Vygenerované v {appName}",
+  "@generatedWith": {
+    "placeholders": {
+      "appName": {
+        "type": "String"
+      }
+    }
+  },
+  "routeLabel": "Trasa",
+  "appStatistics": "Štatistiky aplikácie",
+  "appStatisticsSubtitle": "Vaše používanie aplikácie",
+  "calculationsPerformed": "Vykonané výpočty",
+  "tripsSaved": "Uložené cesty",
+  "couldNotLoadStatistics": "Nepodarilo sa načítať štatistiky.",
+  "retry": "Skúsiť znova",
+  "couldNotLoadData": "Nepodarilo sa načítať údaje. Skúste to znova.",
+  "couldNotSaveTrip": "Cestu sa nepodarilo uložiť. Skúste to znova.",
+  "couldNotSaveSettings": "Nepodarilo sa uložiť nastavenia. Skúste to znova.",
+  "couldNotSaveCar": "Nepodarilo sa uložiť vozidlo. Skúste to znova.",
+  "removeTripQuestion": "Odstrániť tę zapisaną podróż?",
+  "distanceEstimateUnavailable": "Odhad vzdialenosti nie je dostupný.",
+  "noDestinationsFound": "Nie znaleziono miestowości.",
+  "noRoutesAvailable": "Nie sú dostupné žiadne trasy.",
+  "errorEmptyFuelType": "Typ paliva nie może być pusty.",
+  "couldNotLoadPurchaseLinks": "Odkazy na nákup nie sú dostupné.",
+  "tollItem": "{name} • {amount}",
+  "@tollItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "croatiaEntryGate": "Vstupná brána do Chorvátska",
+  "croatiaExitGate": "Výjazdná brána z diaľnice",
+  "tollAccuracy": "Presnosť poplatku",
+  "estimatedToll": "Odhadovaná",
+  "verifiedToll": "Overená",
+  "motorwaySectionToDubrovnikNote": "Poplatok zahŕňa úsek diaľnice smerom na Dubrovník; môžu sa vyžadovať ďalšie miestne cesty.",
+  "croatiaTollDetails": "Cestný poplatok Chorvátsko",
+  "entryToBaseGate": "{entry} → {base}",
+  "@entryToBaseGate": {
+    "placeholders": {
+      "entry": {
+        "type": "String"
+      },
+      "base": {
+        "type": "String"
+      }
+    }
+  },
+  "baseGateToExit": "{base} → {exit}",
+  "@baseGateToExit": {
+    "placeholders": {
+      "base": {
+        "type": "String"
+      },
+      "exit": {
+        "type": "String"
+      }
+    }
+  },
+  "baseGate": "Základná brána",
+  "verified": "Overená",
+  "estimated": "Odhadovaná",
+  "tollSource": "Zdroj",
+  "motorwayToDubrovnikNote": "Diaľničný poplatok zahŕňa úsek smerom na Dubrovník. Za Ploče môžu byť potrebné miestne cesty.",
+  "legacyTollFallbackUsed": "Použili sa staršie údaje o poplatkoch (model Lučko nie je dostupný pre túto trasu).",
+  "croatiaTollOneWay": "Cestný poplatok Chorvátsko (v jednom smere)",
+  "roundTripTollTotal": "Cestné poplatky v oboch smeroch",
+  "verifiedTollData": "Overené údaje o poplatkoch",
+  "estimatedTollData": "Odhadované údaje o poplatkoch",
+  "tollPriceDisclaimer": "Ceny poplatkov sa môžu pred cestou zmeniť. Pred nákupom alebo odchodom vždy overte aktuálne oficiálne sadzby.",
+  "gate_gorican": "Goričan",
+  "gate_macelj": "Macelj",
+  "gate_rupa": "Rupa",
+  "gate_rijeka": "Rijeka",
+  "gate_pula": "Pula",
+  "gate_zadar": "Zadar",
+  "gate_sibenik": "Šibenik",
+  "gate_dugopolje": "Dugopolje",
+  "gate_vucevica": "Vučevica",
+  "gate_sestanovac": "Šestanovac",
+  "gate_zagvozd": "Zagvozd",
+  "gate_ploce": "Ploče",
+  "gate_dubrovnik": "Dubrovnik"
+}

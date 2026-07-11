@@ -1,0 +1,38 @@
+[
+  {
+    "id": "hr_entry_gorican_to_lucko",
+    "entryGateId": "gorican",
+    "entryGateName": "Goričan",
+    "baseGateId": "lucko",
+    "baseGateName": "Zagreb/Lučko",
+    "amount": 5.80,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "Autopay calculator screenshot",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_entry_trakoscan_to_lucko",
+    "entryGateId": "trakoscan",
+    "entryGateName": "Trakošćan",
+    "baseGateId": "lucko",
+    "baseGateName": "Zagreb/Lučko",
+    "amount": 6.40,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "Autopay calculator screenshot",
+    "lastVerified": "2026-06-10"
+  },
+  {
+    "id": "hr_entry_bregana_to_lucko",
+    "entryGateId": "bregana",
+    "entryGateName": "Bregana",
+    "baseGateId": "lucko",
+    "baseGateName": "Zagreb/Lučko",
+    "amount": 0.90,
+    "currency": "EUR",
+    "accuracy": "verified",
+    "source": "Autopay calculator screenshot",
+    "lastVerified": "2026-06-10"
+  }
+]
