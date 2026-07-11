@@ -10,12 +10,12 @@ class Assets {
   static const String assetsDataTollPricesV2 = 'assets/data/toll_prices_v2.json';
   static const String assetsDataVignettePricesV2 = 'assets/data/vignette_prices_v2.json';
   static const String assetsGithubIccona = 'assets/github/iccona.png';
+  static const String assetsGithubScren = 'assets/github/scren.png';
   static const String assetsGithubScrenshot1 = 'assets/github/screnshot1.png';
   static const String assetsGithubScrenshot2 = 'assets/github/screnshot2.png';
   static const String assetsGithubScrenshot3 = 'assets/github/screnshot3.png';
   static const String assetsGithubScrenshot4 = 'assets/github/screnshot4.png';
   static const String assetsGithubScrenshot5 = 'assets/github/screnshot5.png';
-  static const String assetsGithubScrenshot6 = 'assets/github/screnshot6.png';
   static const String dataCroatiaDestinations = 'assets/data/croatia_destinations.json';
   static const String dataCroatiaEntryAdjustments = 'assets/data/croatia_entry_adjustments.json';
   static const String dataCroatiaLuckoExitTolls = 'assets/data/croatia_lucko_exit_tolls.json';
