@@ -3,11 +3,19 @@ class Assets {
   Assets._();
 
   static const String assetsDataCroatiaTollSegmentsV2 = 'assets/data/croatia_toll_segments_v2.json';
+  static const String assetsDataFerryPricesHr = 'assets/data/ferry_prices_hr.json';
   static const String assetsDataFerryRoutesHr = 'assets/data/ferry_routes_hr.json';
   static const String assetsDataPolishStartCitiesByVoivodeship = 'assets/data/polish_start_cities_by_voivodeship.json';
   static const String assetsDataSpeedLimitsV2 = 'assets/data/speed_limits_v2.json';
   static const String assetsDataTollPricesV2 = 'assets/data/toll_prices_v2.json';
   static const String assetsDataVignettePricesV2 = 'assets/data/vignette_prices_v2.json';
+  static const String assetsGithubIccona = 'assets/github/iccona.png';
+  static const String assetsGithubScrenshot1 = 'assets/github/screnshot1.png';
+  static const String assetsGithubScrenshot2 = 'assets/github/screnshot2.png';
+  static const String assetsGithubScrenshot3 = 'assets/github/screnshot3.png';
+  static const String assetsGithubScrenshot4 = 'assets/github/screnshot4.png';
+  static const String assetsGithubScrenshot5 = 'assets/github/screnshot5.png';
+  static const String assetsGithubScrenshot6 = 'assets/github/screnshot6.png';
   static const String dataCroatiaDestinations = 'assets/data/croatia_destinations.json';
   static const String dataCroatiaEntryAdjustments = 'assets/data/croatia_entry_adjustments.json';
   static const String dataCroatiaLuckoExitTolls = 'assets/data/croatia_lucko_exit_tolls.json';
@@ -29,6 +37,14 @@ class Assets {
   static const String dataVignettePrices = 'assets/data/vignette_prices.json';
   static const String dataVignettePricesV2 = 'assets/data/vignette_prices_v2.json';
   static const String dataVignettePurchaseLinks = 'assets/data/vignette_purchase_links.json';
+  static const String githubIccona = 'assets/github/iccona.png';
+  static const String githubScren = 'assets/github/scren.png';
+  static const String githubScrenshot1 = 'assets/github/screnshot1.png';
+  static const String githubScrenshot2 = 'assets/github/screnshot2.png';
+  static const String githubScrenshot3 = 'assets/github/screnshot3.png';
+  static const String githubScrenshot4 = 'assets/github/screnshot4.png';
+  static const String githubScrenshot5 = 'assets/github/screnshot5.png';
+  static const String githubScrenshot6 = 'assets/github/screnshot6.png';
   static const String imagesAppIcon = 'assets/images/app_icon.png';
   static const String imagesHeroHome = 'assets/images/hero_home.jpg';
   static const String imagesSplashScreen = 'assets/images/splash_screen.png';

@@ -15,4 +15,12 @@ class AssetsRes {
   static const String SPEED_LIMITS_V2 = 'assets/data/speed_limits_v2.json';
   static const String TOLL_PRICES_V2 = 'assets/data/toll_prices_v2.json';
   static const String VIGNETTE_PRICES_V2 = 'assets/data/vignette_prices_v2.json';
+  static const String ICCONA = 'assets/github/iccona.png';
+  static const String SCREN = 'assets/github/scren.png';
+  static const String SCRENSHOT1 = 'assets/github/screnshot1.png';
+  static const String SCRENSHOT2 = 'assets/github/screnshot2.png';
+  static const String SCRENSHOT3 = 'assets/github/screnshot3.png';
+  static const String SCRENSHOT4 = 'assets/github/screnshot4.png';
+  static const String SCRENSHOT5 = 'assets/github/screnshot5.png';
+  static const String SCRENSHOT6 = 'assets/github/screnshot6.png';
 }
