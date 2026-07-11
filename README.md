@@ -39,18 +39,18 @@ The application uses a custom FastAPI backend hosted on a VPS to provide up-to-d
 ## Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lbujas/TripCost-Mobile/main/assets/github/screenshot1.png" width="220">
-  <img src="assets/github/screenshot2.png" width="220">
+  <img src="assets/github/screnshot1.png" width="220">
+  <img src="assets/github/screnshot2.png" width="220">
 </p>
 
 <p align="center">
-  <img src="assets/github/screenshot3.png" width="220">
-  <img src="assets/github/screenshot4.png" width="220">
+  <img src="assets/github/screnshot3.png" width="220">
+  <img src="assets/github/screnshot4.png" width="220">
 </p>
 
 <p align="center">
-  <img src="assets/github/screenshot5.png" width="220">
-  <img src="assets/github/screenshot6.png" width="220">
+  <img src="assets/github/screnshot5.png" width="220">
+  <img src="assets/github/screnshot6.png" width="220">
 </p>
 
 ---
