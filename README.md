@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/github/icona.png" width="140" alt="TripCost Logo">
+  <img src="assets/github/iccona.png" width="140" alt="TripCost Logo">
 </p>
 
 <h1 align="center">TripCost</h1>
