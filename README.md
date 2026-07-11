@@ -39,18 +39,18 @@ The application uses a custom FastAPI backend hosted on a VPS to provide up-to-d
 ## Screenshots
 
 <p align="center">
-  <img src="assets/github/screnshot1.png" width="220">
-  <img src="assets/github/screnshot2.png" width="220">
+  <img src="assets/github/scren1.png" width="220">
+  <img src="assets/github/scren2.png" width="220">
 </p>
 
 <p align="center">
-  <img src="assets/github/screnshot3.png" width="220">
-  <img src="assets/github/screnshot4.png" width="220">
+  <img src="assets/github/scren3.png" width="220">
+  <img src="assets/github/scren4.png" width="220">
 </p>
 
 <p align="center">
-  <img src="assets/github/screnshot5.png" width="220">
-  <img src="assets/github/screnshot6.png" width="220">
+  <img src="assets/github/scren5.png" width="220">
+  <img src="assets/github/scren6.png" width="220">
 </p>
 
 ---

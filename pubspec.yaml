@@ -101,12 +101,12 @@ flutter:
     - assets/data/vignette_prices_v2.json
     - assets/github/iccona.png
     - assets/github/scren.png
-    - assets/github/screnshot1.png
-    - assets/github/screnshot2.png
-    - assets/github/screnshot3.png
-    - assets/github/screnshot4.png
-    - assets/github/screnshot5.png
-    - assets/github/screnshot6.png
+    - assets/github/scren1.png
+    - assets/github/scren2.png
+    - assets/github/scren3.png
+    - assets/github/scren4.png
+    - assets/github/scren5.png
+    - assets/github/scren6.png
     - assets/images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
