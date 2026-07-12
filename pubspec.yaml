@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.7+8
+version: 1.0.8+9
 
 environment:
   sdk: ^3.7.0
@@ -45,6 +45,8 @@ dependencies:
   google_mobile_ads: ^5.3.1
   http: ^1.4.0
   package_info_plus: ^8.3.0
+  pdf: ^3.11.3
+  printing: ^5.14.2
 
 dev_dependencies:
   flutter_test:
@@ -95,10 +97,12 @@ flutter:
     - assets/data/croatia_toll_segments_v2.json
     - assets/data/ferry_prices_hr.json
     - assets/data/ferry_routes_hr.json
+    - assets/data/packing_templates.json
     - assets/data/polish_start_cities_by_voivodeship.json
     - assets/data/speed_limits_v2.json
     - assets/data/toll_prices_v2.json
     - assets/data/vignette_prices_v2.json
+    - assets/fonts/
     - assets/github/iccona.png
     - assets/github/scren.png
     - assets/github/scren1.png
@@ -108,30 +112,13 @@ flutter:
     - assets/github/scren5.png
     - assets/github/scren6.png
     - assets/images/
+    - assets/fonts/NotoSans-Regular.ttf
+    - assets/fonts/NotoSans-Bold.ttf
 
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/to/resolution-aware-images
-
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/to/asset-from-package
-
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/to/font-from-package
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+        - asset: assets/fonts/NotoSans-Bold.ttf
+          weight: 700
 

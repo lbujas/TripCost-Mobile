@@ -7,14 +7,17 @@ class AssetsRes {
   AssetsRes._();
 
   static const String PROJECT_NAME = 'travel_cost_planner_europe';
-  static const String PROJECT_VERSION = '1.0.7+8';
+  static const String PROJECT_VERSION = '1.0.8+9';
   static const String CROATIA_TOLL_SEGMENTS_V2 = 'assets/data/croatia_toll_segments_v2.json';
   static const String FERRY_PRICES_HR = 'assets/data/ferry_prices_hr.json';
   static const String FERRY_ROUTES_HR = 'assets/data/ferry_routes_hr.json';
+  static const String PACKING_TEMPLATES = 'assets/data/packing_templates.json';
   static const String POLISH_START_CITIES_BY_VOIVODESHIP = 'assets/data/polish_start_cities_by_voivodeship.json';
   static const String SPEED_LIMITS_V2 = 'assets/data/speed_limits_v2.json';
   static const String TOLL_PRICES_V2 = 'assets/data/toll_prices_v2.json';
   static const String VIGNETTE_PRICES_V2 = 'assets/data/vignette_prices_v2.json';
+  static const String NOTOSANS_BOLD = 'assets/fonts/NotoSans-Bold.ttf';
+  static const String NOTOSANS_REGULAR = 'assets/fonts/NotoSans-Regular.ttf';
   static const String ICCONA = 'assets/github/iccona.png';
   static const String SCREN = 'assets/github/scren.png';
   static const String SCREN1 = 'assets/github/scren1.png';

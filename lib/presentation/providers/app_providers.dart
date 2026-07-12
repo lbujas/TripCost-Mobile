@@ -46,6 +46,18 @@ import 'package:travel_cost_planner_europe/data/sources/trip_local_source.dart';
 import 'package:travel_cost_planner_europe/data/sources/vignette_local_source.dart';
 import 'package:travel_cost_planner_europe/data/sources/vignette_prices_v2_local_source.dart';
 import 'package:travel_cost_planner_europe/data/sources/vignette_purchase_link_local_source.dart';
+import 'package:travel_cost_planner_europe/features/packing/data/repositories/packing_list_repository_impl.dart';
+import 'package:travel_cost_planner_europe/features/packing/data/repositories/packing_template_repository_impl.dart';
+import 'package:travel_cost_planner_europe/features/packing/data/sources/packing_list_local_source.dart';
+import 'package:travel_cost_planner_europe/features/packing/data/sources/system_packing_template_source.dart';
+import 'package:travel_cost_planner_europe/features/packing/data/sources/user_packing_template_local_source.dart';
+import 'package:travel_cost_planner_europe/features/packing/domain/repositories/packing_list_repository.dart';
+import 'package:travel_cost_planner_europe/features/packing/domain/repositories/packing_template_repository.dart';
+import 'package:travel_cost_planner_europe/features/packing/domain/services/packing_list_export_data_builder.dart';
+import 'package:travel_cost_planner_europe/features/packing/domain/services/packing_list_from_templates_service.dart';
+import 'package:travel_cost_planner_europe/features/packing/domain/services/packing_template_merge_service.dart';
+import 'package:travel_cost_planner_europe/features/packing/presentation/services/packing_list_pdf_service.dart';
+import 'package:travel_cost_planner_europe/features/packing/presentation/services/packing_pdf_fonts.dart';
 import 'package:travel_cost_planner_europe/domain/models/app_settings.dart';
 import 'package:travel_cost_planner_europe/domain/models/app_statistics.dart';
 import 'package:travel_cost_planner_europe/domain/models/car.dart';
@@ -145,15 +157,14 @@ final originCityLocalSourceProvider = Provider<OriginCityLocalSource>(
 
 final polishStartCitiesLocalSourceProvider =
     Provider<PolishStartCitiesLocalSource>(
-  (ref) => PolishStartCitiesLocalSource(ref.watch(jsonAssetLoaderProvider)),
-);
+      (ref) => PolishStartCitiesLocalSource(ref.watch(jsonAssetLoaderProvider)),
+    );
 
 final routeDistanceEstimateLocalSourceProvider =
     Provider<RouteDistanceEstimateLocalSource>(
-  (ref) => RouteDistanceEstimateLocalSource(
-    ref.watch(jsonAssetLoaderProvider),
-  ),
-);
+      (ref) =>
+          RouteDistanceEstimateLocalSource(ref.watch(jsonAssetLoaderProvider)),
+    );
 
 final carLocalSourceProvider = Provider<CarLocalSource>(
   (ref) => CarLocalSource(ref.watch(hiveServiceProvider)),
@@ -162,6 +173,20 @@ final carLocalSourceProvider = Provider<CarLocalSource>(
 final tripLocalSourceProvider = Provider<TripLocalSource>(
   (ref) => TripLocalSource(ref.watch(hiveServiceProvider)),
 );
+
+final packingListLocalSourceProvider = Provider<PackingListLocalSource>(
+  (ref) => PackingListLocalSource(ref.watch(hiveServiceProvider)),
+);
+
+final userPackingTemplateLocalSourceProvider =
+    Provider<UserPackingTemplateLocalSource>(
+      (ref) => UserPackingTemplateLocalSource(ref.watch(hiveServiceProvider)),
+    );
+
+final systemPackingTemplateSourceProvider =
+    Provider<SystemPackingTemplateSource>(
+      (ref) => SystemPackingTemplateSource(ref.watch(jsonAssetLoaderProvider)),
+    );
 
 final settingsLocalSourceProvider = Provider<SettingsLocalSource>(
   (ref) => SettingsLocalSource(ref.watch(hiveServiceProvider)),
@@ -177,15 +202,12 @@ final vignetteLocalSourceProvider = Provider<VignetteLocalSource>(
 
 final vignettePricesV2LocalSourceProvider =
     Provider<VignettePricesV2LocalSource>(
-  (ref) => VignettePricesV2LocalSource(ref.watch(jsonAssetLoaderProvider)),
-);
+      (ref) => VignettePricesV2LocalSource(ref.watch(jsonAssetLoaderProvider)),
+    );
 
-final vignettePurchaseLinkLocalSourceProvider =
-    Provider<VignettePurchaseLinkLocalSource>(
-  (ref) => VignettePurchaseLinkLocalSource(
-    ref.watch(jsonAssetLoaderProvider),
-  ),
-);
+final vignettePurchaseLinkLocalSourceProvider = Provider<
+  VignettePurchaseLinkLocalSource
+>((ref) => VignettePurchaseLinkLocalSource(ref.watch(jsonAssetLoaderProvider)));
 
 final tollLocalSourceProvider = Provider<TollLocalSource>(
   (ref) => TollLocalSource(ref.watch(jsonAssetLoaderProvider)),
@@ -197,11 +219,11 @@ final croatiaRegionLocalSourceProvider = Provider<CroatiaRegionLocalSource>(
 
 final croatiaDestinationLocalSourceProvider =
     Provider<CroatiaDestinationLocalSource>(
-  (ref) => CroatiaDestinationLocalSource(
-    ref.watch(jsonAssetLoaderProvider),
-    ref.watch(hiveServiceProvider),
-  ),
-);
+      (ref) => CroatiaDestinationLocalSource(
+        ref.watch(jsonAssetLoaderProvider),
+        ref.watch(hiveServiceProvider),
+      ),
+    );
 
 final croatiaTollLocalSourceProvider = Provider<CroatiaTollLocalSource>(
   (ref) => CroatiaTollLocalSource(ref.watch(jsonAssetLoaderProvider)),
@@ -209,23 +231,24 @@ final croatiaTollLocalSourceProvider = Provider<CroatiaTollLocalSource>(
 
 final croatiaTollMatrixLocalSourceProvider =
     Provider<CroatiaTollMatrixLocalSource>(
-  (ref) => CroatiaTollMatrixLocalSource(ref.watch(jsonAssetLoaderProvider)),
-);
+      (ref) => CroatiaTollMatrixLocalSource(ref.watch(jsonAssetLoaderProvider)),
+    );
 
 final croatiaEntryAdjustmentLocalSourceProvider =
     Provider<CroatiaEntryAdjustmentLocalSource>(
-  (ref) => CroatiaEntryAdjustmentLocalSource(ref.watch(jsonAssetLoaderProvider)),
-);
+      (ref) =>
+          CroatiaEntryAdjustmentLocalSource(ref.watch(jsonAssetLoaderProvider)),
+    );
 
-final croatiaLuckoExitTollLocalSourceProvider =
-    Provider<CroatiaLuckoExitTollLocalSource>(
-  (ref) => CroatiaLuckoExitTollLocalSource(ref.watch(jsonAssetLoaderProvider)),
-);
+final croatiaLuckoExitTollLocalSourceProvider = Provider<
+  CroatiaLuckoExitTollLocalSource
+>((ref) => CroatiaLuckoExitTollLocalSource(ref.watch(jsonAssetLoaderProvider)));
 
 final croatiaTollSegmentsV2LocalSourceProvider =
     Provider<CroatiaTollSegmentsV2LocalSource>(
-  (ref) => CroatiaTollSegmentsV2LocalSource(ref.watch(jsonAssetLoaderProvider)),
-);
+      (ref) =>
+          CroatiaTollSegmentsV2LocalSource(ref.watch(jsonAssetLoaderProvider)),
+    );
 
 final speedLimitsV2LocalSourceProvider = Provider<SpeedLimitsV2LocalSource>(
   (ref) => SpeedLimitsV2LocalSource(ref.watch(jsonAssetLoaderProvider)),
@@ -233,29 +256,29 @@ final speedLimitsV2LocalSourceProvider = Provider<SpeedLimitsV2LocalSource>(
 
 final speedLimitsV2ListProvider =
     FutureProvider<List<VehicleCategorySpeedLimit>>((ref) async {
-  return ref.watch(speedLimitsV2LocalSourceProvider).getAll();
-});
+      return ref.watch(speedLimitsV2LocalSourceProvider).getAll();
+    });
 
 final croatiaEntryAdjustmentRepositoryProvider =
     Provider<CroatiaEntryAdjustmentRepository>(
-  (ref) => CroatiaEntryAdjustmentRepositoryImpl(
-    ref.watch(croatiaEntryAdjustmentLocalSourceProvider),
-  ),
-);
+      (ref) => CroatiaEntryAdjustmentRepositoryImpl(
+        ref.watch(croatiaEntryAdjustmentLocalSourceProvider),
+      ),
+    );
 
 final croatiaLuckoExitTollRepositoryProvider =
     Provider<CroatiaLuckoExitTollRepository>(
-  (ref) => CroatiaLuckoExitTollRepositoryImpl(
-    ref.watch(croatiaLuckoExitTollLocalSourceProvider),
-  ),
-);
+      (ref) => CroatiaLuckoExitTollRepositoryImpl(
+        ref.watch(croatiaLuckoExitTollLocalSourceProvider),
+      ),
+    );
 
 final croatiaTollMatrixRepositoryProvider =
     Provider<CroatiaTollMatrixRepository>(
-  (ref) => CroatiaTollMatrixRepositoryImpl(
-    ref.watch(croatiaTollMatrixLocalSourceProvider),
-  ),
-);
+      (ref) => CroatiaTollMatrixRepositoryImpl(
+        ref.watch(croatiaTollMatrixLocalSourceProvider),
+      ),
+    );
 
 final routeRepositoryProvider = Provider<RouteRepository>(
   (ref) => RouteRepositoryImpl(ref.watch(routeLocalSourceProvider)),
@@ -267,10 +290,10 @@ final originCityRepositoryProvider = Provider<OriginCityRepository>(
 
 final routeDistanceEstimateRepositoryProvider =
     Provider<RouteDistanceEstimateRepository>(
-  (ref) => RouteDistanceEstimateRepositoryImpl(
-    ref.watch(routeDistanceEstimateLocalSourceProvider),
-  ),
-);
+      (ref) => RouteDistanceEstimateRepositoryImpl(
+        ref.watch(routeDistanceEstimateLocalSourceProvider),
+      ),
+    );
 
 final carRepositoryProvider = Provider<CarRepository>(
   (ref) => CarRepositoryImpl(ref.watch(carLocalSourceProvider)),
@@ -279,6 +302,41 @@ final carRepositoryProvider = Provider<CarRepository>(
 final tripRepositoryProvider = Provider<TripRepository>(
   (ref) => TripRepositoryImpl(ref.watch(tripLocalSourceProvider)),
 );
+
+final packingListRepositoryProvider = Provider<PackingListRepository>(
+  (ref) => PackingListRepositoryImpl(ref.watch(packingListLocalSourceProvider)),
+);
+
+final packingTemplateRepositoryProvider = Provider<PackingTemplateRepository>(
+  (ref) => PackingTemplateRepositoryImpl(
+    ref.watch(systemPackingTemplateSourceProvider),
+    ref.watch(userPackingTemplateLocalSourceProvider),
+  ),
+);
+
+final packingTemplateMergeServiceProvider =
+    Provider<PackingTemplateMergeService>(
+      (ref) => const PackingTemplateMergeService(),
+    );
+
+final packingListExportDataBuilderProvider =
+    Provider<PackingListExportDataBuilder>(
+      (ref) => const PackingListExportDataBuilder(),
+    );
+
+final packingListFromTemplatesServiceProvider =
+    Provider<PackingListFromTemplatesService>(
+      (ref) => PackingListFromTemplatesService(
+        ref.watch(packingTemplateMergeServiceProvider),
+      ),
+    );
+
+final packingListPdfServiceProvider = FutureProvider<PackingListPdfService>((
+  ref,
+) async {
+  final fonts = await PackingPdfFonts.load();
+  return PackingListPdfService(fonts);
+});
 
 final settingsRepositoryProvider = Provider<SettingsRepository>(
   (ref) => SettingsRepositoryImpl(ref.watch(settingsLocalSourceProvider)),
@@ -304,41 +362,45 @@ final vignetteRepositoryProvider = Provider<VignetteRepository>(
 
 final vignettePurchaseLinkRepositoryProvider =
     Provider<VignettePurchaseLinkRepository>(
-  (ref) => VignettePurchaseLinkRepositoryImpl(
-    ref.watch(vignettePurchaseLinkLocalSourceProvider),
-  ),
-);
+      (ref) => VignettePurchaseLinkRepositoryImpl(
+        ref.watch(vignettePurchaseLinkLocalSourceProvider),
+      ),
+    );
 
 final vignettePurchaseLinksProvider =
     FutureProvider<List<VignettePurchaseLink>>((ref) async {
-  return ref.watch(vignettePurchaseLinkRepositoryProvider).getAllPurchaseLinks();
-});
+      return ref
+          .watch(vignettePurchaseLinkRepositoryProvider)
+          .getAllPurchaseLinks();
+    });
 
-final vignettePurchaseEntriesProvider = FutureProvider.family<
-    List<VignettePurchaseEntry>, List<SelectedVignette>>((ref, vignettes) async {
-  return ref
-      .watch(vignettePurchaseLinkRepositoryProvider)
-      .getPurchaseEntriesForVignettes(vignettes);
-});
+final vignettePurchaseEntriesProvider =
+    FutureProvider.family<List<VignettePurchaseEntry>, List<SelectedVignette>>((
+      ref,
+      vignettes,
+    ) async {
+      return ref
+          .watch(vignettePurchaseLinkRepositoryProvider)
+          .getPurchaseEntriesForVignettes(vignettes);
+    });
 
 final tollRepositoryProvider = Provider<TollRepository>(
   (ref) => TollRepositoryImpl(ref.watch(tollLocalSourceProvider)),
 );
 
 final croatiaRegionRepositoryProvider = Provider<CroatiaRegionRepository>(
-  (ref) => CroatiaRegionRepositoryImpl(
-    ref.watch(croatiaRegionLocalSourceProvider),
-  ),
+  (ref) =>
+      CroatiaRegionRepositoryImpl(ref.watch(croatiaRegionLocalSourceProvider)),
 );
 
 final croatiaDestinationRepositoryProvider =
     Provider<CroatiaDestinationRepositoryImpl>(
-  (ref) => CroatiaDestinationRepositoryImpl(
-    ref.watch(croatiaDestinationLocalSourceProvider),
-    ref.watch(croatiaRegionLocalSourceProvider),
-    ref.watch(croatiaTollLocalSourceProvider),
-  ),
-);
+      (ref) => CroatiaDestinationRepositoryImpl(
+        ref.watch(croatiaDestinationLocalSourceProvider),
+        ref.watch(croatiaRegionLocalSourceProvider),
+        ref.watch(croatiaTollLocalSourceProvider),
+      ),
+    );
 
 final routesProvider = FutureProvider<List<RouteOption>>((ref) async {
   return ref.watch(routeRepositoryProvider).getAllRoutes();
@@ -360,7 +422,9 @@ final displayCurrencyProvider = Provider.family<String, Locale>((
   ref,
   deviceLocale,
 ) {
-  final settings = ref.watch(appSettingsProvider).maybeWhen(
+  final settings = ref
+      .watch(appSettingsProvider)
+      .maybeWhen(
         data: (settings) => settings,
         orElse: () => AppSettings.defaults(),
       );
@@ -371,8 +435,9 @@ final displayCurrencyProvider = Provider.family<String, Locale>((
   );
 });
 
-final croatiaDestinationsProvider =
-    FutureProvider<List<CroatiaDestination>>((ref) async {
+final croatiaDestinationsProvider = FutureProvider<List<CroatiaDestination>>((
+  ref,
+) async {
   return ref.watch(croatiaDestinationRepositoryProvider).getAllDestinations();
 });
 
@@ -384,47 +449,54 @@ final originCitiesProvider = FutureProvider<List<OriginCity>>((ref) async {
   return ref.watch(originCityRepositoryProvider).getAllOriginCities();
 });
 
-final polishVoivodeshipsProvider =
-    FutureProvider<List<PolishVoivodeship>>((ref) async {
+final polishVoivodeshipsProvider = FutureProvider<List<PolishVoivodeship>>((
+  ref,
+) async {
   return ref.watch(polishStartCitiesLocalSourceProvider).loadVoivodeships();
 });
 
-typedef DistancePreviewRequest = ({
-  String originCityId,
-  String croatiaDestinationId,
-  double destinationExtraDistanceKm,
-});
+typedef DistancePreviewRequest =
+    ({
+      String originCityId,
+      String croatiaDestinationId,
+      double destinationExtraDistanceKm,
+    });
 
 const defaultPreviewRouteId = 'pl_hr_sk_hu';
 
 final estimatedOneWayDistanceProvider =
-    FutureProvider.family<double?, DistancePreviewRequest>((ref, request) async {
-  return ref
-      .watch(routeDistanceEstimateRepositoryProvider)
-      .getEstimatedOneWayDistanceKm(
-        originCityId: request.originCityId,
-        croatiaDestinationId: request.croatiaDestinationId,
-        routeId: defaultPreviewRouteId,
-        destinationExtraDistanceKm: request.destinationExtraDistanceKm,
-        routeFallbackDistanceKm: 1125,
-      );
-});
+    FutureProvider.family<double?, DistancePreviewRequest>((
+      ref,
+      request,
+    ) async {
+      return ref
+          .watch(routeDistanceEstimateRepositoryProvider)
+          .getEstimatedOneWayDistanceKm(
+            originCityId: request.originCityId,
+            croatiaDestinationId: request.croatiaDestinationId,
+            routeId: defaultPreviewRouteId,
+            destinationExtraDistanceKm: request.destinationExtraDistanceKm,
+            routeFallbackDistanceKm: 1125,
+          );
+    });
 
 final costCalculationServiceProvider = Provider<CostCalculationService>(
   (ref) => CostCalculationService(
     vignetteRepository: ref.watch(vignetteRepositoryProvider),
-    vignettePricesV2LocalSource:
-        ref.watch(vignettePricesV2LocalSourceProvider),
+    vignettePricesV2LocalSource: ref.watch(vignettePricesV2LocalSourceProvider),
     tollRepository: ref.watch(tollRepositoryProvider),
-    croatiaDestinationRepository:
-        ref.watch(croatiaDestinationRepositoryProvider),
-    croatiaEntryAdjustmentRepository:
-        ref.watch(croatiaEntryAdjustmentRepositoryProvider),
-    croatiaLuckoExitTollRepository:
-        ref.watch(croatiaLuckoExitTollRepositoryProvider),
-    croatiaTollMatrixRepository:
-        ref.watch(croatiaTollMatrixRepositoryProvider),
-    croatiaTollSegmentsV2Reader:
-        ref.watch(croatiaTollSegmentsV2LocalSourceProvider),
+    croatiaDestinationRepository: ref.watch(
+      croatiaDestinationRepositoryProvider,
+    ),
+    croatiaEntryAdjustmentRepository: ref.watch(
+      croatiaEntryAdjustmentRepositoryProvider,
+    ),
+    croatiaLuckoExitTollRepository: ref.watch(
+      croatiaLuckoExitTollRepositoryProvider,
+    ),
+    croatiaTollMatrixRepository: ref.watch(croatiaTollMatrixRepositoryProvider),
+    croatiaTollSegmentsV2Reader: ref.watch(
+      croatiaTollSegmentsV2LocalSourceProvider,
+    ),
   ),
 );

@@ -5,6 +5,7 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:travel_cost_planner_europe/core/constants/ad_constants.dart';
 import 'package:travel_cost_planner_europe/core/utils/ad_audit_log.dart';
 import 'package:travel_cost_planner_europe/domain/models/ad_settings.dart';
+
 /// Manages banner and interstitial ads for the travel cost planner MVP.
 class AdService {
   AdService({AdSettings settings = const AdSettings()}) : _settings = settings;
@@ -42,7 +43,9 @@ class AdService {
       return;
     }
 
-    adAuditLog('AdService initialize (interstitialEnabled=${_settings.interstitialEnabled})');
+    adAuditLog(
+      'AdService initialize (interstitialEnabled=${_settings.interstitialEnabled})',
+    );
     await loadInterstitialAd();
   }
 
@@ -55,7 +58,9 @@ class AdService {
     disposeBannerAd();
 
     final adUnitId = AdConstants.bannerAdUnitId;
-    adAuditLog('BannerAd load start unitId=$adUnitId useTestAdUnits=${AdConstants.useTestAdUnits}');
+    adAuditLog(
+      'BannerAd load start unitId=$adUnitId useTestAdUnits=${AdConstants.useTestAdUnits}',
+    );
 
     try {
       final completer = Completer<BannerAd?>();
@@ -103,7 +108,9 @@ class AdService {
   }
 
   Future<void> loadInterstitialAd() async {
-    if (!isMobileAdsSupported || _interstitialLoading || _interstitialAd != null) {
+    if (!isMobileAdsSupported ||
+        _interstitialLoading ||
+        _interstitialAd != null) {
       return;
     }
 
@@ -172,7 +179,32 @@ class AdService {
 
     _interstitialAd = null;
     adAuditLog('Interstitial show attempt starting');
+    await _presentInterstitial(interstitial);
+  }
 
+  /// Shows a loaded interstitial immediately when one is available.
+  ///
+  /// Never waits for a new ad to load. Completes when the ad is dismissed,
+  /// fails to show, or is unavailable.
+  Future<void> showInterstitialIfLoaded() async {
+    if (!_settings.interstitialEnabled) {
+      adAuditLog('Interstitial show skipped: disabled');
+      return;
+    }
+
+    final interstitial = _interstitialAd;
+    if (interstitial == null) {
+      adAuditLog('Interstitial show skipped: not loaded');
+      unawaited(loadInterstitialAd());
+      return;
+    }
+
+    _interstitialAd = null;
+    adAuditLog('Interstitial show attempt starting (immediate)');
+    await _presentInterstitial(interstitial);
+  }
+
+  Future<void> _presentInterstitial(InterstitialAd interstitial) async {
     final completer = Completer<void>();
 
     interstitial.fullScreenContentCallback = FullScreenContentCallback(

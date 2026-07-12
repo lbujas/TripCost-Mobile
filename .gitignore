@@ -50,3 +50,6 @@ backend/__pycache__/
 backend/**/*.pyc
 backend/.env
 backend/.env.*
+
+test/.hive/
+test/.hive_widget/

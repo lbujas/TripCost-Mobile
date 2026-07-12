@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:travel_cost_planner_europe/presentation/screens/car_list_screen.dart';
 import 'package:travel_cost_planner_europe/presentation/screens/route_selection_screen.dart';
+import 'package:travel_cost_planner_europe/features/packing/presentation/screens/packing_lists_screen.dart';
 import 'package:travel_cost_planner_europe/presentation/screens/settings_screen.dart';
 import 'package:travel_cost_planner_europe/presentation/screens/trip_history_screen.dart';
 import 'package:travel_cost_planner_europe/presentation/theme/app_spacing.dart';
@@ -43,9 +44,7 @@ class HomeScreen extends StatelessWidget {
     final heroHeight = _heroHeight(context);
 
     return Scaffold(
-      appBar: AppBar(
-        actions: const [SettingsActionButton()],
-      ),
+      appBar: AppBar(actions: const [SettingsActionButton()]),
       body: SafeArea(
         bottom: false,
         child: ListView(
@@ -56,69 +55,80 @@ class HomeScreen extends StatelessWidget {
             AppSpacing.lg,
           ),
           children: [
-                  _HomeHeroSection(
-                    height: heroHeight,
-                    title: l10n.appTitle,
-                    subtitle: l10n.homeSubtitle,
-                    textStyles: textStyles,
+            _HomeHeroSection(
+              height: heroHeight,
+              title: l10n.appTitle,
+              subtitle: l10n.homeSubtitle,
+              textStyles: textStyles,
+            ),
+            const SizedBox(height: AppSpacing.md),
+            AppButton(
+              label: l10n.planTrip,
+              icon: Icons.travel_explore,
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder:
+                        (context) =>
+                            const CarListScreen(mode: CarListMode.select),
                   ),
-                  const SizedBox(height: AppSpacing.md),
-                  AppButton(
-                    label: l10n.planTrip,
-                    icon: Icons.travel_explore,
-                    onPressed: () {
-                      Navigator.of(context).push(
-                        MaterialPageRoute<void>(
-                          builder: (context) => const CarListScreen(
-                            mode: CarListMode.select,
-                          ),
-                        ),
-                      );
-                    },
+                );
+              },
+            ),
+            const SizedBox(height: AppSpacing.sm),
+            _SecondaryHomeButton(
+              label: l10n.myCars,
+              icon: Icons.directions_car_filled_outlined,
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (context) => const CarListScreen(),
                   ),
-                  const SizedBox(height: AppSpacing.sm),
-                  _SecondaryHomeButton(
-                    label: l10n.myCars,
-                    icon: Icons.directions_car_filled_outlined,
-                    onPressed: () {
-                      Navigator.of(context).push(
-                        MaterialPageRoute<void>(
-                          builder: (context) => const CarListScreen(),
-                        ),
-                      );
-                    },
+                );
+              },
+            ),
+            _SecondaryHomeButton(
+              label: l10n.tripHistory,
+              icon: Icons.history,
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (context) => const TripHistoryScreen(),
                   ),
-                  _SecondaryHomeButton(
-                    label: l10n.tripHistory,
-                    icon: Icons.history,
-                    onPressed: () {
-                      Navigator.of(context).push(
-                        MaterialPageRoute<void>(
-                          builder: (context) => const TripHistoryScreen(),
-                        ),
-                      );
-                    },
+                );
+              },
+            ),
+            _SecondaryHomeButton(
+              label: l10n.packingLists,
+              icon: Icons.luggage_outlined,
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (context) => const PackingListsScreen(),
                   ),
-                  _SecondaryHomeButton(
-                    label: l10n.settings,
-                    icon: Icons.settings_outlined,
-                    onPressed: () {
-                      Navigator.of(context).push(
-                        MaterialPageRoute<void>(
-                          builder: (context) => const SettingsScreen(),
-                        ),
-                      );
-                    },
+                );
+              },
+            ),
+            _SecondaryHomeButton(
+              label: l10n.settings,
+              icon: Icons.settings_outlined,
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute<void>(
+                    builder: (context) => const SettingsScreen(),
                   ),
-                  const SizedBox(height: AppSpacing.xl),
-                  SectionTitle(title: l10n.popularDirections),
-                  ..._popularOriginCountryCodes.map(
-                    (originCode) => PopularDirectionCard(
-                      originCountryCode: originCode,
-                      isActive: originCode == 'PL',
-                      onTap: () => _onDirectionTap(context, originCode),
-                    ),
-                  ),
+                );
+              },
+            ),
+            const SizedBox(height: AppSpacing.xl),
+            SectionTitle(title: l10n.popularDirections),
+            ..._popularOriginCountryCodes.map(
+              (originCode) => PopularDirectionCard(
+                originCountryCode: originCode,
+                isActive: originCode == 'PL',
+                onTap: () => _onDirectionTap(context, originCode),
+              ),
+            ),
           ],
         ),
       ),
@@ -137,9 +147,9 @@ class HomeScreen extends StatelessWidget {
     }
 
     final l10n = AppLocalizations.of(context);
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text(l10n.directionComingSoon)),
-    );
+    ScaffoldMessenger.of(
+      context,
+    ).showSnackBar(SnackBar(content: Text(l10n.directionComingSoon)));
   }
 }
 
@@ -166,10 +176,7 @@ class _HomeHeroSection extends StatelessWidget {
         child: Stack(
           fit: StackFit.expand,
           children: [
-            Image.asset(
-              'assets/images/hero_home.jpg',
-              fit: BoxFit.cover,
-            ),
+            Image.asset('assets/images/hero_home.jpg', fit: BoxFit.cover),
             DecoratedBox(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
@@ -211,10 +218,7 @@ class _HomeHeroSection extends StatelessWidget {
                       color: Colors.white.withValues(alpha: 0.88),
                       height: 1.25,
                       shadows: const [
-                        Shadow(
-                          blurRadius: 8,
-                          color: Color(0x80000000),
-                        ),
+                        Shadow(blurRadius: 8, color: Color(0x80000000)),
                       ],
                     ),
                   ),

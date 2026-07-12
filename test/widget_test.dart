@@ -23,6 +23,25 @@ void main() {
     await Hive.close();
   });
 
+  setUp(() {
+    final binding = TestWidgetsFlutterBinding.instance;
+    binding.platformDispatcher.views.first.physicalSize = const Size(800, 600);
+    binding.platformDispatcher.views.first.devicePixelRatio = 1.0;
+  });
+
+  tearDown(() {
+    final binding = TestWidgetsFlutterBinding.instance;
+    binding.platformDispatcher.views.first.resetPhysicalSize();
+    binding.platformDispatcher.views.first.resetDevicePixelRatio();
+  });
+
+  Future<void> tapHomeMenuItem(WidgetTester tester, String label) async {
+    final item = find.text(label);
+    await tester.ensureVisible(item);
+    await tester.pump();
+    await tester.tap(item);
+  }
+
   Future<void> pumpEnglishApp(WidgetTester tester) async {
     await tester.pumpWidget(
       ProviderScope(
@@ -48,6 +67,23 @@ void main() {
     expect(find.text('Plan trip'), findsOneWidget);
     expect(find.text('My cars'), findsOneWidget);
     expect(find.text('Trip history'), findsOneWidget);
+
+    await tester.scrollUntilVisible(
+      find.text('Packing Lists'),
+      250,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.pump();
+
+    expect(find.text('Packing Lists'), findsOneWidget);
+
+    await tester.scrollUntilVisible(
+      find.text('Settings'),
+      250,
+      scrollable: find.byType(Scrollable).first,
+    );
+    await tester.pump();
+
     expect(find.text('Settings'), findsOneWidget);
   });
 
@@ -93,7 +129,7 @@ void main() {
   testWidgets('Trip history opens from home', (tester) async {
     await pumpEnglishApp(tester);
 
-    await tester.tap(find.text('Trip history'));
+    await tapHomeMenuItem(tester, 'Trip history');
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 300));
 
@@ -104,7 +140,7 @@ void main() {
   testWidgets('Car list opens from home', (tester) async {
     await pumpEnglishApp(tester);
 
-    await tester.tap(find.text('My cars'));
+    await tapHomeMenuItem(tester, 'My cars');
     await tester.pump();
     await tester.pump(const Duration(milliseconds: 300));
 

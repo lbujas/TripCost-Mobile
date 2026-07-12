@@ -10,7 +10,8 @@ class AssetPaths {
       '$dataDir/vignette_purchase_links.json';
   static const String fuelPrices = '$dataDir/fuel_prices.json';
   static const String croatiaRegions = '$dataDir/croatia_regions.json';
-  static const String croatiaDestinations = '$dataDir/croatia_destinations.json';
+  static const String croatiaDestinations =
+      '$dataDir/croatia_destinations.json';
   static const String croatiaTolls = '$dataDir/croatia_tolls.json';
   static const String croatiaTollMatrix = '$dataDir/croatia_toll_matrix.json';
   static const String croatiaEntryAdjustments =
@@ -31,4 +32,5 @@ class AssetPaths {
       '$dataDir/croatia_toll_segments_v2.json';
   static const String ferryRoutesHr = '$dataDir/ferry_routes_hr.json';
   static const String ferryPricesHr = '$dataDir/ferry_prices_hr.json';
+  static const String packingTemplates = '$dataDir/packing_templates.json';
 }

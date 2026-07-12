@@ -1,0 +1,1 @@
+enum PackingCheckboxMode { empty, currentState }

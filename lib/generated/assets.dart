@@ -5,6 +5,7 @@ class Assets {
   static const String assetsDataCroatiaTollSegmentsV2 = 'assets/data/croatia_toll_segments_v2.json';
   static const String assetsDataFerryPricesHr = 'assets/data/ferry_prices_hr.json';
   static const String assetsDataFerryRoutesHr = 'assets/data/ferry_routes_hr.json';
+  static const String assetsDataPackingTemplates = 'assets/data/packing_templates.json';
   static const String assetsDataPolishStartCitiesByVoivodeship = 'assets/data/polish_start_cities_by_voivodeship.json';
   static const String assetsDataSpeedLimitsV2 = 'assets/data/speed_limits_v2.json';
   static const String assetsDataTollPricesV2 = 'assets/data/toll_prices_v2.json';
@@ -12,6 +13,7 @@ class Assets {
   static const String assetsGithubIccona = 'assets/github/iccona.png';
   static const String assetsGithubScren = 'assets/github/scren.png';
   static const String assetsGithubScren1 = 'assets/github/scren1.png';
+  static const String assetsGithubScren2 = 'assets/github/scren2.png';
   static const String assetsGithubScren3 = 'assets/github/scren3.png';
   static const String assetsGithubScren4 = 'assets/github/scren4.png';
   static const String assetsGithubScren5 = 'assets/github/scren5.png';
@@ -28,6 +30,7 @@ class Assets {
   static const String dataFerryRoutesHr = 'assets/data/ferry_routes_hr.json';
   static const String dataFuelPrices = 'assets/data/fuel_prices.json';
   static const String dataOriginCities = 'assets/data/origin_cities.json';
+  static const String dataPackingTemplates = 'assets/data/packing_templates.json';
   static const String dataPolishStartCitiesByVoivodeship = 'assets/data/polish_start_cities_by_voivodeship.json';
   static const String dataRouteDistanceEstimates = 'assets/data/route_distance_estimates.json';
   static const String dataRoutes = 'assets/data/routes.json';
@@ -37,6 +40,7 @@ class Assets {
   static const String dataVignettePrices = 'assets/data/vignette_prices.json';
   static const String dataVignettePricesV2 = 'assets/data/vignette_prices_v2.json';
   static const String dataVignettePurchaseLinks = 'assets/data/vignette_purchase_links.json';
+  static const String fontsREADME = 'assets/fonts/README.md';
   static const String githubIccona = 'assets/github/iccona.png';
   static const String githubScren = 'assets/github/scren.png';
   static const String githubScren1 = 'assets/github/scren1.png';

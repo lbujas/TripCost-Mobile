@@ -1,0 +1,5574 @@
+[
+  {
+    "id": "sys_tpl_car_travel",
+    "nameKey": "packingTemplateCarTravel",
+    "descriptionKey": "packingTemplateCarTravelDesc",
+    "iconKey": "directions_car",
+    "groupKey": "packingTemplateGroupTransport",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "rt_driving_license",
+        "nameKey": "packingTemplateItemDrivingLicense",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "rt_car_documents",
+        "nameKey": "packingTemplateItemCarDocuments",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 1
+      },
+      {
+        "id": "rt_vehicle_registration",
+        "nameKey": "packingTemplateItemRtVehicleRegistration",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 2
+      },
+      {
+        "id": "rt_insurance_proof",
+        "nameKey": "packingTemplateItemRtInsuranceProof",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 3
+      },
+      {
+        "id": "rt_green_card",
+        "nameKey": "packingTemplateItemRtGreenCard",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 4
+      },
+      {
+        "id": "rt_roadside_assistance",
+        "nameKey": "packingTemplateItemRtRoadsideAssistance",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 5
+      },
+      {
+        "id": "rt_vignette_receipts",
+        "nameKey": "packingTemplateItemRtVignetteReceipts",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "rt_toll_badge",
+        "nameKey": "packingTemplateItemRtTollBadge",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 7,
+        "needsPurchase": true
+      },
+      {
+        "id": "rt_route_plan",
+        "nameKey": "packingTemplateItemRtRoutePlan",
+        "categoryKey": "packingTemplateCategoryRoutePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 8
+      },
+      {
+        "id": "rt_offline_maps",
+        "nameKey": "packingTemplateItemRtOfflineMaps",
+        "categoryKey": "packingTemplateCategoryRoutePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 9
+      },
+      {
+        "id": "rt_border_crossing_info",
+        "nameKey": "packingTemplateItemRtBorderCrossingInfo",
+        "categoryKey": "packingTemplateCategoryRoutePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 10
+      },
+      {
+        "id": "rt_vignette_requirements",
+        "nameKey": "packingTemplateItemRtVignetteRequirements",
+        "categoryKey": "packingTemplateCategoryRoutePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 11
+      },
+      {
+        "id": "rt_toll_routes",
+        "nameKey": "packingTemplateItemRtTollRoutes",
+        "categoryKey": "packingTemplateCategoryRoutePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "rt_rest_stops",
+        "nameKey": "packingTemplateItemRtRestStops",
+        "categoryKey": "packingTemplateCategoryRoutePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 13
+      },
+      {
+        "id": "rt_fuel_plan",
+        "nameKey": "packingTemplateItemRtFuelPlan",
+        "categoryKey": "packingTemplateCategoryRoutePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 14
+      },
+      {
+        "id": "rt_traffic_rules",
+        "nameKey": "packingTemplateItemRtTrafficRules",
+        "categoryKey": "packingTemplateCategoryRoutePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 15
+      },
+      {
+        "id": "rt_emergency_numbers",
+        "nameKey": "packingTemplateItemRtEmergencyNumbers",
+        "categoryKey": "packingTemplateCategoryRoutePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 16
+      },
+      {
+        "id": "rt_engine_oil_check",
+        "nameKey": "packingTemplateItemRtEngineOilCheck",
+        "categoryKey": "packingTemplateCategoryVehicleFluids",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 17
+      },
+      {
+        "id": "rt_coolant_check",
+        "nameKey": "packingTemplateItemRtCoolantCheck",
+        "categoryKey": "packingTemplateCategoryVehicleFluids",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 18
+      },
+      {
+        "id": "rt_brake_fluid_check",
+        "nameKey": "packingTemplateItemRtBrakeFluidCheck",
+        "categoryKey": "packingTemplateCategoryVehicleFluids",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 19
+      },
+      {
+        "id": "rt_washer_fluid",
+        "nameKey": "packingTemplateItemRtWasherFluid",
+        "categoryKey": "packingTemplateCategoryVehicleFluids",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 20
+      },
+      {
+        "id": "rt_adblue",
+        "nameKey": "packingTemplateItemRtAdBlue",
+        "categoryKey": "packingTemplateCategoryVehicleFluids",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 21
+      },
+      {
+        "id": "rt_tyre_pressure",
+        "nameKey": "packingTemplateItemRtTyrePressure",
+        "categoryKey": "packingTemplateCategoryTyresBrakes",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 22
+      },
+      {
+        "id": "rt_spare_tyre",
+        "nameKey": "packingTemplateItemRtSpareTyre",
+        "categoryKey": "packingTemplateCategoryTyresBrakes",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 23
+      },
+      {
+        "id": "rt_tyre_tread",
+        "nameKey": "packingTemplateItemRtTyreTread",
+        "categoryKey": "packingTemplateCategoryTyresBrakes",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 24
+      },
+      {
+        "id": "rt_wheel_wrench",
+        "nameKey": "packingTemplateItemRtWheelWrench",
+        "categoryKey": "packingTemplateCategoryTyresBrakes",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 25
+      },
+      {
+        "id": "rt_jack",
+        "nameKey": "packingTemplateItemRtJack",
+        "categoryKey": "packingTemplateCategoryTyresBrakes",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 26
+      },
+      {
+        "id": "rt_brake_pads_check",
+        "nameKey": "packingTemplateItemRtBrakePadsCheck",
+        "categoryKey": "packingTemplateCategoryTyresBrakes",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 27
+      },
+      {
+        "id": "rt_tyre_inflator",
+        "nameKey": "packingTemplateItemRtTyreInflator",
+        "categoryKey": "packingTemplateCategoryTyresBrakes",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 28,
+        "needsPurchase": true
+      },
+      {
+        "id": "rt_exterior_lights",
+        "nameKey": "packingTemplateItemRtExteriorLightsCheck",
+        "categoryKey": "packingTemplateCategoryLightsVisibility",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 29
+      },
+      {
+        "id": "rt_spare_headlight_bulbs",
+        "nameKey": "packingTemplateItemRtSpareHeadlightBulbs",
+        "categoryKey": "packingTemplateCategoryLightsVisibility",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 30,
+        "needsPurchase": true
+      },
+      {
+        "id": "rt_rear_lights_check",
+        "nameKey": "packingTemplateItemRtRearLightsCheck",
+        "categoryKey": "packingTemplateCategoryLightsVisibility",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 31
+      },
+      {
+        "id": "rt_indicators_check",
+        "nameKey": "packingTemplateItemRtIndicatorsCheck",
+        "categoryKey": "packingTemplateCategoryLightsVisibility",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 32
+      },
+      {
+        "id": "rt_brake_lights_check",
+        "nameKey": "packingTemplateItemRtBrakeLightsCheck",
+        "categoryKey": "packingTemplateCategoryLightsVisibility",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 33
+      },
+      {
+        "id": "rt_high_vis_vest",
+        "nameKey": "packingTemplateItemRtHighVisVest",
+        "categoryKey": "packingTemplateCategoryLightsVisibility",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 34
+      },
+      {
+        "id": "rt_warning_triangle",
+        "nameKey": "packingTemplateItemRtWarningTriangle",
+        "categoryKey": "packingTemplateCategoryLightsVisibility",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 35
+      },
+      {
+        "id": "rt_headlight_beam_adjust",
+        "nameKey": "packingTemplateItemRtHeadlightBeamAdjust",
+        "categoryKey": "packingTemplateCategoryLightsVisibility",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 36
+      },
+      {
+        "id": "rt_first_aid",
+        "nameKey": "packingTemplateItemFirstAidKit",
+        "categoryKey": "packingTemplateCategorySafetyEquipment",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 37
+      },
+      {
+        "id": "rt_fire_extinguisher",
+        "nameKey": "packingTemplateItemRtFireExtinguisher",
+        "categoryKey": "packingTemplateCategorySafetyEquipment",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 38
+      },
+      {
+        "id": "rt_high_vis_vests_set",
+        "nameKey": "packingTemplateItemRtHighVisVestsSet",
+        "categoryKey": "packingTemplateCategorySafetyEquipment",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 39
+      },
+      {
+        "id": "rt_emergency_blanket",
+        "nameKey": "packingTemplateItemRtEmergencyBlanket",
+        "categoryKey": "packingTemplateCategorySafetyEquipment",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 40
+      },
+      {
+        "id": "rt_snow_chains",
+        "nameKey": "packingTemplateItemRtSnowChains",
+        "categoryKey": "packingTemplateCategorySafetyEquipment",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 41,
+        "needsPurchase": true
+      },
+      {
+        "id": "rt_jump_leads",
+        "nameKey": "packingTemplateItemRtJumpLeads",
+        "categoryKey": "packingTemplateCategoryEmergencyTools",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 42
+      },
+      {
+        "id": "rt_multi_tool",
+        "nameKey": "packingTemplateItemRtMultiTool",
+        "categoryKey": "packingTemplateCategoryEmergencyTools",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 43
+      },
+      {
+        "id": "rt_puncture_kit",
+        "nameKey": "packingTemplateItemRtPunctureKit",
+        "categoryKey": "packingTemplateCategoryEmergencyTools",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 44
+      },
+      {
+        "id": "rt_duct_tape",
+        "nameKey": "packingTemplateItemRtDuctTape",
+        "categoryKey": "packingTemplateCategoryEmergencyTools",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 45
+      },
+      {
+        "id": "rt_work_gloves",
+        "nameKey": "packingTemplateItemRtWorkGloves",
+        "categoryKey": "packingTemplateCategoryEmergencyTools",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 46
+      },
+      {
+        "id": "rt_flashlight",
+        "nameKey": "packingTemplateItemFlashlight",
+        "categoryKey": "packingTemplateCategoryEmergencyTools",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 47
+      },
+      {
+        "id": "rt_roadside_kit",
+        "nameKey": "packingTemplateItemRoadsideKit",
+        "categoryKey": "packingTemplateCategoryEmergencyTools",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 48
+      },
+      {
+        "id": "rt_portable_jump_starter",
+        "nameKey": "packingTemplateItemRtPortableJumpStarter",
+        "categoryKey": "packingTemplateCategoryEmergencyTools",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 49,
+        "needsPurchase": true
+      },
+      {
+        "id": "rt_fuel_card",
+        "nameKey": "packingTemplateItemFuelCard",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 50
+      },
+      {
+        "id": "rt_car_phone_mount",
+        "nameKey": "packingTemplateItemRtCarPhoneMount",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 51,
+        "needsPurchase": true
+      },
+      {
+        "id": "rt_usb_car_charger",
+        "nameKey": "packingTemplateItemRtUsbCarCharger",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 52,
+        "needsPurchase": true
+      },
+      {
+        "id": "rt_gps_navigation",
+        "nameKey": "packingTemplateItemRtGpsNavigation",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 53
+      },
+      {
+        "id": "rt_bluetooth_handsfree",
+        "nameKey": "packingTemplateItemRtBluetoothHandsfree",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 54
+      },
+      {
+        "id": "rt_dash_cam_sd",
+        "nameKey": "packingTemplateItemRtDashCamSdCard",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 55,
+        "needsPurchase": true
+      },
+      {
+        "id": "rt_dash_cam",
+        "nameKey": "packingTemplateItemRtDashCam",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 56,
+        "needsPurchase": true
+      },
+      {
+        "id": "rt_charging_cables",
+        "nameKey": "packingTemplateItemRtChargingCables",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 57
+      },
+      {
+        "id": "rt_roof_box_secured",
+        "nameKey": "packingTemplateItemRtRoofBoxSecured",
+        "categoryKey": "packingTemplateCategoryLuggageLoading",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 58
+      },
+      {
+        "id": "rt_luggage_loaded",
+        "nameKey": "packingTemplateItemRtLuggageLoaded",
+        "categoryKey": "packingTemplateCategoryLuggageLoading",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 59
+      },
+      {
+        "id": "rt_trailer_hitch_check",
+        "nameKey": "packingTemplateItemRtTrailerHitchCheck",
+        "categoryKey": "packingTemplateCategoryLuggageLoading",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 60
+      },
+      {
+        "id": "rt_trailer_lights_check",
+        "nameKey": "packingTemplateItemRtTrailerLightsCheck",
+        "categoryKey": "packingTemplateCategoryLuggageLoading",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 61
+      },
+      {
+        "id": "rt_bike_rack_secured",
+        "nameKey": "packingTemplateItemCamperBikeRack",
+        "categoryKey": "packingTemplateCategoryLuggageLoading",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 62
+      },
+      {
+        "id": "rt_fuel_tank_full",
+        "nameKey": "packingTemplateItemRtFuelTankFull",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 63
+      },
+      {
+        "id": "rt_tyres_recheck",
+        "nameKey": "packingTemplateItemRtTyresRecheck",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 64
+      },
+      {
+        "id": "rt_documents_in_car",
+        "nameKey": "packingTemplateItemRtDocumentsInCar",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 65
+      },
+      {
+        "id": "rt_navigation_set",
+        "nameKey": "packingTemplateItemRtNavigationSet",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 66
+      },
+      {
+        "id": "rt_emergency_kit_accessible",
+        "nameKey": "packingTemplateItemRtEmergencyKitAccessible",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 67
+      },
+      {
+        "id": "rt_mirrors_adjusted",
+        "nameKey": "packingTemplateItemRtMirrorsAdjusted",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 68
+      }
+    ]
+  },
+  {
+    "id": "sys_tpl_air_travel",
+    "nameKey": "packingTemplateAirTravel",
+    "descriptionKey": "packingTemplateAirTravelDesc",
+    "iconKey": "flight",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "air_passport",
+        "nameKey": "packingTemplateItemPassport",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "air_boarding_pass",
+        "nameKey": "packingTemplateItemBoardingPass",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 1
+      },
+      {
+        "id": "air_identity",
+        "nameKey": "packingTemplateItemIdentityDocument",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 2
+      },
+      {
+        "id": "air_visa",
+        "nameKey": "packingTemplateItemDocVisa",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 3
+      },
+      {
+        "id": "air_booking_confirmations",
+        "nameKey": "packingTemplateItemRtBookingConfirmations",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 4
+      },
+      {
+        "id": "air_travel_insurance",
+        "nameKey": "packingTemplateItemRtTravelInsurance",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 5
+      },
+      {
+        "id": "air_online_check_in",
+        "nameKey": "packingTemplateItemFinalTicketsChecked",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 6
+      },
+      {
+        "id": "air_bags_weighed",
+        "nameKey": "packingTemplateItemFinalBagsWeighed",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 7
+      },
+      {
+        "id": "air_passport_checked",
+        "nameKey": "packingTemplateItemFinalPassportChecked",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 8
+      },
+      {
+        "id": "air_transport_confirmed",
+        "nameKey": "packingTemplateItemFinalTransportConfirmed",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 9
+      },
+      {
+        "id": "air_noise_cancelling",
+        "nameKey": "packingTemplateItemElecNoiseCancelling",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 10
+      },
+      {
+        "id": "air_motion_sickness",
+        "nameKey": "packingTemplateItemRtMotionSickness",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 11
+      },
+      {
+        "id": "air_sickness_bags",
+        "nameKey": "packingTemplateItemRtTravelSicknessBags",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "air_offline_entertainment",
+        "nameKey": "packingTemplateItemElecOfflineEntertainment",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 13
+      }
+    ],
+    "groupKey": "packingTemplateGroupTransport"
+  },
+  {
+    "id": "sys_tpl_train_bus",
+    "nameKey": "packingTemplateTrainBusTravel",
+    "descriptionKey": "packingTemplateTrainBusTravelDesc",
+    "iconKey": "directions_transit",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "train_ticket",
+        "nameKey": "packingTemplateItemTicket",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "train_identity",
+        "nameKey": "packingTemplateItemIdentityDocument",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 1
+      },
+      {
+        "id": "train_booking_confirmations",
+        "nameKey": "packingTemplateItemRtBookingConfirmations",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 2
+      },
+      {
+        "id": "train_tickets_checked",
+        "nameKey": "packingTemplateItemFinalTicketsChecked",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 3
+      },
+      {
+        "id": "train_transport_confirmed",
+        "nameKey": "packingTemplateItemFinalTransportConfirmed",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 4
+      },
+      {
+        "id": "train_offline_maps",
+        "nameKey": "packingTemplateItemRtOfflineMaps",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "train_rest_stops",
+        "nameKey": "packingTemplateItemRtRestStops",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "train_motion_sickness",
+        "nameKey": "packingTemplateItemRtMotionSickness",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 7
+      },
+      {
+        "id": "train_headphones",
+        "nameKey": "packingTemplateItemHeadphones",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "train_offline_entertainment",
+        "nameKey": "packingTemplateItemElecOfflineEntertainment",
+        "categoryKey": "packingTemplateCategoryTravelGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 9
+      }
+    ],
+    "groupKey": "packingTemplateGroupTransport"
+  },
+  {
+    "id": "sys_tpl_motorcycle",
+    "nameKey": "packingTemplateMotorcycle",
+    "descriptionKey": "packingTemplateMotorcycleDesc",
+    "iconKey": "two_wheeler",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "moto_helmet",
+        "nameKey": "packingTemplateItemMotoHelmet",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "moto_gloves",
+        "nameKey": "packingTemplateItemMotoGloves",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "critical",
+        "sortOrder": 1
+      },
+      {
+        "id": "moto_jacket",
+        "nameKey": "packingTemplateItemMotoJacket",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 2
+      },
+      {
+        "id": "moto_trousers",
+        "nameKey": "packingTemplateItemMotoTrousers",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 3
+      },
+      {
+        "id": "moto_boots",
+        "nameKey": "packingTemplateItemMotoBoots",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "critical",
+        "sortOrder": 4
+      },
+      {
+        "id": "moto_rain_suit",
+        "nameKey": "packingTemplateItemMotoRainSuit",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 5
+      },
+      {
+        "id": "moto_intercom",
+        "nameKey": "packingTemplateItemMotoIntercom",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 6
+      },
+      {
+        "id": "moto_toolkit",
+        "nameKey": "packingTemplateItemMotoToolkit",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 7
+      },
+      {
+        "id": "moto_chain_lube",
+        "nameKey": "packingTemplateItemMotoChainLube",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "moto_tire_repair",
+        "nameKey": "packingTemplateItemMotoTireRepair",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 9
+      },
+      {
+        "id": "moto_documents",
+        "nameKey": "packingTemplateItemMotoDocuments",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 10
+      },
+      {
+        "id": "moto_phone_mount",
+        "nameKey": "packingTemplateItemMotoPhoneMount",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 11
+      },
+      {
+        "id": "moto_usb_charger",
+        "nameKey": "packingTemplateItemMotoUsbCharger",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 12
+      },
+      {
+        "id": "moto_spare_gloves",
+        "nameKey": "packingTemplateItemMotoSpareGloves",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 13
+      },
+      {
+        "id": "moto_balaclava",
+        "nameKey": "packingTemplateItemMotoBalaclava",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 14
+      },
+      {
+        "id": "moto_ear_plugs",
+        "nameKey": "packingTemplateItemMotoEarPlugs",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 15
+      },
+      {
+        "id": "moto_hydration_pack",
+        "nameKey": "packingTemplateItemMotoHydrationPack",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 16
+      },
+      {
+        "id": "moto_tank_bag",
+        "nameKey": "packingTemplateItemMotoTankBag",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 17
+      },
+      {
+        "id": "moto_saddlebags",
+        "nameKey": "packingTemplateItemMotoSaddlebags",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 18
+      },
+      {
+        "id": "moto_bungee_cords",
+        "nameKey": "packingTemplateItemMotoBungeeCords",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 19
+      },
+      {
+        "id": "moto_rain_covers",
+        "nameKey": "packingTemplateItemMotoRainCovers",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 20
+      },
+      {
+        "id": "moto_disc_lock",
+        "nameKey": "packingTemplateItemMotoDiscLock",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 21
+      },
+      {
+        "id": "moto_chain_lock",
+        "nameKey": "packingTemplateItemMotoChainLock",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 22
+      },
+      {
+        "id": "moto_cover",
+        "nameKey": "packingTemplateItemMotoCover",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 23
+      },
+      {
+        "id": "moto_spare_key",
+        "nameKey": "packingTemplateItemMotoSpareKey",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 24
+      },
+      {
+        "id": "moto_visor_cleaner",
+        "nameKey": "packingTemplateItemMotoVisorCleaner",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 25
+      },
+      {
+        "id": "moto_spare_visor",
+        "nameKey": "packingTemplateItemMotoSpareVisor",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 26
+      },
+      {
+        "id": "moto_reflective_tape",
+        "nameKey": "packingTemplateItemMotoReflectiveTape",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 27
+      },
+      {
+        "id": "moto_emergency_contact",
+        "nameKey": "packingTemplateItemMotoEmergencyContact",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 28
+      },
+      {
+        "id": "moto_route_plan",
+        "nameKey": "packingTemplateItemRtRoutePlan",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 29
+      },
+      {
+        "id": "moto_offline_maps",
+        "nameKey": "packingTemplateItemRtOfflineMaps",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 30
+      },
+      {
+        "id": "moto_fuel_plan",
+        "nameKey": "packingTemplateItemRtFuelPlan",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 31
+      },
+      {
+        "id": "moto_protective_pads",
+        "nameKey": "packingTemplateItemMotoProtectivePads",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 32
+      },
+      {
+        "id": "moto_neck_brace",
+        "nameKey": "packingTemplateItemMotoNeckBrace",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 33
+      },
+      {
+        "id": "moto_rain_gloves",
+        "nameKey": "packingTemplateItemMotoRainGloves",
+        "categoryKey": "packingTemplateCategoryMotorcycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 34
+      }
+    ],
+    "groupKey": "packingTemplateGroupTransport"
+  },
+  {
+    "id": "sys_tpl_bicycle",
+    "nameKey": "packingTemplateBicycle",
+    "descriptionKey": "packingTemplateBicycleDesc",
+    "iconKey": "pedal_bike",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "bike_helmet",
+        "nameKey": "packingTemplateItemBikeHelmet",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "bike_repair_kit",
+        "nameKey": "packingTemplateItemBikeRepairKit",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 1
+      },
+      {
+        "id": "bike_spare_tubes",
+        "nameKey": "packingTemplateItemBikeSpareTubes",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 2
+      },
+      {
+        "id": "bike_pump",
+        "nameKey": "packingTemplateItemBikePump",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 3
+      },
+      {
+        "id": "bike_multi_tool",
+        "nameKey": "packingTemplateItemRtMultiTool",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 4
+      },
+      {
+        "id": "bike_cage",
+        "nameKey": "packingTemplateItemBikeBottleCage",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "bike_lights_front",
+        "nameKey": "packingTemplateItemBikeLightsFront",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 6
+      },
+      {
+        "id": "bike_lights_rear",
+        "nameKey": "packingTemplateItemBikeLightsRear",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 7
+      },
+      {
+        "id": "bike_reflectors",
+        "nameKey": "packingTemplateItemBikeReflectors",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "bike_high_vis_vest",
+        "nameKey": "packingTemplateItemRtHighVisVest",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 9
+      },
+      {
+        "id": "bike_lock",
+        "nameKey": "packingTemplateItemBikeLock",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 10
+      },
+      {
+        "id": "bike_cycling_gloves",
+        "nameKey": "packingTemplateItemBikeCyclingGloves",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 11
+      },
+      {
+        "id": "bike_cycling_shorts",
+        "nameKey": "packingTemplateItemBikeCyclingShorts",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "bike_jersey",
+        "nameKey": "packingTemplateItemBikeJersey",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 13
+      },
+      {
+        "id": "bike_saddle_cover",
+        "nameKey": "packingTemplateItemBikeSaddleCover",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 14
+      },
+      {
+        "id": "bike_panniers",
+        "nameKey": "packingTemplateItemBikePanniers",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 15
+      },
+      {
+        "id": "bike_bike_bag",
+        "nameKey": "packingTemplateItemBikeBag",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 16
+      },
+      {
+        "id": "bike_chain_lube",
+        "nameKey": "packingTemplateItemBikeChainLube",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 17
+      },
+      {
+        "id": "bike_tire_levers",
+        "nameKey": "packingTemplateItemBikeTireLevers",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 18
+      },
+      {
+        "id": "bike_patch_kit",
+        "nameKey": "packingTemplateItemBikePatchKit",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 19
+      },
+      {
+        "id": "bike_energy_gels",
+        "nameKey": "packingTemplateItemBikeEnergyGels",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 20
+      },
+      {
+        "id": "bike_route_plan",
+        "nameKey": "packingTemplateItemRtRoutePlan",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 21
+      },
+      {
+        "id": "bike_offline_maps",
+        "nameKey": "packingTemplateItemRtOfflineMaps",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 22
+      },
+      {
+        "id": "bike_spare_chain_link",
+        "nameKey": "packingTemplateItemBikeSpareChainLink",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 23
+      },
+      {
+        "id": "bike_cycling_shoes",
+        "nameKey": "packingTemplateItemBikeCyclingShoes",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 24
+      },
+      {
+        "id": "bike_cleats",
+        "nameKey": "packingTemplateItemBikeCleats",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 25
+      },
+      {
+        "id": "bike_arm_warmers",
+        "nameKey": "packingTemplateItemBikeArmWarmers",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 26
+      },
+      {
+        "id": "bike_leg_warmers",
+        "nameKey": "packingTemplateItemBikeLegWarmers",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 27
+      },
+      {
+        "id": "bike_bike_computer",
+        "nameKey": "packingTemplateItemBikeComputer",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 28
+      },
+      {
+        "id": "bike_phone_mount",
+        "nameKey": "packingTemplateItemBikePhoneMount",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 29
+      },
+      {
+        "id": "bike_bell",
+        "nameKey": "packingTemplateItemBikeBell",
+        "categoryKey": "packingTemplateCategoryBicycleGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 30
+      }
+    ],
+    "groupKey": "packingTemplateGroupTransport"
+  },
+  {
+    "id": "sys_tpl_camper",
+    "nameKey": "packingTemplateCamper",
+    "descriptionKey": "packingTemplateCamperDesc",
+    "iconKey": "rv_hookup",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "camper_hookup_cable",
+        "nameKey": "packingTemplateItemCamperHookupCable",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "camper_adapter_plug",
+        "nameKey": "packingTemplateItemCamperAdapterPlug",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 1
+      },
+      {
+        "id": "camper_gas_bottle",
+        "nameKey": "packingTemplateItemCamperGasBottle",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 2
+      },
+      {
+        "id": "camper_gas_regulator",
+        "nameKey": "packingTemplateItemCamperGasRegulator",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 3
+      },
+      {
+        "id": "camper_leveling_blocks",
+        "nameKey": "packingTemplateItemCamperLevelingBlocks",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 4
+      },
+      {
+        "id": "camper_wheel_chocks",
+        "nameKey": "packingTemplateItemRtWheelChocks",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "camper_fresh_water_hose",
+        "nameKey": "packingTemplateItemCamperFreshWaterHose",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 6
+      },
+      {
+        "id": "camper_waste_hose",
+        "nameKey": "packingTemplateItemCamperWasteHose",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 7
+      },
+      {
+        "id": "camper_hose_fittings",
+        "nameKey": "packingTemplateItemCamperHoseFittings",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "camper_chemical_toilet",
+        "nameKey": "packingTemplateItemCamperChemicalToilet",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 9
+      },
+      {
+        "id": "camper_awning",
+        "nameKey": "packingTemplateItemCamperAwning",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 10
+      },
+      {
+        "id": "camper_awning_pegs",
+        "nameKey": "packingTemplateItemCamperAwningPegs",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 11
+      },
+      {
+        "id": "camper_mallet",
+        "nameKey": "packingTemplateItemCamperMallet",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "camper_ground_sheet",
+        "nameKey": "packingTemplateItemCamperGroundSheet",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 13
+      },
+      {
+        "id": "camper_camping_chairs",
+        "nameKey": "packingTemplateItemCamperCampingChairs",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 14
+      },
+      {
+        "id": "camper_camping_table",
+        "nameKey": "packingTemplateItemCamperCampingTable",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 15
+      },
+      {
+        "id": "camper_cookware",
+        "nameKey": "packingTemplateItemCamperCookware",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 16
+      },
+      {
+        "id": "camper_camping_stove",
+        "nameKey": "packingTemplateItemCampingStove",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 17
+      },
+      {
+        "id": "camper_kitchen_utensils",
+        "nameKey": "packingTemplateItemCamperKitchenUtensils",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 18
+      },
+      {
+        "id": "camper_coolbox",
+        "nameKey": "packingTemplateItemCamperCoolbox",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 19
+      },
+      {
+        "id": "camper_bedding",
+        "nameKey": "packingTemplateItemCamperBedding",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 20
+      },
+      {
+        "id": "camper_pillows",
+        "nameKey": "packingTemplateItemCamperPillows",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 21
+      },
+      {
+        "id": "camper_sleeping_bags",
+        "nameKey": "packingTemplateItemSleepingBag",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 22
+      },
+      {
+        "id": "camper_flashlight",
+        "nameKey": "packingTemplateItemFlashlight",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 23
+      },
+      {
+        "id": "camper_fire_extinguisher",
+        "nameKey": "packingTemplateItemRtFireExtinguisher",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 24
+      },
+      {
+        "id": "camper_co_detector",
+        "nameKey": "packingTemplateItemCamperCoDetector",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 25
+      },
+      {
+        "id": "camper_smoke_detector",
+        "nameKey": "packingTemplateItemCamperSmokeDetector",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 26
+      },
+      {
+        "id": "camper_toolkit",
+        "nameKey": "packingTemplateItemCamperToolkit",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 27
+      },
+      {
+        "id": "camper_duct_tape",
+        "nameKey": "packingTemplateItemRtDuctTape",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 28
+      },
+      {
+        "id": "camper_fuse_kit",
+        "nameKey": "packingTemplateItemCamperFuseKit",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 29
+      },
+      {
+        "id": "camper_spare_bulbs",
+        "nameKey": "packingTemplateItemCamperSpareBulbs",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 30
+      },
+      {
+        "id": "camper_water_filter",
+        "nameKey": "packingTemplateItemCamperWaterFilter",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 31
+      },
+      {
+        "id": "camper_water_containers",
+        "nameKey": "packingTemplateItemCamperWaterContainers",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 32
+      },
+      {
+        "id": "camper_toilet_paper",
+        "nameKey": "packingTemplateItemCamperToiletPaper",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 33
+      },
+      {
+        "id": "camper_cleaning_supplies",
+        "nameKey": "packingTemplateItemCamperCleaningSupplies",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 34
+      },
+      {
+        "id": "camper_insect_screen",
+        "nameKey": "packingTemplateItemCamperInsectScreen",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 35
+      },
+      {
+        "id": "camper_curtain_ties",
+        "nameKey": "packingTemplateItemCamperCurtainTies",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 36
+      },
+      {
+        "id": "camper_tv_aerial",
+        "nameKey": "packingTemplateItemCamperTvAerial",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 37
+      },
+      {
+        "id": "camper_satellite_dish",
+        "nameKey": "packingTemplateItemCamperSatelliteDish",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 38
+      },
+      {
+        "id": "camper_bike_rack",
+        "nameKey": "packingTemplateItemCamperBikeRack",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 39
+      },
+      {
+        "id": "camper_roof_ladder",
+        "nameKey": "packingTemplateItemCamperRoofLadder",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 40
+      },
+      {
+        "id": "camper_awning_light",
+        "nameKey": "packingTemplateItemCamperAwningLight",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 41
+      },
+      {
+        "id": "camper_outdoor_rug",
+        "nameKey": "packingTemplateItemCamperOutdoorRug",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 42
+      },
+      {
+        "id": "camper_barbecue",
+        "nameKey": "packingTemplateItemCamperBarbecue",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 43
+      },
+      {
+        "id": "camper_charcoal",
+        "nameKey": "packingTemplateItemCamperCharcoal",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 44
+      },
+      {
+        "id": "camper_matches",
+        "nameKey": "packingTemplateItemCamperMatches",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 45
+      },
+      {
+        "id": "camper_camping_cutlery",
+        "nameKey": "packingTemplateItemCamperCampingCutlery",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 46
+      },
+      {
+        "id": "camper_dish_washing",
+        "nameKey": "packingTemplateItemCamperDishWashing",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 47
+      },
+      {
+        "id": "camper_rubbish_bags",
+        "nameKey": "packingTemplateItemRtTrashBags",
+        "categoryKey": "packingTemplateCategoryCamperGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 48
+      }
+    ],
+    "groupKey": "packingTemplateGroupTransport"
+  },
+  {
+    "id": "sys_tpl_basic_trip",
+    "nameKey": "packingTemplateBasicTrip",
+    "descriptionKey": "packingTemplateBasicTripDesc",
+    "iconKey": "luggage",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "basic_identity",
+        "nameKey": "packingTemplateItemIdentityDocument",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "basic_wallet",
+        "nameKey": "packingTemplateItemWallet",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 1
+      },
+      {
+        "id": "basic_charger",
+        "nameKey": "packingTemplateItemPhoneCharger",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 2
+      },
+      {
+        "id": "basic_medicines",
+        "nameKey": "packingTemplateItemMedicines",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "critical",
+        "sortOrder": 3,
+        "noteKey": "packingTemplateNotePrescriptionMeds"
+      },
+      {
+        "id": "basic_clothing",
+        "nameKey": "packingTemplateItemWeatherAppropriateClothing",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 4
+      },
+      {
+        "id": "basic_toothbrush",
+        "nameKey": "packingTemplateItemToothbrush",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 5
+      }
+    ],
+    "groupKey": "packingTemplateGroupEssentials"
+  },
+  {
+    "id": "sys_tpl_documents",
+    "nameKey": "packingTemplateDocuments",
+    "descriptionKey": "packingTemplateDocumentsDesc",
+    "iconKey": "description",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "doc_identity",
+        "nameKey": "packingTemplateItemIdentityDocument",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "doc_passport",
+        "nameKey": "packingTemplateItemPassport",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 1
+      },
+      {
+        "id": "doc_wallet",
+        "nameKey": "packingTemplateItemWallet",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 2
+      },
+      {
+        "id": "doc_travel_insurance",
+        "nameKey": "packingTemplateItemRtTravelInsurance",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 3
+      },
+      {
+        "id": "doc_emergency_contacts",
+        "nameKey": "packingTemplateItemRtEmergencyContacts",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 4
+      },
+      {
+        "id": "doc_booking_confirmations",
+        "nameKey": "packingTemplateItemRtBookingConfirmations",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "doc_copies",
+        "nameKey": "packingTemplateItemDocCopies",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "doc_visa",
+        "nameKey": "packingTemplateItemDocVisa",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 7
+      },
+      {
+        "id": "doc_idp",
+        "nameKey": "packingTemplateItemDocInternationalDrivingPermit",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "doc_bank_cards",
+        "nameKey": "packingTemplateItemDocBankCards",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 9
+      },
+      {
+        "id": "doc_cash",
+        "nameKey": "packingTemplateItemDocCash",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 10
+      },
+      {
+        "id": "doc_payment_ready",
+        "nameKey": "packingTemplateItemRtPaymentReady",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 11
+      },
+      {
+        "id": "doc_printed_contacts",
+        "nameKey": "packingTemplateItemDocEmergencyContactsPrinted",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "doc_travel_permits",
+        "nameKey": "packingTemplateItemDocTravelPermits",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 13
+      },
+      {
+        "id": "doc_medical_insurance",
+        "nameKey": "packingTemplateItemDocMedicalInsurance",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 14
+      },
+      {
+        "id": "doc_hotel_reservations",
+        "nameKey": "packingTemplateItemDocHotelReservations",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 15
+      },
+      {
+        "id": "doc_rental_agreements",
+        "nameKey": "packingTemplateItemDocRentalAgreements",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 16
+      },
+      {
+        "id": "doc_power_of_attorney",
+        "nameKey": "packingTemplateItemDocPowerOfAttorney",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 17
+      },
+      {
+        "id": "doc_european_health_card",
+        "nameKey": "packingTemplateItemDocEuropeanHealthCard",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 18
+      },
+      {
+        "id": "doc_emergency_cash",
+        "nameKey": "packingTemplateItemDocEmergencyCash",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 19
+      },
+      {
+        "id": "doc_student_id",
+        "nameKey": "packingTemplateItemDocStudentId",
+        "categoryKey": "packingTemplateCategoryDocuments",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 20
+      }
+    ],
+    "groupKey": "packingTemplateGroupEssentials"
+  },
+  {
+    "id": "sys_tpl_clothing",
+    "nameKey": "packingTemplateClothing",
+    "descriptionKey": "packingTemplateClothingDesc",
+    "iconKey": "checkroom",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "cloth_weather",
+        "nameKey": "packingTemplateItemWeatherAppropriateClothing",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 0
+      },
+      {
+        "id": "cloth_warm_layers",
+        "nameKey": "packingTemplateItemWarmLayers",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 1
+      },
+      {
+        "id": "cloth_rain_jacket",
+        "nameKey": "packingTemplateItemRainJacket",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 2
+      },
+      {
+        "id": "cloth_comfortable_shoes",
+        "nameKey": "packingTemplateItemRtComfortableShoes",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "important",
+        "sortOrder": 3
+      },
+      {
+        "id": "cloth_change_of_clothes",
+        "nameKey": "packingTemplateItemRtChangeOfClothes",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 4
+      },
+      {
+        "id": "cloth_hat_cap",
+        "nameKey": "packingTemplateItemRtHatCap",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "cloth_swimwear",
+        "nameKey": "packingTemplateItemSwimwear",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "cloth_sandals",
+        "nameKey": "packingTemplateItemSandals",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 7
+      },
+      {
+        "id": "cloth_hiking_boots",
+        "nameKey": "packingTemplateItemHikingBoots",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "cloth_sunglasses",
+        "nameKey": "packingTemplateItemSunglasses",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 9
+      },
+      {
+        "id": "cloth_underwear",
+        "nameKey": "packingTemplateItemClothUnderwear",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 10
+      },
+      {
+        "id": "cloth_socks",
+        "nameKey": "packingTemplateItemClothSocks",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 11
+      },
+      {
+        "id": "cloth_pajamas",
+        "nameKey": "packingTemplateItemClothPajamas",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "cloth_tshirts",
+        "nameKey": "packingTemplateItemClothTshirts",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 13
+      },
+      {
+        "id": "cloth_trousers",
+        "nameKey": "packingTemplateItemClothTrousers",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 14
+      },
+      {
+        "id": "cloth_shorts",
+        "nameKey": "packingTemplateItemClothShorts",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 15
+      },
+      {
+        "id": "cloth_dress",
+        "nameKey": "packingTemplateItemClothDress",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 16
+      },
+      {
+        "id": "cloth_belt",
+        "nameKey": "packingTemplateItemClothBelt",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 17
+      },
+      {
+        "id": "cloth_scarf",
+        "nameKey": "packingTemplateItemClothScarf",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 18
+      },
+      {
+        "id": "cloth_gloves",
+        "nameKey": "packingTemplateItemClothGloves",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 19
+      },
+      {
+        "id": "cloth_thermal_underwear",
+        "nameKey": "packingTemplateItemClothThermalUnderwear",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 20
+      },
+      {
+        "id": "cloth_fleece",
+        "nameKey": "packingTemplateItemClothFleece",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 21
+      },
+      {
+        "id": "cloth_windbreaker",
+        "nameKey": "packingTemplateItemClothWindbreaker",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 22
+      },
+      {
+        "id": "cloth_formal_outfit",
+        "nameKey": "packingTemplateItemFormalAttire",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 23
+      },
+      {
+        "id": "cloth_sleepwear",
+        "nameKey": "packingTemplateItemClothSleepwear",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 24
+      },
+      {
+        "id": "cloth_sportswear",
+        "nameKey": "packingTemplateItemClothSportswear",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 25
+      },
+      {
+        "id": "cloth_swim_cover",
+        "nameKey": "packingTemplateItemClothSwimCover",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 26
+      },
+      {
+        "id": "cloth_flip_flops",
+        "nameKey": "packingTemplateItemClothFlipFlops",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 27
+      },
+      {
+        "id": "cloth_walking_shoes",
+        "nameKey": "packingTemplateItemClothWalkingShoes",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 28
+      },
+      {
+        "id": "cloth_winter_coat",
+        "nameKey": "packingTemplateItemClothWinterCoat",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 29
+      },
+      {
+        "id": "cloth_light_jacket",
+        "nameKey": "packingTemplateItemClothLightJacket",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 30
+      },
+      {
+        "id": "cloth_leggings",
+        "nameKey": "packingTemplateItemClothLeggings",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 31
+      },
+      {
+        "id": "cloth_skirt",
+        "nameKey": "packingTemplateItemClothSkirt",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 32
+      },
+      {
+        "id": "cloth_blouse",
+        "nameKey": "packingTemplateItemClothBlouse",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 33
+      },
+      {
+        "id": "cloth_cardigan",
+        "nameKey": "packingTemplateItemClothCardigan",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 34
+      },
+      {
+        "id": "cloth_beanie",
+        "nameKey": "packingTemplateItemClothBeanie",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 35
+      },
+      {
+        "id": "cloth_sun_hat",
+        "nameKey": "packingTemplateItemClothSunHat",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 36
+      },
+      {
+        "id": "cloth_packing_cubes",
+        "nameKey": "packingTemplateItemClothPackingCubes",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 37
+      },
+      {
+        "id": "cloth_laundry_bag",
+        "nameKey": "packingTemplateItemClothLaundryBag",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 38
+      },
+      {
+        "id": "cloth_travel_umbrella",
+        "nameKey": "packingTemplateItemClothTravelUmbrella",
+        "categoryKey": "packingTemplateCategoryClothing",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 39
+      }
+    ],
+    "groupKey": "packingTemplateGroupEssentials"
+  },
+  {
+    "id": "sys_tpl_toiletries",
+    "nameKey": "packingTemplateToiletries",
+    "descriptionKey": "packingTemplateToiletriesDesc",
+    "iconKey": "soap",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "toilet_toothbrush",
+        "nameKey": "packingTemplateItemToothbrush",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 0
+      },
+      {
+        "id": "toilet_toothpaste",
+        "nameKey": "packingTemplateItemRtToothpaste",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 1
+      },
+      {
+        "id": "toilet_deodorant",
+        "nameKey": "packingTemplateItemRtDeodorant",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 2
+      },
+      {
+        "id": "toilet_tissues",
+        "nameKey": "packingTemplateItemRtTissues",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 3
+      },
+      {
+        "id": "toilet_lip_balm",
+        "nameKey": "packingTemplateItemRtLipBalm",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 4
+      },
+      {
+        "id": "toilet_hand_soap",
+        "nameKey": "packingTemplateItemRtHandSoap",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "toilet_shower_gel",
+        "nameKey": "packingTemplateItemRtShowerGel",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "toilet_shampoo",
+        "nameKey": "packingTemplateItemHygieneShampoo",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 7
+      },
+      {
+        "id": "toilet_conditioner",
+        "nameKey": "packingTemplateItemHygieneConditioner",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "toilet_razor",
+        "nameKey": "packingTemplateItemHygieneRazor",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 9
+      },
+      {
+        "id": "toilet_shaving_cream",
+        "nameKey": "packingTemplateItemHygieneShavingCream",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 10
+      },
+      {
+        "id": "toilet_hairbrush",
+        "nameKey": "packingTemplateItemHygieneHairbrush",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 11
+      },
+      {
+        "id": "toilet_hair_ties",
+        "nameKey": "packingTemplateItemHygieneHairTies",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "toilet_sunscreen",
+        "nameKey": "packingTemplateItemSunscreen",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 13,
+        "needsPurchase": true
+      },
+      {
+        "id": "toilet_moisturizer",
+        "nameKey": "packingTemplateItemHygieneMoisturizer",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 14
+      },
+      {
+        "id": "toilet_makeup_bag",
+        "nameKey": "packingTemplateItemHygieneMakeupBag",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 15
+      },
+      {
+        "id": "toilet_contact_lens",
+        "nameKey": "packingTemplateItemHygieneContactLens",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 16
+      },
+      {
+        "id": "toilet_contact_solution",
+        "nameKey": "packingTemplateItemHygieneContactSolution",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 17
+      },
+      {
+        "id": "toilet_glasses",
+        "nameKey": "packingTemplateItemHygieneGlasses",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 18
+      },
+      {
+        "id": "toilet_nail_clippers",
+        "nameKey": "packingTemplateItemHygieneNailClippers",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 19
+      },
+      {
+        "id": "toilet_cotton_swabs",
+        "nameKey": "packingTemplateItemHygieneCottonSwabs",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 20
+      },
+      {
+        "id": "toilet_wet_wipes",
+        "nameKey": "packingTemplateItemHygieneWetWipes",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 21
+      },
+      {
+        "id": "toilet_hand_sanitizer",
+        "nameKey": "packingTemplateItemRtHandSanitizer",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 22
+      },
+      {
+        "id": "toilet_dental_floss",
+        "nameKey": "packingTemplateItemHygieneDentalFloss",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 23
+      },
+      {
+        "id": "toilet_mouthwash",
+        "nameKey": "packingTemplateItemHygieneMouthwash",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 24
+      },
+      {
+        "id": "toilet_period_products",
+        "nameKey": "packingTemplateItemHygienePeriodProducts",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 25
+      },
+      {
+        "id": "toilet_travel_towel",
+        "nameKey": "packingTemplateItemHygieneTravelTowel",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 26
+      },
+      {
+        "id": "toilet_toiletry_bag",
+        "nameKey": "packingTemplateItemHygieneToiletryBag",
+        "categoryKey": "packingTemplateCategoryToiletries",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 27
+      }
+    ],
+    "groupKey": "packingTemplateGroupEssentials"
+  },
+  {
+    "id": "sys_tpl_health",
+    "nameKey": "packingTemplateHealth",
+    "descriptionKey": "packingTemplateHealthDesc",
+    "iconKey": "medical_services",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "health_medicines",
+        "nameKey": "packingTemplateItemMedicines",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "critical",
+        "sortOrder": 0,
+        "noteKey": "packingTemplateNotePrescriptionMeds"
+      },
+      {
+        "id": "health_first_aid",
+        "nameKey": "packingTemplateItemFirstAidKit",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 1
+      },
+      {
+        "id": "health_motion_sickness",
+        "nameKey": "packingTemplateItemRtMotionSickness",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 2
+      },
+      {
+        "id": "health_pain_relievers",
+        "nameKey": "packingTemplateItemRtPainRelievers",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 3
+      },
+      {
+        "id": "health_allergy_meds",
+        "nameKey": "packingTemplateItemRtAllergyMeds",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 4
+      },
+      {
+        "id": "health_hand_sanitizer",
+        "nameKey": "packingTemplateItemRtHandSanitizer",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "health_insect_repellent",
+        "nameKey": "packingTemplateItemRtInsectRepellent",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 6,
+        "needsPurchase": true
+      },
+      {
+        "id": "health_bandages",
+        "nameKey": "packingTemplateItemRtBandages",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 7
+      },
+      {
+        "id": "health_antiseptic_wipes",
+        "nameKey": "packingTemplateItemRtAntisepticWipes",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "health_travel_sickness_bags",
+        "nameKey": "packingTemplateItemRtTravelSicknessBags",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 9
+      },
+      {
+        "id": "health_eye_drops",
+        "nameKey": "packingTemplateItemRtEyeDrops",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 10
+      },
+      {
+        "id": "health_thermometer",
+        "nameKey": "packingTemplateItemHealthThermometer",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 11
+      },
+      {
+        "id": "health_plasters",
+        "nameKey": "packingTemplateItemHealthPlasters",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "health_antihistamine",
+        "nameKey": "packingTemplateItemHealthAntihistamine",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 13
+      },
+      {
+        "id": "health_rehydration",
+        "nameKey": "packingTemplateItemHealthRehydration",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 14
+      },
+      {
+        "id": "health_sunburn_gel",
+        "nameKey": "packingTemplateItemHealthSunburnGel",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 15
+      },
+      {
+        "id": "health_blister_plasters",
+        "nameKey": "packingTemplateItemHealthBlisterPlasters",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 16
+      },
+      {
+        "id": "health_prescription_list",
+        "nameKey": "packingTemplateItemHealthPrescriptionList",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 17
+      },
+      {
+        "id": "health_medical_certificate",
+        "nameKey": "packingTemplateItemHealthMedicalCertificate",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 18
+      },
+      {
+        "id": "health_vitamins",
+        "nameKey": "packingTemplateItemHealthVitamins",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 19
+      },
+      {
+        "id": "health_hand_cream",
+        "nameKey": "packingTemplateItemHealthHandCream",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 20
+      },
+      {
+        "id": "health_cough_drops",
+        "nameKey": "packingTemplateItemHealthCoughDrops",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 21
+      },
+      {
+        "id": "health_stomach_remedy",
+        "nameKey": "packingTemplateItemHealthStomachRemedy",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 22
+      },
+      {
+        "id": "health_tweezers",
+        "nameKey": "packingTemplateItemHealthTweezers",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 23
+      },
+      {
+        "id": "health_scissors",
+        "nameKey": "packingTemplateItemHealthScissors",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 24
+      },
+      {
+        "id": "health_face_masks",
+        "nameKey": "packingTemplateItemHealthFaceMasks",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 25
+      },
+      {
+        "id": "health_covid_tests",
+        "nameKey": "packingTemplateItemHealthCovidTests",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 26
+      },
+      {
+        "id": "health_epipen",
+        "nameKey": "packingTemplateItemHealthEpipen",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 27
+      },
+      {
+        "id": "health_inhaler",
+        "nameKey": "packingTemplateItemHealthInhaler",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 28
+      },
+      {
+        "id": "health_blood_pressure_monitor",
+        "nameKey": "packingTemplateItemHealthBloodPressureMonitor",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 29
+      },
+      {
+        "id": "health_glucose_tablets",
+        "nameKey": "packingTemplateItemHealthGlucoseTablets",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 30
+      },
+      {
+        "id": "health_heating_pads",
+        "nameKey": "packingTemplateItemHealthHeatingPads",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 31
+      },
+      {
+        "id": "health_ice_pack",
+        "nameKey": "packingTemplateItemHealthIcePack",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 32
+      },
+      {
+        "id": "health_medical_id_bracelet",
+        "nameKey": "packingTemplateItemHealthMedicalIdBracelet",
+        "categoryKey": "packingTemplateCategoryHealth",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 33
+      }
+    ],
+    "groupKey": "packingTemplateGroupEssentials"
+  },
+  {
+    "id": "sys_tpl_electronics",
+    "nameKey": "packingTemplateElectronics",
+    "descriptionKey": "packingTemplateElectronicsDesc",
+    "iconKey": "devices",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "elec_phone_charger",
+        "nameKey": "packingTemplateItemPhoneCharger",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "elec_travel_adapter",
+        "nameKey": "packingTemplateItemTravelAdapter",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 1,
+        "needsPurchase": true
+      },
+      {
+        "id": "elec_headphones",
+        "nameKey": "packingTemplateItemHeadphones",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 2
+      },
+      {
+        "id": "elec_portable_power_bank",
+        "nameKey": "packingTemplateItemRtPortablePowerBank",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 3,
+        "needsPurchase": true
+      },
+      {
+        "id": "elec_charging_cables",
+        "nameKey": "packingTemplateItemRtChargingCables",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 4
+      },
+      {
+        "id": "elec_laptop",
+        "nameKey": "packingTemplateItemLaptop",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 5
+      },
+      {
+        "id": "elec_laptop_charger",
+        "nameKey": "packingTemplateItemElecLaptopCharger",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 6
+      },
+      {
+        "id": "elec_tablet",
+        "nameKey": "packingTemplateItemElecTablet",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 7
+      },
+      {
+        "id": "elec_tablet_charger",
+        "nameKey": "packingTemplateItemElecTabletCharger",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "elec_camera",
+        "nameKey": "packingTemplateItemElecCamera",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 9
+      },
+      {
+        "id": "elec_camera_charger",
+        "nameKey": "packingTemplateItemElecCameraCharger",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 10
+      },
+      {
+        "id": "elec_memory_cards",
+        "nameKey": "packingTemplateItemElecMemoryCards",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 11
+      },
+      {
+        "id": "elec_usb_drive",
+        "nameKey": "packingTemplateItemElecUsbDrive",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "elec_ebook_reader",
+        "nameKey": "packingTemplateItemElecEbookReader",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 13
+      },
+      {
+        "id": "elec_smartwatch_charger",
+        "nameKey": "packingTemplateItemElecSmartwatchCharger",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 14
+      },
+      {
+        "id": "elec_extension_cord",
+        "nameKey": "packingTemplateItemElecExtensionCord",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 15
+      },
+      {
+        "id": "elec_multi_usb_charger",
+        "nameKey": "packingTemplateItemElecMultiUsbCharger",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 16
+      },
+      {
+        "id": "elec_sim_card",
+        "nameKey": "packingTemplateItemElecSimCard",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 17
+      },
+      {
+        "id": "elec_portable_router",
+        "nameKey": "packingTemplateItemElecPortableRouter",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 18
+      },
+      {
+        "id": "elec_noise_cancelling",
+        "nameKey": "packingTemplateItemElecNoiseCancelling",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 19
+      },
+      {
+        "id": "elec_bluetooth_speaker",
+        "nameKey": "packingTemplateItemElecBluetoothSpeaker",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 20
+      },
+      {
+        "id": "elec_action_camera",
+        "nameKey": "packingTemplateItemElecActionCamera",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 21
+      },
+      {
+        "id": "elec_drone",
+        "nameKey": "packingTemplateItemElecDrone",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 22
+      },
+      {
+        "id": "elec_spare_batteries",
+        "nameKey": "packingTemplateItemElecSpareBatteries",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 23
+      },
+      {
+        "id": "elec_battery_charger",
+        "nameKey": "packingTemplateItemElecBatteryCharger",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 24
+      },
+      {
+        "id": "elec_hdmi_cable",
+        "nameKey": "packingTemplateItemElecHdmiCable",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 25
+      },
+      {
+        "id": "elec_projector",
+        "nameKey": "packingTemplateItemElecProjector",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 26
+      },
+      {
+        "id": "elec_presentation_remote",
+        "nameKey": "packingTemplateItemElecPresentationRemote",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 27
+      },
+      {
+        "id": "elec_vpn_setup",
+        "nameKey": "packingTemplateItemElecVpnSetup",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 28
+      },
+      {
+        "id": "elec_cloud_backup",
+        "nameKey": "packingTemplateItemElecCloudBackup",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 29
+      },
+      {
+        "id": "elec_offline_entertainment",
+        "nameKey": "packingTemplateItemElecOfflineEntertainment",
+        "categoryKey": "packingTemplateCategoryElectronics",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 30
+      }
+    ],
+    "groupKey": "packingTemplateGroupEssentials"
+  },
+  {
+    "id": "sys_tpl_food_drinks",
+    "nameKey": "packingTemplateFoodDrinks",
+    "descriptionKey": "packingTemplateFoodDrinksDesc",
+    "iconKey": "restaurant",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "food_snacks",
+        "nameKey": "packingTemplateItemSnacks",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 0
+      },
+      {
+        "id": "food_water_bottle",
+        "nameKey": "packingTemplateItemWaterBottle",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 1
+      },
+      {
+        "id": "food_cool_bag",
+        "nameKey": "packingTemplateItemRtCoolBag",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 2,
+        "needsPurchase": true
+      },
+      {
+        "id": "food_thermos_flask",
+        "nameKey": "packingTemplateItemRtThermosFlask",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 3
+      },
+      {
+        "id": "food_non_perishable_food",
+        "nameKey": "packingTemplateItemRtNonPerishableFood",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 4
+      },
+      {
+        "id": "food_travel_mugs",
+        "nameKey": "packingTemplateItemRtTravelMugs",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "food_reusable_cutlery",
+        "nameKey": "packingTemplateItemRtReusableCutlery",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "food_wet_wipes_food",
+        "nameKey": "packingTemplateItemRtWetWipesFood",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 7
+      },
+      {
+        "id": "food_coffee_tea",
+        "nameKey": "packingTemplateItemRtCoffeeTea",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "food_energy_bars",
+        "nameKey": "packingTemplateItemFoodEnergyBars",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 9
+      },
+      {
+        "id": "food_fruit",
+        "nameKey": "packingTemplateItemFoodFruit",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 10
+      },
+      {
+        "id": "food_nuts",
+        "nameKey": "packingTemplateItemFoodNuts",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 11
+      },
+      {
+        "id": "food_sandwiches",
+        "nameKey": "packingTemplateItemFoodSandwiches",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "food_instant_soup",
+        "nameKey": "packingTemplateItemFoodInstantSoup",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 13
+      },
+      {
+        "id": "food_cereal",
+        "nameKey": "packingTemplateItemFoodCereal",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 14
+      },
+      {
+        "id": "food_milk",
+        "nameKey": "packingTemplateItemFoodMilk",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 15
+      },
+      {
+        "id": "food_juice",
+        "nameKey": "packingTemplateItemFoodJuice",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 16
+      },
+      {
+        "id": "food_protein_shakes",
+        "nameKey": "packingTemplateItemFoodProteinShakes",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 17
+      },
+      {
+        "id": "food_cooler_ice",
+        "nameKey": "packingTemplateItemFoodCoolerIce",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 18
+      },
+      {
+        "id": "food_reusable_bottles",
+        "nameKey": "packingTemplateItemFoodReusableBottles",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 19
+      },
+      {
+        "id": "food_tea_bags",
+        "nameKey": "packingTemplateItemFoodTeaBags",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 20
+      },
+      {
+        "id": "food_instant_coffee",
+        "nameKey": "packingTemplateItemFoodInstantCoffee",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 21
+      },
+      {
+        "id": "food_spices",
+        "nameKey": "packingTemplateItemFoodSpices",
+        "categoryKey": "packingTemplateCategoryFood",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 22
+      }
+    ],
+    "groupKey": "packingTemplateGroupEssentials"
+  },
+  {
+    "id": "sys_tpl_beach",
+    "nameKey": "packingTemplateBeach",
+    "descriptionKey": "packingTemplateBeachDesc",
+    "iconKey": "beach_access",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "beach_sunscreen",
+        "nameKey": "packingTemplateItemSunscreen",
+        "categoryKey": "packingTemplateCategoryBeachGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 0,
+        "needsPurchase": true
+      },
+      {
+        "id": "beach_swimwear",
+        "nameKey": "packingTemplateItemSwimwear",
+        "categoryKey": "packingTemplateCategoryBeachGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 1
+      },
+      {
+        "id": "beach_towel",
+        "nameKey": "packingTemplateItemTowel",
+        "categoryKey": "packingTemplateCategoryBeachGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 2
+      },
+      {
+        "id": "beach_sunglasses",
+        "nameKey": "packingTemplateItemSunglasses",
+        "categoryKey": "packingTemplateCategoryBeachGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 3
+      },
+      {
+        "id": "beach_sandals",
+        "nameKey": "packingTemplateItemSandals",
+        "categoryKey": "packingTemplateCategoryBeachGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 4
+      },
+      {
+        "id": "beach_beach_umbrella",
+        "nameKey": "packingTemplateItemSummerBeachUmbrella",
+        "categoryKey": "packingTemplateCategoryBeachGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "beach_beach_bag",
+        "nameKey": "packingTemplateItemSummerBeachBag",
+        "categoryKey": "packingTemplateCategoryBeachGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "beach_water_shoes",
+        "nameKey": "packingTemplateItemSummerWaterShoes",
+        "categoryKey": "packingTemplateCategoryBeachGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 7
+      }
+    ],
+    "groupKey": "packingTemplateGroupTripType"
+  },
+  {
+    "id": "sys_tpl_mountains",
+    "nameKey": "packingTemplateMountains",
+    "descriptionKey": "packingTemplateMountainsDesc",
+    "iconKey": "terrain",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "mountain_hiking_boots",
+        "nameKey": "packingTemplateItemHikingBoots",
+        "categoryKey": "packingTemplateCategoryOutdoor",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 0
+      },
+      {
+        "id": "mountain_warm_layers",
+        "nameKey": "packingTemplateItemWarmLayers",
+        "categoryKey": "packingTemplateCategoryOutdoor",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 1
+      },
+      {
+        "id": "mountain_rain_jacket",
+        "nameKey": "packingTemplateItemRainJacket",
+        "categoryKey": "packingTemplateCategoryOutdoor",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 2
+      }
+    ],
+    "groupKey": "packingTemplateGroupTripType"
+  },
+  {
+    "id": "sys_tpl_camping",
+    "nameKey": "packingTemplateCamping",
+    "descriptionKey": "packingTemplateCampingDesc",
+    "iconKey": "camping",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "camp_tent",
+        "nameKey": "packingTemplateItemTent",
+        "categoryKey": "packingTemplateCategoryOutdoor",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 0
+      },
+      {
+        "id": "camp_sleeping_bag",
+        "nameKey": "packingTemplateItemSleepingBag",
+        "categoryKey": "packingTemplateCategoryOutdoor",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 1
+      },
+      {
+        "id": "camp_camping_stove",
+        "nameKey": "packingTemplateItemCampingStove",
+        "categoryKey": "packingTemplateCategoryOutdoor",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 2
+      },
+      {
+        "id": "camp_flashlight",
+        "nameKey": "packingTemplateItemFlashlight",
+        "categoryKey": "packingTemplateCategoryOutdoor",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 3
+      }
+    ],
+    "groupKey": "packingTemplateGroupTripType"
+  },
+  {
+    "id": "sys_tpl_business",
+    "nameKey": "packingTemplateBusinessTrip",
+    "descriptionKey": "packingTemplateBusinessTripDesc",
+    "iconKey": "work",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "business_business_cards",
+        "nameKey": "packingTemplateItemBusinessCards",
+        "categoryKey": "packingTemplateCategoryBusiness",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 0
+      },
+      {
+        "id": "business_notebook",
+        "nameKey": "packingTemplateItemNotebook",
+        "categoryKey": "packingTemplateCategoryBusiness",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 1
+      },
+      {
+        "id": "business_formal_attire",
+        "nameKey": "packingTemplateItemFormalAttire",
+        "categoryKey": "packingTemplateCategoryBusiness",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 2
+      },
+      {
+        "id": "business_presentation_remote",
+        "nameKey": "packingTemplateItemElecPresentationRemote",
+        "categoryKey": "packingTemplateCategoryBusiness",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 3
+      }
+    ],
+    "groupKey": "packingTemplateGroupTripType"
+  },
+  {
+    "id": "sys_tpl_summer",
+    "nameKey": "packingTemplateSummer",
+    "descriptionKey": "packingTemplateSummerDesc",
+    "iconKey": "wb_sunny",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "summer_sunscreen",
+        "nameKey": "packingTemplateItemSunscreen",
+        "categoryKey": "packingTemplateCategorySummerGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 0,
+        "needsPurchase": true
+      },
+      {
+        "id": "summer_sun_shade",
+        "nameKey": "packingTemplateItemRtSunShade",
+        "categoryKey": "packingTemplateCategorySummerGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 1,
+        "needsPurchase": true
+      },
+      {
+        "id": "summer_insect_repellent",
+        "nameKey": "packingTemplateItemRtInsectRepellent",
+        "categoryKey": "packingTemplateCategorySummerGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 2,
+        "needsPurchase": true
+      },
+      {
+        "id": "summer_after_sun",
+        "nameKey": "packingTemplateItemSummerAfterSun",
+        "categoryKey": "packingTemplateCategorySummerGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 3
+      },
+      {
+        "id": "summer_cooling_towel",
+        "nameKey": "packingTemplateItemSummerCoolingTowel",
+        "categoryKey": "packingTemplateCategorySummerGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 4
+      },
+      {
+        "id": "summer_portable_fan",
+        "nameKey": "packingTemplateItemSummerPortableFan",
+        "categoryKey": "packingTemplateCategorySummerGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "summer_hydration_tablets",
+        "nameKey": "packingTemplateItemSummerHydrationTablets",
+        "categoryKey": "packingTemplateCategorySummerGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "summer_lip_balm_spf",
+        "nameKey": "packingTemplateItemSummerLipBalmSpf",
+        "categoryKey": "packingTemplateCategorySummerGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 7
+      },
+      {
+        "id": "summer_aloe_vera",
+        "nameKey": "packingTemplateItemSummerAloeVera",
+        "categoryKey": "packingTemplateCategorySummerGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "summer_snorkel",
+        "nameKey": "packingTemplateItemSummerSnorkel",
+        "categoryKey": "packingTemplateCategorySummerGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 9
+      },
+      {
+        "id": "summer_beach_umbrella",
+        "nameKey": "packingTemplateItemSummerBeachUmbrella",
+        "categoryKey": "packingTemplateCategorySummerGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 10
+      },
+      {
+        "id": "summer_cooler",
+        "nameKey": "packingTemplateItemSummerCooler",
+        "categoryKey": "packingTemplateCategorySummerGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 11
+      }
+    ],
+    "groupKey": "packingTemplateGroupTripType"
+  },
+  {
+    "id": "sys_tpl_winter",
+    "nameKey": "packingTemplateWinter",
+    "descriptionKey": "packingTemplateWinterDesc",
+    "iconKey": "ac_unit",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "winter_snow_chains",
+        "nameKey": "packingTemplateItemRtSnowChains",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 0,
+        "needsPurchase": true
+      },
+      {
+        "id": "winter_ice_scraper",
+        "nameKey": "packingTemplateItemWinterIceScraper",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 1
+      },
+      {
+        "id": "winter_deicer",
+        "nameKey": "packingTemplateItemWinterDeicer",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 2
+      },
+      {
+        "id": "winter_hand_warmers",
+        "nameKey": "packingTemplateItemWinterHandWarmers",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 3
+      },
+      {
+        "id": "winter_winter_boots",
+        "nameKey": "packingTemplateItemWinterWinterBoots",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "important",
+        "sortOrder": 4
+      },
+      {
+        "id": "winter_ski_goggles",
+        "nameKey": "packingTemplateItemWinterSkiGoggles",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "winter_ski_gloves",
+        "nameKey": "packingTemplateItemWinterSkiGloves",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "winter_neck_warmer",
+        "nameKey": "packingTemplateItemWinterNeckWarmer",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 7
+      },
+      {
+        "id": "winter_antifreeze",
+        "nameKey": "packingTemplateItemWinterAntifreeze",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "winter_windshield_cover",
+        "nameKey": "packingTemplateItemWinterWindshieldCover",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 9
+      },
+      {
+        "id": "winter_snow_brush",
+        "nameKey": "packingTemplateItemWinterSnowBrush",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 10
+      },
+      {
+        "id": "winter_hot_drinks",
+        "nameKey": "packingTemplateItemWinterHotDrinks",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 11
+      },
+      {
+        "id": "winter_ski_pants",
+        "nameKey": "packingTemplateItemWinterSkiPants",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "winter_base_layers",
+        "nameKey": "packingTemplateItemWinterBaseLayers",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 13
+      },
+      {
+        "id": "winter_ear_muffs",
+        "nameKey": "packingTemplateItemWinterEarMuffs",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 14
+      },
+      {
+        "id": "winter_traction_aids",
+        "nameKey": "packingTemplateItemWinterTractionAids",
+        "categoryKey": "packingTemplateCategoryWinterGear",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 15
+      }
+    ],
+    "groupKey": "packingTemplateGroupTripType"
+  },
+  {
+    "id": "sys_tpl_with_child",
+    "nameKey": "packingTemplateTravellingWithChild",
+    "descriptionKey": "packingTemplateTravellingWithChildDesc",
+    "iconKey": "child_care",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "child_favorite_toy",
+        "nameKey": "packingTemplateItemFavoriteToy",
+        "categoryKey": "packingTemplateCategoryChildCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 0
+      },
+      {
+        "id": "child_books",
+        "nameKey": "packingTemplateItemBabyBooks",
+        "categoryKey": "packingTemplateCategoryChildCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 1
+      },
+      {
+        "id": "child_snacks",
+        "nameKey": "packingTemplateItemBabySnacks",
+        "categoryKey": "packingTemplateCategoryChildCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 2
+      },
+      {
+        "id": "child_sippy_cup",
+        "nameKey": "packingTemplateItemBabySippyCup",
+        "categoryKey": "packingTemplateCategoryChildCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 3
+      },
+      {
+        "id": "child_booster_seat",
+        "nameKey": "packingTemplateItemBabyBoosterSeat",
+        "categoryKey": "packingTemplateCategoryChildCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 4
+      },
+      {
+        "id": "child_sun_hat",
+        "nameKey": "packingTemplateItemBabySunHat",
+        "categoryKey": "packingTemplateCategoryChildCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 5
+      }
+    ],
+    "groupKey": "packingTemplateGroupTravellers"
+  },
+  {
+    "id": "sys_tpl_with_baby",
+    "nameKey": "packingTemplateWithBaby",
+    "descriptionKey": "packingTemplateWithBabyDesc",
+    "iconKey": "child_care",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "baby_diapers",
+        "nameKey": "packingTemplateItemDiapers",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "baby_baby_food",
+        "nameKey": "packingTemplateItemBabyFood",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "critical",
+        "sortOrder": 1
+      },
+      {
+        "id": "baby_formula",
+        "nameKey": "packingTemplateItemBabyFormula",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 2
+      },
+      {
+        "id": "baby_bottles",
+        "nameKey": "packingTemplateItemBabyBottles",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 3
+      },
+      {
+        "id": "baby_bottle_brush",
+        "nameKey": "packingTemplateItemBabyBottleBrush",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 4
+      },
+      {
+        "id": "baby_sterilizer",
+        "nameKey": "packingTemplateItemBabySterilizer",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "baby_bibs",
+        "nameKey": "packingTemplateItemBabyBibs",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "baby_wipes",
+        "nameKey": "packingTemplateItemBabyWipes",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 7
+      },
+      {
+        "id": "baby_rash_cream",
+        "nameKey": "packingTemplateItemBabyRashCream",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "baby_changing_mat",
+        "nameKey": "packingTemplateItemBabyChangingMat",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 9
+      },
+      {
+        "id": "baby_nappy_bags",
+        "nameKey": "packingTemplateItemBabyNappyBags",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 10
+      },
+      {
+        "id": "baby_stroller",
+        "nameKey": "packingTemplateItemBabyStroller",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 11
+      },
+      {
+        "id": "baby_car_seat",
+        "nameKey": "packingTemplateItemBabyCarSeat",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 12
+      },
+      {
+        "id": "baby_carrier",
+        "nameKey": "packingTemplateItemBabyCarrier",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 13
+      },
+      {
+        "id": "baby_travel_cot",
+        "nameKey": "packingTemplateItemBabyTravelCot",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 14
+      },
+      {
+        "id": "baby_sleeping_bag_baby",
+        "nameKey": "packingTemplateItemBabySleepingBag",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 15
+      },
+      {
+        "id": "baby_blanket",
+        "nameKey": "packingTemplateItemBabyBlanket",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 16
+      },
+      {
+        "id": "baby_favourite_toy",
+        "nameKey": "packingTemplateItemFavoriteToy",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 17
+      },
+      {
+        "id": "baby_books",
+        "nameKey": "packingTemplateItemBabyBooks",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 18
+      },
+      {
+        "id": "baby_pacifier",
+        "nameKey": "packingTemplateItemBabyPacifier",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 19
+      },
+      {
+        "id": "baby_teether",
+        "nameKey": "packingTemplateItemBabyTeether",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 20
+      },
+      {
+        "id": "baby_baby_clothes",
+        "nameKey": "packingTemplateItemBabyClothes",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 21
+      },
+      {
+        "id": "baby_baby_hat",
+        "nameKey": "packingTemplateItemBabyHat",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 22
+      },
+      {
+        "id": "baby_baby_socks",
+        "nameKey": "packingTemplateItemBabySocks",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 23
+      },
+      {
+        "id": "baby_baby_shoes",
+        "nameKey": "packingTemplateItemBabyShoes",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPair",
+        "priority": "normal",
+        "sortOrder": 24
+      },
+      {
+        "id": "baby_sun_hat",
+        "nameKey": "packingTemplateItemBabySunHat",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 25
+      },
+      {
+        "id": "baby_sunscreen_baby",
+        "nameKey": "packingTemplateItemBabySunscreen",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 26
+      },
+      {
+        "id": "baby_baby_medicine",
+        "nameKey": "packingTemplateItemBabyMedicine",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 27
+      },
+      {
+        "id": "baby_thermometer",
+        "nameKey": "packingTemplateItemHealthThermometer",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 28
+      },
+      {
+        "id": "baby_nasal_aspirator",
+        "nameKey": "packingTemplateItemBabyNasalAspirator",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 29
+      },
+      {
+        "id": "baby_baby_shampoo",
+        "nameKey": "packingTemplateItemBabyShampoo",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 30
+      },
+      {
+        "id": "baby_baby_lotion",
+        "nameKey": "packingTemplateItemBabyLotion",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 31
+      },
+      {
+        "id": "baby_baby_bath",
+        "nameKey": "packingTemplateItemBabyBath",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 32
+      },
+      {
+        "id": "baby_towel_baby",
+        "nameKey": "packingTemplateItemBabyTowel",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 33
+      },
+      {
+        "id": "baby_high_chair",
+        "nameKey": "packingTemplateItemBabyHighChair",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 34
+      },
+      {
+        "id": "baby_booster_seat",
+        "nameKey": "packingTemplateItemBabyBoosterSeat",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 35
+      },
+      {
+        "id": "baby_baby_monitor",
+        "nameKey": "packingTemplateItemBabyMonitor",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 36
+      },
+      {
+        "id": "baby_night_light",
+        "nameKey": "packingTemplateItemBabyNightLight",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 37
+      },
+      {
+        "id": "baby_white_noise",
+        "nameKey": "packingTemplateItemBabyWhiteNoise",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 38
+      },
+      {
+        "id": "baby_snacks_baby",
+        "nameKey": "packingTemplateItemBabySnacks",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 39
+      },
+      {
+        "id": "baby_sippy_cup",
+        "nameKey": "packingTemplateItemBabySippyCup",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 40
+      },
+      {
+        "id": "baby_spill_mat",
+        "nameKey": "packingTemplateItemBabySpillMat",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 41
+      },
+      {
+        "id": "baby_laundry_bags",
+        "nameKey": "packingTemplateItemBabyLaundryBags",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 42
+      },
+      {
+        "id": "baby_portable_potty",
+        "nameKey": "packingTemplateItemBabyPortablePotty",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 43
+      },
+      {
+        "id": "baby_potty_seat",
+        "nameKey": "packingTemplateItemBabyPottySeat",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 44
+      },
+      {
+        "id": "baby_stroller_rain_cover",
+        "nameKey": "packingTemplateItemBabyStrollerRainCover",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 45
+      },
+      {
+        "id": "baby_stroller_sunshade",
+        "nameKey": "packingTemplateItemBabyStrollerSunshade",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 46
+      },
+      {
+        "id": "baby_baby_passport",
+        "nameKey": "packingTemplateItemBabyPassport",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 47
+      },
+      {
+        "id": "baby_health_records",
+        "nameKey": "packingTemplateItemBabyHealthRecords",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 48
+      },
+      {
+        "id": "baby_travel_insurance_baby",
+        "nameKey": "packingTemplateItemBabyTravelInsurance",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 49
+      },
+      {
+        "id": "baby_emergency_contacts",
+        "nameKey": "packingTemplateItemBabyEmergencyContacts",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 50
+      },
+      {
+        "id": "baby_child_medication_list",
+        "nameKey": "packingTemplateItemBabyMedicationList",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 51
+      },
+      {
+        "id": "baby_breast_pump",
+        "nameKey": "packingTemplateItemBabyBreastPump",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 52
+      },
+      {
+        "id": "baby_nursing_cover",
+        "nameKey": "packingTemplateItemBabyNursingCover",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 53
+      },
+      {
+        "id": "baby_milk_storage",
+        "nameKey": "packingTemplateItemBabyMilkStorage",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 54
+      },
+      {
+        "id": "baby_cooler_bags",
+        "nameKey": "packingTemplateItemBabyCoolerBags",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 55
+      },
+      {
+        "id": "baby_baby_gate",
+        "nameKey": "packingTemplateItemBabyGate",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 56
+      },
+      {
+        "id": "baby_outlet_covers",
+        "nameKey": "packingTemplateItemBabyOutletCovers",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 57
+      },
+      {
+        "id": "baby_cabinet_locks",
+        "nameKey": "packingTemplateItemBabyCabinetLocks",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 58
+      },
+      {
+        "id": "baby_first_aid_baby",
+        "nameKey": "packingTemplateItemBabyFirstAid",
+        "categoryKey": "packingTemplateCategoryBabyCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 59
+      }
+    ],
+    "groupKey": "packingTemplateGroupTravellers"
+  },
+  {
+    "id": "sys_tpl_with_pet",
+    "nameKey": "packingTemplateTravellingWithPet",
+    "descriptionKey": "packingTemplateTravellingWithPetDesc",
+    "iconKey": "pets",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "pet_carrier",
+        "nameKey": "packingTemplateItemPetCarrier",
+        "categoryKey": "packingTemplateCategoryPetCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "pet_food",
+        "nameKey": "packingTemplateItemPetFood",
+        "categoryKey": "packingTemplateCategoryPetCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "critical",
+        "sortOrder": 1
+      },
+      {
+        "id": "pet_leash",
+        "nameKey": "packingTemplateItemLeash",
+        "categoryKey": "packingTemplateCategoryPetCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 2
+      },
+      {
+        "id": "pet_water_bowl",
+        "nameKey": "packingTemplateItemPetWaterBowl",
+        "categoryKey": "packingTemplateCategoryPetCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 3
+      },
+      {
+        "id": "pet_health_records",
+        "nameKey": "packingTemplateItemPetHealthRecords",
+        "categoryKey": "packingTemplateCategoryPetCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 4
+      },
+      {
+        "id": "pet_treats",
+        "nameKey": "packingTemplateItemFoodPetTreats",
+        "categoryKey": "packingTemplateCategoryPetCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 5
+      }
+    ],
+    "groupKey": "packingTemplateGroupTravellers"
+  },
+  {
+    "id": "sys_tpl_with_cat",
+    "nameKey": "packingTemplateWithCat",
+    "descriptionKey": "packingTemplateWithCatDesc",
+    "iconKey": "pets",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "cat_carrier",
+        "nameKey": "packingTemplateItemPetCarrier",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "cat_cat_food",
+        "nameKey": "packingTemplateItemPetFood",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "critical",
+        "sortOrder": 1
+      },
+      {
+        "id": "cat_water_bowl",
+        "nameKey": "packingTemplateItemPetWaterBowl",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 2
+      },
+      {
+        "id": "cat_food_bowls",
+        "nameKey": "packingTemplateItemCatFoodBowls",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 3
+      },
+      {
+        "id": "cat_litter_box",
+        "nameKey": "packingTemplateItemCatLitterBox",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 4
+      },
+      {
+        "id": "cat_cat_litter",
+        "nameKey": "packingTemplateItemCatLitter",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 5
+      },
+      {
+        "id": "cat_litter_scoop",
+        "nameKey": "packingTemplateItemCatLitterScoop",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "cat_waste_bags",
+        "nameKey": "packingTemplateItemCatWasteBags",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 7
+      },
+      {
+        "id": "cat_leash",
+        "nameKey": "packingTemplateItemLeash",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "cat_harness",
+        "nameKey": "packingTemplateItemCatHarness",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 9
+      },
+      {
+        "id": "cat_health_records",
+        "nameKey": "packingTemplateItemPetHealthRecords",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 10
+      },
+      {
+        "id": "cat_passport",
+        "nameKey": "packingTemplateItemCatPassport",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "critical",
+        "sortOrder": 11
+      },
+      {
+        "id": "cat_microchip",
+        "nameKey": "packingTemplateItemCatMicrochip",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 12
+      },
+      {
+        "id": "cat_vaccination",
+        "nameKey": "packingTemplateItemCatVaccination",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 13
+      },
+      {
+        "id": "cat_medication",
+        "nameKey": "packingTemplateItemCatMedication",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 14
+      },
+      {
+        "id": "cat_favourite_toy",
+        "nameKey": "packingTemplateItemFavoriteToy",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 15
+      },
+      {
+        "id": "cat_scratching_pad",
+        "nameKey": "packingTemplateItemCatScratchingPad",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 16
+      },
+      {
+        "id": "cat_bed",
+        "nameKey": "packingTemplateItemCatBed",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 17
+      },
+      {
+        "id": "cat_blanket",
+        "nameKey": "packingTemplateItemCatBlanket",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 18
+      },
+      {
+        "id": "cat_treats",
+        "nameKey": "packingTemplateItemCatTreats",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 19
+      },
+      {
+        "id": "cat_grooming_brush",
+        "nameKey": "packingTemplateItemCatGroomingBrush",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 20
+      },
+      {
+        "id": "cat_nail_clippers",
+        "nameKey": "packingTemplateItemCatNailClippers",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 21
+      },
+      {
+        "id": "cat_wipes",
+        "nameKey": "packingTemplateItemCatWipes",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 22
+      },
+      {
+        "id": "cat_calming_spray",
+        "nameKey": "packingTemplateItemCatCalmingSpray",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 23
+      },
+      {
+        "id": "cat_pheromone",
+        "nameKey": "packingTemplateItemCatPheromone",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 24
+      },
+      {
+        "id": "cat_travel_litter",
+        "nameKey": "packingTemplateItemCatTravelLitter",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 25
+      },
+      {
+        "id": "cat_portable_fence",
+        "nameKey": "packingTemplateItemCatPortableFence",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 26
+      },
+      {
+        "id": "cat_window_screen",
+        "nameKey": "packingTemplateItemCatWindowScreen",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 27
+      },
+      {
+        "id": "cat_cooling_mat",
+        "nameKey": "packingTemplateItemCatCoolingMat",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 28
+      },
+      {
+        "id": "cat_heating_pad",
+        "nameKey": "packingTemplateItemCatHeatingPad",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 29
+      },
+      {
+        "id": "cat_water_fountain",
+        "nameKey": "packingTemplateItemCatWaterFountain",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 30
+      },
+      {
+        "id": "cat_food_puzzle",
+        "nameKey": "packingTemplateItemCatFoodPuzzle",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 31
+      },
+      {
+        "id": "cat_carrier_liner",
+        "nameKey": "packingTemplateItemCatCarrierLiner",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 32
+      },
+      {
+        "id": "cat_seat_belt_clip",
+        "nameKey": "packingTemplateItemCatSeatBeltClip",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 33
+      },
+      {
+        "id": "cat_id_tag",
+        "nameKey": "packingTemplateItemCatIdTag",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 34
+      },
+      {
+        "id": "cat_recent_photo",
+        "nameKey": "packingTemplateItemCatRecentPhoto",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 35
+      },
+      {
+        "id": "cat_vet_contact",
+        "nameKey": "packingTemplateItemCatVetContact",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 36
+      },
+      {
+        "id": "cat_pet_insurance",
+        "nameKey": "packingTemplateItemCatPetInsurance",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 37
+      },
+      {
+        "id": "cat_entry_permit",
+        "nameKey": "packingTemplateItemCatEntryPermit",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "important",
+        "sortOrder": 38
+      },
+      {
+        "id": "cat_tranquilizer",
+        "nameKey": "packingTemplateItemCatTranquilizer",
+        "categoryKey": "packingTemplateCategoryCatCare",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPack",
+        "priority": "normal",
+        "sortOrder": 39
+      }
+    ],
+    "groupKey": "packingTemplateGroupTravellers"
+  },
+  {
+    "id": "sys_tpl_home_prep",
+    "nameKey": "packingTemplateHomePrep",
+    "descriptionKey": "packingTemplateHomePrepDesc",
+    "iconKey": "home",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "home_unplug_appliances",
+        "nameKey": "packingTemplateItemRtUnplugAppliances",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 0
+      },
+      {
+        "id": "home_set_heating_water",
+        "nameKey": "packingTemplateItemRtSetHeatingWater",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 1
+      },
+      {
+        "id": "home_secure_home",
+        "nameKey": "packingTemplateItemRtSecureHome",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 2
+      },
+      {
+        "id": "home_pet_mail_care",
+        "nameKey": "packingTemplateItemRtPetMailCare",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 3
+      },
+      {
+        "id": "home_spare_house_key",
+        "nameKey": "packingTemplateItemRtSpareHouseKey",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitPiece",
+        "priority": "normal",
+        "sortOrder": 4
+      },
+      {
+        "id": "home_security_alarm",
+        "nameKey": "packingTemplateItemRtSecurityAlarm",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 5
+      },
+      {
+        "id": "home_take_out_trash",
+        "nameKey": "packingTemplateItemRtTakeOutTrash",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "home_utility_shutoff",
+        "nameKey": "packingTemplateItemRtUtilityShutoff",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 7
+      },
+      {
+        "id": "home_notify_neighbor",
+        "nameKey": "packingTemplateItemRtNotifyNeighbor",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 8
+      },
+      {
+        "id": "home_timer_lights",
+        "nameKey": "packingTemplateItemRtTimerLights",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 9
+      },
+      {
+        "id": "home_fridge_cleared",
+        "nameKey": "packingTemplateItemHomeFridgeCleared",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 10
+      },
+      {
+        "id": "home_plants_watered",
+        "nameKey": "packingTemplateItemHomePlantsWatered",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 11
+      },
+      {
+        "id": "home_windows_closed",
+        "nameKey": "packingTemplateItemHomeWindowsClosed",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "home_curtains_drawn",
+        "nameKey": "packingTemplateItemHomeCurtainsDrawn",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 13
+      },
+      {
+        "id": "home_mail_hold",
+        "nameKey": "packingTemplateItemHomeMailHold",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 14
+      },
+      {
+        "id": "home_cleaning_done",
+        "nameKey": "packingTemplateItemHomeCleaningDone",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 15
+      },
+      {
+        "id": "home_laundry_done",
+        "nameKey": "packingTemplateItemHomeLaundryDone",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 16
+      },
+      {
+        "id": "home_bills_paid",
+        "nameKey": "packingTemplateItemHomeBillsPaid",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 17
+      },
+      {
+        "id": "home_appliances_off",
+        "nameKey": "packingTemplateItemHomeAppliancesOff",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 18
+      },
+      {
+        "id": "home_smoke_detectors",
+        "nameKey": "packingTemplateItemHomeSmokeDetectors",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 19
+      },
+      {
+        "id": "home_water_main",
+        "nameKey": "packingTemplateItemHomeWaterMain",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 20
+      },
+      {
+        "id": "home_gas_shutoff",
+        "nameKey": "packingTemplateItemHomeGasShutoff",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 21
+      },
+      {
+        "id": "home_garage_locked",
+        "nameKey": "packingTemplateItemHomeGarageLocked",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 22
+      },
+      {
+        "id": "home_valuables_secured",
+        "nameKey": "packingTemplateItemHomeValuablesSecured",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 23
+      },
+      {
+        "id": "home_emergency_contact_left",
+        "nameKey": "packingTemplateItemHomeEmergencyContactLeft",
+        "categoryKey": "packingTemplateCategoryHomePreparation",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 24
+      }
+    ],
+    "groupKey": "packingTemplateGroupBeforeLeaving"
+  },
+  {
+    "id": "sys_tpl_final_checks",
+    "nameKey": "packingTemplateFinalChecks",
+    "descriptionKey": "packingTemplateFinalChecksDesc",
+    "iconKey": "fact_check",
+    "isSystem": true,
+    "items": [
+      {
+        "id": "final_phone_charged",
+        "nameKey": "packingTemplateItemRtPhoneCharged",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 0
+      },
+      {
+        "id": "final_departure_time_set",
+        "nameKey": "packingTemplateItemRtDepartureTimeSet",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 1
+      },
+      {
+        "id": "final_passport_checked",
+        "nameKey": "packingTemplateItemFinalPassportChecked",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 2
+      },
+      {
+        "id": "final_tickets_checked",
+        "nameKey": "packingTemplateItemFinalTicketsChecked",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 3
+      },
+      {
+        "id": "final_wallet_checked",
+        "nameKey": "packingTemplateItemFinalWalletChecked",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 4
+      },
+      {
+        "id": "final_keys_collected",
+        "nameKey": "packingTemplateItemFinalKeysCollected",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 5
+      },
+      {
+        "id": "final_bags_weighed",
+        "nameKey": "packingTemplateItemFinalBagsWeighed",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 6
+      },
+      {
+        "id": "final_weather_checked",
+        "nameKey": "packingTemplateItemFinalWeatherChecked",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 7
+      },
+      {
+        "id": "final_transport_confirmed",
+        "nameKey": "packingTemplateItemFinalTransportConfirmed",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 8
+      },
+      {
+        "id": "final_accommodation_confirmed",
+        "nameKey": "packingTemplateItemFinalAccommodationConfirmed",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 9
+      },
+      {
+        "id": "final_chargers_packed",
+        "nameKey": "packingTemplateItemFinalChargersPacked",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "important",
+        "sortOrder": 10
+      },
+      {
+        "id": "final_medicines_packed",
+        "nameKey": "packingTemplateItemFinalMedicinesPacked",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "critical",
+        "sortOrder": 11
+      },
+      {
+        "id": "final_cash_withdrawn",
+        "nameKey": "packingTemplateItemFinalCashWithdrawn",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 12
+      },
+      {
+        "id": "final_out_of_office",
+        "nameKey": "packingTemplateItemFinalOutOfOffice",
+        "categoryKey": "packingTemplateCategoryFinalDepartureChecks",
+        "quantity": 1,
+        "unitKey": "packingTemplateUnitSet",
+        "priority": "normal",
+        "sortOrder": 13
+      }
+    ],
+    "groupKey": "packingTemplateGroupBeforeLeaving"
+  }
+]
